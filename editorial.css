@@ -1,5 +1,5 @@
 /* SCULP / AFTER DARK — an editorial concept skin for the existing site. */
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Italiana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&display=swap');
 
 html{scroll-behavior:smooth}
 body{background:#141412!important}
@@ -18,7 +18,7 @@ body{background:#141412!important}
   box-shadow:none;
 }
 #sculp-site .mast-inner{min-height:80px}
-#sculp-site .logo{font-family:'Italiana',Georgia,serif;font-size:clamp(25px,2.25vw,36px);font-weight:400;letter-spacing:.1em}
+#sculp-site .logo{font-family:'Playfair Display',Georgia,serif;font-size:clamp(25px,2.25vw,36px);font-weight:600;letter-spacing:.02em}
 #sculp-site .nav{gap:clamp(14px,2vw,34px)}
 #sculp-site .nav a,#sculp-site .mobile-toggle{font-size:10px;letter-spacing:.2em;font-weight:600;position:relative}
 #sculp-site .nav a:not(:last-child)::after{content:"";position:absolute;left:0;right:100%;bottom:-10px;height:1px;background:var(--copper);transition:right .35s ease}
@@ -31,7 +31,7 @@ body{background:#141412!important}
 #sculp-site h1,#sculp-site h2,#sculp-site h3,#sculp-site .price-card h3,#sculp-site .team-person h3,
 #sculp-site .home-service h3,#sculp-site .trust-item h3,#sculp-site .book-expectation h3,
 #sculp-site .concierge-result h3,#sculp-site .promo-card h3,#sculp-site .quote{
-  font-family:'Italiana',Georgia,serif;font-weight:400;letter-spacing:-.035em;
+  font-family:'Playfair Display',Georgia,serif;font-weight:600;letter-spacing:-.035em;
 }
 #sculp-site h1{font-size:clamp(64px,8.5vw,144px);line-height:.83;letter-spacing:-.055em;max-width:13ch}
 #sculp-site h2{font-size:clamp(50px,6.4vw,102px);line-height:.9;letter-spacing:-.052em;max-width:17ch}
@@ -67,7 +67,7 @@ body{background:#141412!important}
 }
 #sculp-site .photo:not(:has(img)):before{
   content:"SCULP";display:grid;place-items:center;background:none;
-  color:rgba(255,245,230,.15);font-family:'Italiana',Georgia,serif;font-size:clamp(50px,9vw,130px);letter-spacing:.09em;
+  color:rgba(255,245,230,.15);font-family:'Playfair Display',Georgia,serif;font-size:clamp(50px,9vw,130px);letter-spacing:.04em;
 }
 #sculp-site .photo img{z-index:0}
 #sculp-site .section.surface-soft{background:#d9d0c4}
@@ -94,7 +94,7 @@ body{background:#141412!important}
 #sculp-site .home-hero .button:not(.fill){color:var(--cream);border-color:rgba(240,234,224,.58)}
 #sculp-site .home-hero .button:not(.fill):hover{background:var(--cream);color:var(--night)}
 #sculp-site .home-hero::after{
-  content:"S";position:absolute;right:38%;bottom:-.23em;font-family:'Italiana',Georgia,serif;
+  content:"S";position:absolute;right:38%;bottom:-.23em;font-family:'Playfair Display',Georgia,serif;
   font-size:clamp(300px,42vw,760px);line-height:1;color:rgba(237,225,211,.07);
   pointer-events:none;z-index:2;
 }
@@ -162,13 +162,13 @@ body{background:#141412!important}
 #sculp-site .price-card h3{font-size:clamp(32px,3vw,48px)}
 #sculp-site .price-card:hover{transform:translateY(-6px)}
 #sculp-site .price-card.featured:hover{transform:translateY(-23px)}
-#sculp-site .from{font-family:'Italiana',Georgia,serif;font-size:46px}
+#sculp-site .from{font-family:'Playfair Display',Georgia,serif;font-size:46px}
 #sculp-site details{border-color:rgba(45,40,35,.3);padding:24px 0}
-#sculp-site summary{font-family:'Italiana',Georgia,serif;font-size:clamp(24px,2.5vw,36px);list-style:none}
+#sculp-site summary{font-family:'Playfair Display',Georgia,serif;font-size:clamp(24px,2.5vw,36px);list-style:none}
 #sculp-site summary::after{content:"+";float:right;font-family:'DM Sans',sans-serif;font-size:24px;font-weight:400}
 #sculp-site details[open] summary::after{content:"−"}
 #sculp-site .cta{background:#843d35;color:var(--cream);position:relative;overflow:hidden}
-#sculp-site .cta::after{content:"S";position:absolute;right:0;bottom:-.55em;font:500 clamp(400px,55vw,850px)/1 'Italiana',serif;color:rgba(255,245,235,.08);pointer-events:none}
+#sculp-site .cta::after{content:"S";position:absolute;right:0;bottom:-.55em;font:600 clamp(400px,55vw,850px)/1 'Playfair Display',serif;color:rgba(255,245,235,.08);pointer-events:none}
 #sculp-site .cta .shell{position:relative;z-index:1}
 #sculp-site .cta h2{color:var(--cream);font-size:clamp(62px,7.5vw,120px)}
 #sculp-site .cta p,#sculp-site .cta .eyebrow{color:#f0ddd1}
@@ -216,7 +216,7 @@ body{background:#141412!important}
 .sculp-lightbox{position:fixed;inset:0;z-index:150;background:rgba(16,16,15,.96);display:none;align-items:center;justify-content:center;padding:70px 80px;color:var(--cream)}
 .sculp-lightbox.open{display:flex}
 .sculp-lightbox img{max-width:100%;max-height:calc(100vh - 140px);object-fit:contain}
-.sculp-lightbox button{position:absolute;border:0;background:transparent;color:var(--cream);font:400 34px/1 'Italiana',serif;cursor:pointer;padding:14px}
+.sculp-lightbox button{position:absolute;border:0;background:transparent;color:var(--cream);font:600 34px/1 'Playfair Display',serif;cursor:pointer;padding:14px}
 .sculp-lightbox .close{right:26px;top:20px}.sculp-lightbox .prev{left:16px}.sculp-lightbox .next{right:16px}
 .sculp-lightbox .count{position:absolute;bottom:22px;font:600 10px 'DM Sans',sans-serif;letter-spacing:.2em}
 #sculp-site .portfolio-featured .photo:has(img),#sculp-site .portfolio-thumb .photo:has(img){cursor:zoom-in}
