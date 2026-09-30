@@ -84,9 +84,9 @@ body{background:#141412!important}
 #sculp-site .hero-location .location-plus{color:#b98674}
 #sculp-site .home-hero>div:last-child{position:relative;min-width:0}
 #sculp-site .home-hero .photo{height:100%;min-height:720px;margin-right:calc(-1 * clamp(22px,5.2vw,100px))}
-#sculp-site .home-hero .photo::before{background:linear-gradient(90deg,rgba(20,20,18,.55),transparent 42%),linear-gradient(0deg,rgba(20,20,18,.25),transparent 35%);opacity:1}
+#sculp-site .home-hero .photo::before{display:none}
 #sculp-site .home-hero .photo img,
-#sculp-site .home-hero .photo:hover img{filter:none;object-position:center 35%}
+#sculp-site .home-hero .photo:hover img{filter:none;transform:none;transition:none;object-position:center 35%}
 #sculp-site .home-hero .actions{margin-top:40px}
 #sculp-site .home-hero .button:not(.fill){color:var(--cream);border-color:rgba(240,234,224,.58)}
 #sculp-site .home-hero .button:not(.fill):hover{background:var(--cream);color:var(--night)}
