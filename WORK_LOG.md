@@ -4,6 +4,8 @@
 
 ## 2026-09-30
 
+- 同步主站七位团队成员的黑白肖像到 After Dark Team 页：Miranda、Yuki、Mira、Angelina、Elaine、Emily、Giselle。保留深色视觉和动画；检查桌面及手机加载与裁切。
+
 - 将主站选好的 13 张用户婚礼照片复用到 After Dark 的 22 个图片展示位：首页 Hero / Selected Work、Bridal 及 Portfolio。保留深色视觉、图片处理与动画，便于对比两版效果。
 - 替换所有概念网图展示位，撤掉 CONCEPT IMAGE 及内部待补标注；Portfolio 本轮统一为 Bridal 分类。新增 WebP 素材和来源映射清单。
 - 验证：桌面及手机图片加载、横向溢出、Portfolio 灯箱与键盘切换；无 JavaScript 错误。
