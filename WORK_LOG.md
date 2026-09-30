@@ -4,6 +4,8 @@
 
 ## 2026-09-30
 
+- 将 Yuki、Mira 与其他团队成员卡片照片统一为 4:5 竖版比例，取消不同固定最小高度；检查桌面与手机六张卡片比例一致、人物裁切正常。
+
 - 同步主站七位团队成员的黑白肖像到 After Dark Team 页：Miranda、Yuki、Mira、Angelina、Elaine、Emily、Giselle。保留深色视觉和动画；检查桌面及手机加载与裁切。
 
 - 将主站选好的 13 张用户婚礼照片复用到 After Dark 的 22 个图片展示位：首页 Hero / Selected Work、Bridal 及 Portfolio。保留深色视觉、图片处理与动画，便于对比两版效果。
