@@ -61,10 +61,7 @@ body{background:#141412!important}
 #sculp-site .photo:hover img{transform:scale(1.075);filter:saturate(.82) contrast(1.04)}
 #sculp-site .photo[data-concept]::after{display:none}
 #sculp-site .photo:not(:has(img)){background:radial-gradient(circle at 67% 25%,#9a8577 0,#63534d 30%,#292624 75%,#201f1e 100%)}
-#sculp-site .photo:not(:has(img))::after{
-  content:attr(data-image);display:block;bottom:22px;left:22px;right:22px;
-  background:none;color:rgba(255,247,235,.72);padding:0;letter-spacing:.18em;font-size:10px;
-}
+#sculp-site .photo:not(:has(img))::after{display:none}
 #sculp-site .photo:not(:has(img)):before{
   content:"SCULP";display:grid;place-items:center;background:none;
   color:rgba(255,245,230,.15);font-family:'Playfair Display',Georgia,serif;font-size:clamp(50px,9vw,130px);letter-spacing:.04em;
