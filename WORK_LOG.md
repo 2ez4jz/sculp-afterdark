@@ -1,6 +1,16 @@
 # SCULP Studio · 工作日志
 
-按多伦多时间记录网站修改。每次改动后，在这里追加日期、改动内容和对应提交，方便回看。\n\n## 2026-10-01\n\n- 调整 Occasions 首屏三图：保留左侧原图并上移焦点避免裁头；右上替换为红花妆容特写，右下替换为黑白双人照，并分别校准人物裁剪。\n\n- 将用户提供的横向新娘艺术照放入首页 Selected Work 三图的右下位置；保留 706 左侧大图和 717 右上图，并同步主站与 After Dark。
+按多伦多时间记录网站修改。每次改动后，在这里追加日期、改动内容和对应提交，方便回看。
+
+## 2026-10-01
+
+- 重构 Bridal Pricing：先展示 Bridal Trial，再展示 Wedding-Day Services；两组各三档服务，采用新价格表数字并补入中间价。化妆师职务统一为 Team 页的 Founder / Creative Styling Director、Senior Styling Artist 与 Styling Artist；移除 Additional Services 中重复的 Trial Session。
+
+- 更新 Occasions 首屏右上图片为红色重影妆容肖像；保留左侧白裙图与右下黑白双人照，形成氛围、妆容创意与场合叙事的组合，并校准横向裁剪焦点。
+
+- 调整 Occasions 首屏三图：保留左侧原图并上移焦点避免裁头；右上替换为红花妆容特写，右下替换为黑白双人照，并分别校准人物裁剪。
+
+- 将用户提供的横向新娘艺术照放入首页 Selected Work 三图的右下位置；保留 706 左侧大图和 717 右上图，并同步主站与 After Dark。
 
 ## 2026-09-30
 
