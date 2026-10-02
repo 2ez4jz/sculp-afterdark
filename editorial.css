@@ -147,6 +147,10 @@ body{background:#141412!important}
 #sculp-site .portfolio-strip-wrap{margin-top:10px}
 #sculp-site .portfolio-thumb{flex-basis:clamp(180px,21vw,310px)}
 #sculp-site .portfolio-thumb .photo{min-height:280px}
+#sculp-site .portfolio-gallery .portfolio-thumb{flex-basis:auto}
+#sculp-site .portfolio-gallery .portfolio-thumb .photo{min-height:0}
+#sculp-site .portfolio-gallery .photo img,#sculp-site .artist-work-gallery .photo img{position:static;width:100%;height:auto;object-fit:contain;transform:none}
+#sculp-site .portfolio-gallery .photo:hover img,#sculp-site .artist-work-gallery .photo:hover img{transform:none}
 #sculp-site .view[data-page="portfolio"] .photo[data-concept]::after{
   content:"CONCEPT IMAGE";display:block;position:absolute;z-index:2;bottom:17px;left:18px;
   background:rgba(20,20,18,.74);color:#f0eae0;padding:7px 10px;font-size:9px;letter-spacing:.18em;
@@ -216,7 +220,7 @@ body{background:#141412!important}
 .sculp-lightbox button{position:absolute;border:0;background:transparent;color:var(--cream);font:600 34px/1 'Playfair Display',serif;cursor:pointer;padding:14px}
 .sculp-lightbox .close{right:26px;top:20px}.sculp-lightbox .prev{left:16px}.sculp-lightbox .next{right:16px}
 .sculp-lightbox .count{position:absolute;bottom:22px;font:600 10px 'DM Sans',sans-serif;letter-spacing:.2em}
-#sculp-site .portfolio-featured .photo:has(img),#sculp-site .portfolio-thumb .photo:has(img){cursor:zoom-in}
+#sculp-site .portfolio-featured .photo:has(img),#sculp-site .portfolio-thumb .photo:has(img){cursor:default}
 @media(max-width:950px){
   #sculp-site .mast-inner{min-height:70px}
   #sculp-site .nav{background:var(--night);color:var(--cream);padding:35px;gap:26px}
