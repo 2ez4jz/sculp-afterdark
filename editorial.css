@@ -115,8 +115,13 @@ body{background:#141412!important}
 #sculp-site .home-service h3{font-size:clamp(42px,4vw,64px);max-width:13ch}
 #sculp-site .concierge-section{background:#b9a99b}
 #sculp-site .concierge-ui{background:transparent;box-shadow:none}
-#sculp-site .concierge-option{font-size:12px;min-height:80px}
-#sculp-site .concierge-option.active{background:var(--night);color:var(--cream)}
+#sculp-site .concierge-options{border-color:rgba(240,234,224,.58)}
+#sculp-site .concierge-option{
+  font-size:12px;min-height:80px;color:#d8d0c5;
+  border-color:rgba(240,234,224,.58);
+}
+#sculp-site .concierge-option:hover{background:rgba(240,234,224,.09);color:#fff4e9}
+#sculp-site .concierge-option.active{background:var(--night);color:#fff4e9}
 #sculp-site .concierge-result h3{font-size:clamp(38px,4vw,60px)}
 #sculp-site .home-studio .photo,#sculp-site .home-team .photo{border-radius:0}
 #sculp-site .trust-strip{border-color:#a99d90}
@@ -196,6 +201,7 @@ body{background:#141412!important}
 #sculp-site footer p,#sculp-site footer .eyebrow{color:#a99e92}
 #sculp-site footer a{transition:color .2s}
 #sculp-site footer a:hover{color:#d4a18a}
+#sculp-site .client-voice footer{background:transparent;border:0;padding:0;color:#6f665e}
 #sculp-site .book-layout{margin-top:70px}
 #sculp-site .book-main .field{color:var(--cream)}
 #sculp-site .view[data-page="book"]>.intro .form-group-title{border-color:#71675f}
