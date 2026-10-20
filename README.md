@@ -1,6 +1,8 @@
 # SCULP Studio - The SCULP Edit V2
 
-Preview proposal on `design/sculp-editorial-v2`. This branch does not replace the production website until reviewed and merged. Production baseline: `91e561953f719cdc931af65aed74d8801e3c5bf7`; V1 proposal baseline: `2c58790bdfd97aecedf2e543c414a44f3d486304`.
+User-authorised GitHub Pages test publication, 20 October 2026: https://2ez4jz.github.io/sculp-afterdark/. The owner confirmed this repository is a test site and requested direct deployment for real-device review. This does not replace the primary SCULP website. The tested application is49221d6; subsequent changes record evidence and publication only. Previous Pages baseline: `91e561953f719cdc931af65aed74d8801e3c5bf7`; V1 proposal baseline: `2c58790bdfd97aecedf2e543c414a44f3d486304`.
+
+Quality acceptance is still unmet: the independent simulated overall is7.73/10. Publishing for the owner's hands-on testing does not change that score or establish smoothness on physical devices.
 
 ## Build and edit
 
