@@ -54,6 +54,8 @@
   }
   function pageView(){
     var next=route();
+    // Native in-page indexes change the fragment, not the current document.
+    if(next===lastRoute)return;
     if(lastRoute&&next!==lastRoute)finishRoute('navigation');
     lastRoute=next;routeStarted=Date.now();sentDepths={};
     send('page_view',{
