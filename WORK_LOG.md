@@ -4,6 +4,18 @@
 
 ## 2026-10-20
 
+### After Dark Design V1.0 - 独立预览升级
+
+- 新建 `design/after-dark-v1` 分支，生产基线为 `91e561953f719cdc931af65aed74d8801e3c5bf7`。本轮只提交分支和独立私有预览，不合并 main、不覆盖现有官网。
+- 安装并完整读取 `juliobsz/skills` 的 awwwards / jury，锁定上游 `ea8f1455c2b0e71469d4ecfd32f47862b834d2d0`；CLI 全局列表确认 Codex 可用，当前会话通过读取 Skill 手动应用。独立评审只接收截图和测量结果。
+- 基于现有静态 HTML、hash 路由、CSS 和 JavaScript 实现“以光塑形”视觉系统：炭黑层次、自然色作品、Bodoni Moda + Instrument Sans 自托管字体、非对称首屏、透明定价列、统一内页与最终转化区域。新增可逆的真实妆面细节查看交互；原生 View Transitions 渐进增强页面交接，无 WebGL、加载器或滚动接管，也无新增运行时包。
+- 手机独立排版，Header 增加直接询价入口；补齐跳转正文、键盘焦点、移动菜单焦点约束和 Escape 返回、减少动态效果、路由标题/描述、favicon、分享图与品牌 404。仅改写 Portfolio 一句面向布局实现的说明，替换为帮助客户选择作品/艺术家的提示；业务事实、服务、价格、作品、联系方式均保留。
+- 完整对比确认表单/API 提交处理与 analytics.js 字节内容未变，所有原作品来源及价格字符串保留；未修改数据库、后端逻辑、验证、密钥或环境变量。浏览器测试中的 POST 全部模拟，未发送邮件或创建客户。
+- 已完成多轮 Playwright：1440/768/390/375px × 10 路由视图，包含 Mira、Michelle 与成功页；修复 Concierge 对比度、程序焦点样式、内页和 Bridal gutter。最终矩阵及 14 项交互回归、axe、减少动态效果、控制台、图片和链接检查详见质量报告。
+- 传输优化：字体从外部链路改为 2 个 WOFF2 共约 44.6KB；新增 420/700px 首页响应式图，不改变原图色彩与构图。按实际官网 gzip 传输方式进行本地 Lighthouse：性能 99、无障碍/最佳实践/SEO 均 100，模拟手机 LCP 2.108s、CLS 0、TBT 0。现场用户 INP/真实 CWV 尚无数据；Event Timing 只作实验室样本。
+- /jury 初评与复评是独立模拟评分，不是 Awwwards 官方评分。原始静态审计对 hash SPA 的隐藏文章 H1 和图片全集存在误计；记录原始结果并用渲染后的一页一个 H1、实际初始传输与 axe 复核，不篡改审计分数。
+
+
 - 逐页对照原站线上版本与源码 `eb79edb`，同步 Afterdark 内容至 10 月 18 日原站状态：Mira 13 张作品、Michelle 10 张作品、全部服务与价格、团队、地址、联系方式及咨询文案。补入 23 张同源 WebP，保留 Afterdark 深色视觉、字体、动画及已修边的首页 Hero。
 - 将询价从旧 mailto 改为原站的直接提交流程：先保存 SCULPY 线索，再发送现有 FormSubmit 邮件通知；收件人为 sculpstudio.ca@gmail.com，抄送 museycyk@gmail.com。同步 24 小时回复承诺、成功页、发送中状态、防重复提交、失败保留数据、日期限制与 UTM 归因；原生表单回跳地址适配 Afterdark 自身路径。
 - 同步原站 canonical、分享元信息、robots.txt 与 sitemap.xml，canonical 继续指向主官网；未复制主站 CNAME。更新分析事件为确认提交成功后记录，移除旧 mailto 成功口径，并补齐历史返回导航事件。

@@ -5,7 +5,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>SCULP Studio | Bridal & Beauty Styling Toronto</title>
 <meta name="description" content="Toronto beauty studio for bridal, event, commercial and photoshoot styling, plus private and group education. Available for travel.">
-<meta name="theme-color" content="#141412">
+<meta name="theme-color" content="#141619">
+<link rel="preload" href="assets/fonts/sculp-display-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/sculp-sans-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<meta property="og:image" content="https://sculpstudio.ca/assets/images/garden-bride-hero.webp">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="sculp-ga4-id" content="">
 <meta name="sculp-clarity-id" content="">
 <link rel="canonical" href="https://sculpstudio.ca/">
@@ -14,13 +19,7 @@
 <meta property="og:title" content="SCULP Studio | Bridal & Beauty Styling Toronto">
 <meta property="og:description" content="Toronto bridal makeup, beauty styling and education. Explore our artists and enquire about your date.">
 <meta property="og:url" content="https://sculpstudio.ca/">
-<style>html,body{margin:0;padding:0;background:#f3eee6}body{min-height:100vh}@media(max-width:620px){#sculp-site .studio-gallery .studio-stack{grid-template-columns:1fr}#sculp-site .portfolio-featured .stack{grid-template-columns:1fr}#sculp-site .portfolio-thumb{flex-basis:72vw}#sculp-site .team-grid,#sculp-site .team-grid.junior{grid-template-columns:1fr}#sculp-site .team-founder .photo{min-height:480px}}</style>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
+<style>html,body{margin:0;padding:0;background:#141619}body{min-height:100vh}@media(max-width:620px){#sculp-site .studio-gallery .studio-stack{grid-template-columns:1fr}#sculp-site .portfolio-featured .stack{grid-template-columns:1fr}#sculp-site .portfolio-thumb{flex-basis:72vw}#sculp-site .team-grid,#sculp-site .team-grid.junior{grid-template-columns:1fr}#sculp-site .team-founder .photo{min-height:480px}}</style>
 </head>
 <body>
 <div id="sculp-site">
@@ -396,9 +395,10 @@
 @media(max-width:950px){#sculp-site .team-grid:not(.junior){gap:24px}#sculp-site .team-grid:not(.junior) .team-person>.photo{max-width:none}}
 @media(max-width:640px){#sculp-site .team-grid:not(.junior){grid-template-columns:1fr;gap:48px}}
 </style>
-<link rel="stylesheet" href="editorial.css?v=20261020-content-sync">
-<header class="mast"><div class="shell mast-inner"><a class="logo" href="#home">SCULP STUDIO</a><button class="mobile-toggle" type="button" aria-expanded="false" aria-controls="sculp-nav">MENU ☰</button><nav class="nav" id="sculp-nav" aria-label="Main navigation"><a href="#bridal">BRIDAL</a><a href="#occasions">OCCASIONS</a><a href="#portfolio">PORTFOLIO</a><a href="#team">TEAM</a><a href="#about">ABOUT</a><a href="#book">ENQUIRE</a></nav></div></header>
-<main>
+<link rel="stylesheet" href="editorial.css?v=after-dark-v1">
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="mast"><div class="shell mast-inner"><a class="logo" href="#home">SCULP STUDIO</a><a class="mobile-enquire" href="#book">Enquire</a><button class="mobile-toggle" type="button" aria-expanded="false" aria-controls="sculp-nav">MENU</button><nav class="nav" id="sculp-nav" aria-label="Main navigation"><a href="#bridal">BRIDAL</a><a href="#occasions">OCCASIONS</a><a href="#portfolio">PORTFOLIO</a><a href="#team">TEAM</a><a href="#about">ABOUT</a><a href="#book">ENQUIRE</a></nav></div></header>
+<main id="main" tabindex="-1">
 <article class="view" data-page="home">
 
 <section>
@@ -413,9 +413,10 @@
       </div>
     </div>
     <div>
-      <div class="photo arch-top"><img src="assets/images/garden-bride-hero.webp?v=20260930-edge" alt="Bride outdoors in a veil holding white calla lilies" width="1034" height="1549" loading="eager" decoding="async" fetchpriority="high" style="object-position:50% 35%"></div>
+      <div class="photo arch-top"><img src="assets/images/garden-bride-hero.webp?v=20260930-edge" srcset="assets/images/hero-420.webp 420w, assets/images/hero-700.webp 700w, assets/images/garden-bride-hero.webp 1034w" sizes="(max-width:620px) calc(100vw - 56px), 43vw" alt="Bride outdoors in a veil holding white calla lilies" width="1034" height="1549" loading="eager" decoding="async" fetchpriority="high" style="object-position:50% 35%"></div>
     </div>
   </div>
+<div class="shell hero-context"><span>Bridal, beauty &amp; education</span><a href="#portfolio">The artists &amp; their work</a></div>
 </section>
 
 <section class="section surface-soft">
@@ -432,12 +433,14 @@
     <h2>Start with the occasion.</h2>
     <div class="home-services">
       <div class="home-service primary">
+        <img class="service-image" src="assets/images/bridal-profile.webp" alt="" width="1472" height="2200" loading="lazy" decoding="async">
         <div class="eyebrow">01 · Bridal</div>
         <h3>For the day you’ll remember.</h3>
         <p>A look that feels like you, made for a day unlike any other — considered in every detail, and timeless in every memory.</p>
         <a href="#bridal">Explore Bridal →</a>
       </div>
       <div class="home-service">
+        <img class="service-image" src="assets/images/occasions-feature-motion-red.webp" alt="" width="1365" height="2048" loading="lazy" decoding="async">
         <div class="eyebrow">02 · Occasions</div>
         <h3>For life, camera, and learning.</h3>
         <p>Styling for events, personal appointments, commercial projects, photoshoots, and education.</p>
@@ -479,7 +482,7 @@
 <section class="section architectural-section">
   <div class="shell home-studio">
     <div>
-      <div class="photo"><img src="assets/images/home-craft-makeup.webp" alt="Editorial makeup close-up with deep auburn tones" width="1365" height="2048" loading="lazy" decoding="async" style="object-position:50% 44%"></div>
+      <div class="photo craft-study"><img src="assets/images/home-craft-makeup.webp" alt="Editorial makeup close-up with deep auburn tones" width="1365" height="2048" loading="lazy" decoding="async" style="object-position:50% 44%"><button class="detail-toggle" type="button" aria-pressed="false">Study the detail <span aria-hidden="true">+</span></button></div>
     </div>
     <div>
       <div class="eyebrow">The craft</div>
@@ -577,7 +580,7 @@
     </div>
 
     <div class="bridal-hero-media">
-      <div class="photo tall arch-top"><img src="assets/images/collection-618.webp" alt="Newlyweds posing in an elegant interior" width="1067" height="1600" loading="eager" decoding="async" fetchpriority="high" style="object-position:50% 42%"></div>
+      <div class="photo tall arch-top"><img src="assets/images/collection-618.webp" alt="Newlyweds posing in an elegant interior" width="1067" height="1600" loading="lazy" decoding="async" style="object-position:50% 42%"></div>
     </div>
   </div>
 </section>
@@ -915,7 +918,7 @@
         <div class="eyebrow">Explore by artist</div>
         <h2 id="portfolio-artists-title">Artist portfolios.</h2>
       </div>
-      <p>Explore each artist's individual point of view. Every portfolio is presented with the same space and visual weight.</p>
+      <p>Find the work that feels most like you, then explore the artist behind it.</p>
     </div>
     <div class="artist-directory-grid">
       <a class="artist-directory-card" href="#artist-portfolios?section=artist-miranda"><div class="photo"><img src="assets/images/miranda-portrait.webp" alt="Miranda" width="1025" height="1535" loading="lazy" decoding="async" style="object-position:50% 10%"></div><h3>Miranda</h3><span>View portfolio →</span></a>
@@ -1542,7 +1545,7 @@
     </div>
   </div>
 </article>
-</main><footer><div class="shell foot"><div><a class="logo" href="#home">SCULP STUDIO</a><p>Bridal, event, commercial beauty & education.<br>Toronto, Ontario · Available for travel</p></div><div><div class="eyebrow">Explore</div><a href="#bridal">Bridal</a><a href="#occasions">Occasions</a><a href="#portfolio">Portfolio</a><a href="#team">Team</a><a href="#about">About</a></div><div><div class="eyebrow">Connect</div><a href="#book">Enquire</a><a href="mailto:sculpstudio.ca@gmail.com">sculpstudio.ca@gmail.com</a><a class="social-link" href="https://www.instagram.com/sculp_studio/" target="_blank" rel="noopener noreferrer" aria-label="SCULP Studio on Instagram"><span class="social-icon" aria-hidden="true"><svg viewBox="0 0 24 24" role="img"><rect x="3.5" y="3.5" width="17" height="17" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r="1"></circle></svg></span><span>Instagram</span></a></div></div></footer>
+</main><footer><div class="shell foot"><div><a class="logo" href="#home">SCULP STUDIO</a><p>Bridal, event, commercial beauty & education.<br>Toronto, Ontario · Available for travel</p></div><div><div class="eyebrow">Explore</div><a href="#bridal">Bridal</a><a href="#occasions">Occasions</a><a href="#portfolio">Portfolio</a><a href="#team">Team</a><a href="#about">About</a></div><div><div class="eyebrow">Connect</div><a href="#book">Enquire</a><a href="mailto:sculpstudio.ca@gmail.com">sculpstudio.ca@gmail.com</a><a class="social-link" href="https://www.instagram.com/sculp_studio/" target="_blank" rel="noopener noreferrer" aria-label="SCULP Studio on Instagram"><span class="social-icon" aria-hidden="true"><svg viewBox="0 0 24 24" role="img"><rect x="3.5" y="3.5" width="17" height="17" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r="1"></circle></svg></span><span>Instagram</span></a></div></div><div class="brand-signature" aria-hidden="true"><small>TORONTO · AVAILABLE WORLDWIDE</small>SCULP</div></footer>
 <script>(function(){
 var root=document.getElementById('sculp-site');if(!root)return;
 var pages=['home','bridal','occasions','portfolio','artist-portfolios','team','about','book','enquiry-sent'];
@@ -1582,7 +1585,7 @@ function applyArtistPortfolio(params){
   if(switcher)switcher.removeAttribute('open');
 }
 
-function route(){
+function renderRoute(){
   var hash=getHashParts(),key=hash.page;
   if(pages.indexOf(key)<0)key='home';
   root.querySelectorAll('.view').forEach(function(el){el.hidden=el.dataset.page!==key});
@@ -1601,12 +1604,23 @@ function route(){
   if(section){
     requestAnimationFrame(function(){
       var target=document.getElementById(section);
-      if(target)target.scrollIntoView({behavior:'smooth',block:'start'});
+      if(target)target.scrollIntoView({behavior:'instant',block:'start'});
       else window.scrollTo(0,0);
     });
   }else{
     window.scrollTo(0,0);
   }
+}
+var lastRenderedHash;
+function route(event){
+  if(location.hash==='#main'){root.querySelector('main').focus();return;}
+  if(event&&lastRenderedHash===location.hash)return;
+  lastRenderedHash=location.hash;
+  var update=function(){renderRoute();window.dispatchEvent(new CustomEvent('sculp:route-rendered'));};
+  if(event&&document.startViewTransition&&!matchMedia('(prefers-reduced-motion: reduce)').matches){
+    if(window.sculpTransition)window.sculpTransition.skipTransition();
+    window.sculpTransition=document.startViewTransition(update);
+  }else update();
 }
 window.addEventListener('hashchange',route);window.addEventListener('popstate',route);route();
 
@@ -1711,7 +1725,7 @@ if(form)form.addEventListener('submit',async function(event){
   }
 });
 })();</script>
-<script src="editorial.js?v=20261001-portfolio-grid" defer></script>
+<script src="editorial.js?v=after-dark-v1" defer></script>
 <script src="analytics.js?v=20261020-direct-enquiry" defer></script>
 </div>
 </body>
