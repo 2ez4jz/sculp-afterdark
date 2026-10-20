@@ -1,0 +1,76 @@
+# Independent jury scorecard — nonofficial
+
+**Perceived idea, stated before scoring:** SCULP turns bridal beauty into an editorial reading of real styling details, letting a visitor collect a personal direction and bring it to the right artist.
+
+This is an independent assessment of the supplied rendered evidence, not an official Awwwards result. I read only this evidence packet and the specified quality-bar rubric. I opened all **470 original screenshots**, including all 72 chronological transition JPEGs, using indexed contact sheets, and enlarged key original views and long-page sections. No source code, live site, design intentions, or previous grades were consulted. All criteria start at 6; the evidence below earns the increases. No calibration adjustment is applied.
+
+## Main criteria
+
+| Criterion | Score / 10 | Evidence and judgment |
+|---|---:|---|
+| Design | **7.9** | `matrix/1440-home.png` earns the first point through the oversized serif masthead, restrained blue/ivory palette, controlled overlap, and clear sans-serif hierarchy. `composition/1440-composer.png` and `artist-readings/1440-elaine-reading.png` earn most of the second: the reference sheet, precise crops, numbered markers, and varied editorial compositions carry the language beyond the hero. Full home, bridal, study, and team captures show composed footers, price tables, captions, and secondary pages. The work remains recognizably within an established editorial design vocabulary; some important feedback is only a tiny arrow displacement, and the fully open customer states are less distinctive than the hero/composer. This stops just below an unqualified 8. |
+| Usability | **7.6** | `matrix/summary.json` records 76 route/width views with no overflow, small-target flags, axe findings, or runtime errors. Mobile navigation, exact package prefills, price disclosures, and saved references are readable in `navigation`, `phone-flows`, and `artist-readings`. `composition/report.json` verifies all 27 combinations, exact source carry, removal, and recoverable submission failures. Keyboard and reduced-motion evidence is strong. Loading is usually quick, but the severe intermittent frame gaps in every performance methodology prevent the consistent 60 fps required for 8. The 112 ms event-latency maximum is useful lab evidence, not field INP or a real-phone guarantee. |
+| Creativity | **8.0** | The site earns more than a polished-gallery score: real photographs become selectable eye, hair, and balance references in `composition/1440-composer.png`, `composition/375-composer-options.png`, and the eight artist reading sets. The same fragments become the enquiry brief in `composition/390-composed-book.png`; `composition-motion/1440-forward/frame-006.jpg` and subsequent frames visibly transport them between those contexts. The idea drives content, layout, and a signature transition. It is a specific, useful interpretation of personal beauty, though the underlying editorial layouts, radio choices, and shared-image transitions are familiar techniques. |
+| Content | **7.9** | The named artists, full original portfolios, explicit tiers/prices/durations, studio directions, and booking terms provide substance (`preservation.json`, `phone-flows`, `expanded`, full about/bridal/team captures). `artist-readings/1440-elaine-reading.png` and the Modern Chinese study explain visible styling choices rather than relying on vague beauty adjectives. The rain/time-change bridal account supplies a concrete service story. The three studies mostly remain readings of a finished photograph: they give less firsthand client context and artist decision-making than the strongest case-study content. Testimonials are attributed to client categories rather than identifiable, contextualized projects. |
+
+**Weighted overall = 0.4 × 7.9 + 0.3 × 7.6 + 0.2 × 8.0 + 0.1 × 7.9 = 7.83 / 10.**
+
+This is the exact weighted result of the displayed criterion scores; it has not been rounded upward.
+
+## Developer criteria
+
+| Criterion | Score / 10 | Evidence and judgment |
+|---|---:|---|
+| Semantics / SEO | **8.2** | `release-audit.txt`: **0 FAIL, 6 WARN**, not a warning-free audit. `static-proof.json`: server HTML for 19 pages has one h1 and main each, `lang=en`, no heading skips, 19 unique titles/descriptions, canonical URLs, robots/sitemap, and a real 404. Structured data adds useful business context. The six warnings are repeated bridal descriptions in alternate desktop/phone representations; the screenshots do not show duplicate sentences in a single active view. |
+| Animations / Transitions | **7.2** | The original `motion` frames visibly move the chosen photograph between gallery and study; `composition-motion` carries three fragments into the brief. This is more considered than a generic page fade. All 25 release hover pairs were inspected directly; the primary CTA/price/civil buttons receive full-surface fills, cards/photos scale, details expose a surface treatment, and text links/steps use movement or line changes. No sampled primary target is judged text-color-only. However, frame pacing is not consistently smooth, and phone composer navigation includes a nearly blank intermediate reference area (`composition-motion/390-forward/frame-009.jpg`). Timing metadata records that forward flow ready at 1077 ms and finished at 1682.5 ms. I do not infer motion feel or a cause for these observations from stills. |
+| Accessibility | **8.4** | All 76 matrix views have empty axe findings. `focus-inventory/report.json` covers 1,294 stops across 19 routes at two widths; `states.json` covers 269 more expanded-state stops: no bad, invisible, or non-focus-visible stops are reported. Captures show a first skip link, conspicuous outlines, keyboard-operable forms, menu, options, and dialog controls. `interactions/report.json` verifies menu/dialog containment, Escape and focus return, native validation, and no-JavaScript navigation/form availability. All 19 matrix reduced-motion routes and eight selected reduced states report no running motion or hidden text/headings. `selected-states/report.json` gives 12.43:1 foreground/surface ratios. This is strong tested coverage, without claiming an unperformed screen-reader or physical-device audit. |
+| WPO | **6.8** | Three home Lighthouse reports score performance 100, with LCP 1.52/1.68/1.73 s, CLS 0, TBT 0, and 390 KiB transferred. Audit payloads are small: heaviest page Miranda ~2031 KB, JS 12 KB gz, CSS 18 KB gz. Most throttled route LCPs are under 2.5 s, but fresh-process Miranda is **3.732 s**. The three CSSOM collections include 4–61 fps, with a 3783 ms worst gap; the separate wheel method still has a 600 ms gap and approximately 39 fps on the warm Modern Chinese pass. These results cannot support a uniformly smooth release. All methods and both cold/warm samples are retained in the assessment below. |
+| Responsive | **8.3** | The 1440/768/390/375 matrix and actual expanded flows show intentional reflow: phone portraits become compact identity blocks, reading details stack, the reference sheet becomes three adjacent fragments, and desktop pricing becomes readable tier rows. No measured horizontal overflow or targets below the rubric threshold occur. Both narrow phone widths expose the first selection and next action; all 18 bridal prices and six disclosures/prefills remain accessible (`phone-flows/report.json`). The 768 composer also remains composed on enlargement. Long phone bridal and artist pages are substantial scrolls, but no broken or squished layout is demonstrated. |
+| Markup / Meta-data | **8.0** | `static-proof.json` and `release-audit.txt` show viewport, accessible names/alt coverage, favicon, OG and Twitter metadata, and an OG image asset returning 200 under the identical local production-path mapping. This earns the rubric's 8-level requirements for the delivered output. The packet explicitly does not verify the future remote production OG URL as live; no public deployment validation is claimed. |
+
+## Direct hover findings
+
+| Supplied rest/hover pairs in `release-ui/` | Visible treatment |
+|---|---|
+| `home-primary`, `civil-enquiry`, `price-compare`, `composer-use`, `study-zoom` | Whole-button surface fills/inversions; arrow or plus movement accompanies several. These count as material treatment. |
+| `nav`, `artist-index`, `artist-detail`, `study-detail`, `complete-look` | Surface/line changes, with displacement or icon rotation where shown. |
+| `artist-card`, `artist-full-photo`, `artist-pin`, `composer-option` | Visible photograph/card scaling or marker enlargement; full-photo affordance appears. |
+| `home-secondary`, `logo`, `study-tab`, `footer-cta`, `bridal-jump`, `civil-jump`, `team-next`, `about-next`, `book-fallback`, `artist-back`, `composer-step` | Small translation, arrow displacement, or underline treatment; subtle but present on direct comparison. `footer-cta` and the selected `study-tab` communicate the least strongly because almost all their visual response is confined to a small arrow. |
+
+The selected-state pairs in `selected-states/` were also inspected. They retain legible saved surfaces and checks; several have little further hover change. I do not count a label already confirming a saved reference as an unresponsive unsaved primary CTA. No points are awarded merely because a computed `changed` flag is true. Idle stillness is not treated as a defect.
+
+## Performance reconciliation
+
+Conditions are the packet's 390×844, DPR 2, 4× CPU and slow 4G laboratory conditions. Entries below are cold/warm. The first two CSSOM collections use separate contexts in one browser; the third uses a fresh process per route, with visible/focused state recorded. The wheel method is separate and supplemental, not a replacement. All its passes actually move 900 px.
+
+| Route | CSSOM initial fps | CSSOM repeat fps | Fresh-process fps | LCP initial / repeat / fresh, ms | Wheel worst interval cold / warm, ms |
+|---|---:|---:|---:|---:|---:|
+| Home | 60 / 60 | 60 / 60 | 52 / 60 | 1444 / 1172 / 1076 | 133.4 / 16.8 |
+| Portfolio | 61 / 60 | 60 / 60 | 61 / 60 | 1212 / 1236 / 1424 | 16.8 / 33.4 |
+| Bridal | 60 / 60 | 61 / 60 | 59 / 58 | 924 / 860 / 888 | 16.8 / 33.4 |
+| Occasions | 60 / 60 | 60 / 58 | 61 / 61 | 816 / 860 / 984 | 50.1 / 33.4 |
+| Team | 60 / 61 | 60 / 61 | 60 / 61 | 1180 / 1116 / 1124 | 33.4 / 16.8 |
+| About | 60 / 60 | 59 / 60 | 60 / 61 | 1108 / 1120 / 1092 | 16.8 / 16.8 |
+| Book | 61 / 58 | 61 / 59 | 60 / 26 | 876 / 868 / 920 | 16.8 / 16.8 |
+| Miranda | 39 / 21 | 61 / 60 | 60 / 58 | 1520 / 1516 / 3732 | 50.1 / 150.0 |
+| Modern Chinese | 58 / 61 | 40 / 4 | 61 / 60 | 1816 / 1096 / 1300 | 116.6 / 600.0 |
+
+The initial Miranda CSSOM passes have worst gaps of 267/450 ms. Repeat Modern Chinese has 1200/3783 ms gaps; fresh-process Book warm has 1783 ms. The wheel warm Modern Chinese sample averages approximately 39 fps from its chronological rAF intervals after the initial timestamp offset and includes three intervals over 50 ms. These are material counterevidence to a universal 60 fps claim. The fast repeats are also real evidence. The packet does not establish why results vary; I assign no browser, application, or machine cause. The event-latency flow observed 18 interactions at 24–112 ms, at a 16 ms event threshold. It neither cancels scroll gaps nor establishes field INP.
+
+## Ranked fixes
+
+Source was deliberately not inspected, so file references below name supplied screenshot/report fields and the affected page/state rather than inventing implementation filenames.
+
+| Rank | File / field | Defect | Concrete change |
+|---:|---|---|---|
+| 1 | `release-performance/report.json` Miranda cold/warm; `release-performance-repeat/report.json` Modern Chinese cold/warm; `fresh-process-performance/report.json` Book warm; `wheel-performance/report.json` Modern Chinese warm | Large intermittent frame gaps persist across the combined evidence. This is the largest ceiling on Usability, WPO and Animations. | Profile these exact routes and cold/warm journeys under the supplied conditions, identify the work responsible for the long intervals, and reduce/defer it while preserving the detail/reference concept. Re-run all three CSSOM collections and the wheel pass with raw intervals; require consistently bounded gaps, not one good repeat. The evidence is insufficient to prescribe a specific CPU or rendering cause. |
+| 2 | `fresh-process-performance/report.json` → Miranda `before.lcp=3732`; `artists-miranda-.png` | One fresh-process route misses the 2.5 s LCP bar despite much faster results elsewhere. | Inspect that route's actual LCP element and request/decode timeline; prioritize the above-fold resource and remove demonstrated critical-path delay. Confirm sub-2.5 s LCP through repeated fresh-process runs without adding an intro or loader. |
+| 3 | `composition-motion/390-forward/frame-009.jpg`, `frame-014.jpg`, `report.json.events` | The phone reference handoff briefly becomes a largely empty pale surface, and this observed flow is not ready until 1077 ms. | Keep the outgoing three-fragment sheet visible until the destination reference surface is ready, then transport the fragments without exposing an empty card region. Shorten the readiness delay demonstrated by the trace. Preserve the exact reference carry and the calm reduced-motion state. |
+| 4 | `release-ui/footer-cta-{rest,hover}.png`, `study-tab-{rest,hover}.png` | Feedback exists, but on these large/important targets it is concentrated in a tiny arrow, so the rendered response is weaker than the primary buttons and detail rows. | Extend the existing underline or surface language over the target's meaningful text area, while retaining the small arrow movement. Preserve the selected tab's persistent indicator. This strengthens the existing interaction vocabulary. |
+| 5 | `matrix/1440-full-studies-*.png`, corresponding 390 captures | The studies explain visible form and colour well but provide little firsthand account of the occasion, constraint, artist choice, and result. | Add a short verified artist/client account to each existing study: what the person needed, the practical constraint, the choice made, and how the result worked. Tie the account to the shown photograph and existing selectable details; do not invent testimony or remove original portfolio photographs. |
+
+The six audit duplication warnings are a lower-priority cleanup: use one semantic service description per plan while preserving both responsive comparisons and every price association. They are not presented as six visible content defects.
+
+## Evidence limits
+
+No real customer record or email was created: POSTs were intercepted. Functional reports therefore verify client journeys and simulated failure/success handling, not live third-party delivery. Desktop composition-back imagery visibly shows a shared-fragment transition, but its supplied report lists frame indices only 0–6 while its sampled JPEG names extend through 17; exact frame-to-time correspondence for that collection is not inferred. Other chronological sequences and their own metadata support the narrower motion findings above. No field analytics, physical touch-device smoothness, screen-reader session, or public production deployment is asserted.

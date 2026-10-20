@@ -1,0 +1,69 @@
+VALIDATE REST v2-preservation.mjs
+PASS 142 portfolio images, prices, form fields
+VALIDATE REST v2-interactions.mjs
+PASS 21 real-browser interaction checks
+VALIDATE REST v2-event-latency.mjs
+Lab scripted max event latency 104 ms; 18 recorded interaction groups; fieldINP not measured
+VALIDATE REST v2-reduced-proof.mjs
+PASS8 reduced-motion captures
+VALIDATE REST v2-review-clarity.mjs
+PASS explicit three-part review and24 mobile plan/anchor journeys
+VALIDATE REST v2-reference-bootstrap.mjs
+1440 composition reference ready 89.1 FCP 188 CLS 0 selected image widths 230/230/230
+1440 single-detail reference ready 99.9 FCP 160 CLS 0 selected image widths 420/720
+768 composition reference ready 66.7 FCP 140 CLS 0 selected image widths 122/122/122
+768 single-detail reference ready 71.5 FCP 144 CLS 0 selected image widths 420/720
+390 composition reference ready 68.6 FCP 140 CLS 0 selected image widths 104/104/104
+390 single-detail reference ready 77.2 FCP 132 CLS 0 selected image widths 420/720
+375 composition reference ready 80.9 FCP 128 CLS 0 selected image widths 99/99/99
+375 single-detail reference ready 56.7 FCP 108 CLS 0 selected image widths 420/720
+VALIDATE REST v2-observations.mjs
+PASS 16 artist detail journeys, both bridal hero price jumps
+VALIDATE REST v2-focus-inventory.mjs
+1440 about 20 focus stops, bad 0
+1440 book 26 focus stops, bad 0
+1440 bridal 36 focus stops, bad 0
+1440 enquiry-sent 19 focus stops, bad 0
+1440 home 38 focus stops, bad 0
+1440 occasions 22 focus stops, bad 0
+1440 portfolio 29 focus stops, bad 0
+1440 team 35 focus stops, bad 0
+1440 artist-miranda 69 focus stops, bad 0
+1440 artist-yuki 43 focus stops, bad 0
+1440 artist-mira 43 focus stops, bad 0
+1440 artist-angelina 56 focus stops, bad 0
+1440 artist-elaine 42 focus stops, bad 0
+1440 artist-emily 37 focus stops, bad 0
+1440 artist-michelle 39 focus stops, bad 0
+1440 artist-giselle 48 focus stops, bad 0
+1440 study-fresh-bridal 27 focus stops, bad 0
+1440 study-modern-chinese 27 focus stops, bad 0
+1440 study-classic-glamour 27 focus stops, bad 0
+390 about 16 focus stops, bad 0
+390 book 22 focus stops, bad 0
+390 bridal 44 focus stops, bad 0
+390 enquiry-sent 15 focus stops, bad 0
+390 home 34 focus stops, bad 0
+390 occasions 18 focus stops, bad 0
+390 portfolio 25 focus stops, bad 0
+390 team 31 focus stops, bad 0
+390 artist-miranda 65 focus stops, bad 0
+390 artist-yuki 39 focus stops, bad 0
+390 artist-mira 39 focus stops, bad 0
+390 artist-angelina 52 focus stops, bad 0
+390 artist-elaine 38 focus stops, bad 0
+390 artist-emily 33 focus stops, bad 0
+390 artist-michelle 35 focus stops, bad 0
+390 artist-giselle 44 focus stops, bad 0
+390 study-fresh-bridal 23 focus stops, bad 0
+390 study-modern-chinese 23 focus stops, bad 0
+390 study-classic-glamour 23 focus stops, bad 0
+VALIDATE REST v2-focus-states.mjs
+PASS 13 interactive-state focus inventories
+VALIDATE REST v2-report-figures.mjs
+Captured two report figures from the unchanged production source; no POST.
+VALIDATE REST v2-legacy-campaign.mjs
+PASS6 legacy/native campaign journeys, exact five tags in both original payloads
+VALIDATE REST v2-analytics-proof.mjs
+PASS scroll-depth milestone behavior, duplicates, leave flush
+All remaining validations passed

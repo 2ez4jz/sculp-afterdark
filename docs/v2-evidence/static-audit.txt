@@ -1,4 +1,10 @@
+WARN  /sculp-afterdark/bridal/      sentence repeated 2x: "A focused session to develop and refine one complete bridal styling di"
+WARN  /sculp-afterdark/bridal/      sentence repeated 2x: "Compare two styling directions and refine the details, balance and fin"
+WARN  /sculp-afterdark/bridal/      sentence repeated 2x: "An extended session for exploring three styling directions before conf"
+WARN  /sculp-afterdark/bridal/      sentence repeated 2x: "Complete bridal hair and styling, with the final look shaped around yo"
+WARN  /sculp-afterdark/bridal/      sentence repeated 2x: "Wedding-day styling and up to six hours of on-site touch-ups and styli"
+WARN  /sculp-afterdark/bridal/      sentence repeated 2x: "Wedding-day styling and up to ten hours of on-site touch-ups and styli"
 
-18 pages crawled from http://127.0.0.1:44309/sculp-afterdark/
-heaviest page /sculp-afterdark/artists/miranda/: ~2008 KB | html 4 | JS 7 (gz) | CSS 12 (gz) | fonts 44 | images 1942
-0 FAIL, 0 WARN
+18 pages crawled from http://127.0.0.1:40119/sculp-afterdark/
+heaviest page /sculp-afterdark/artists/miranda/: ~2071 KB | html 5 | JS 12 (gz) | CSS 19 (gz) | fonts 44 | images 1992
+0 FAIL, 6 WARN

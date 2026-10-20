@@ -1,0 +1,1 @@
+{"checks":["Fast scroll records all four crossed thresholds","Repeated scrolling does not duplicate milestones","Leaving before the throttle delay flushes final depth"],"initial":[25,50,75,90],"flushed":[25,50,75,90],"liveWrites":0}

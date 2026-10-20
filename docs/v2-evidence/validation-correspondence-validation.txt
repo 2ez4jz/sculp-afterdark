@@ -1,0 +1,36 @@
+FINAL CORRESPONDENCE v2-motion-expanded.mjs
+1440 forward 20 actual chronological frames
+1440 back 27 actual chronological frames
+390 forward 36 actual chronological frames
+390 back 53 actual chronological frames
+FINAL CORRESPONDENCE v2-composition-motion.mjs
+1440 forward 14 actual chronological frames
+1440 back 21 actual chronological frames
+390 forward 32 actual chronological frames
+390 back 27 actual chronological frames
+FINAL CORRESPONDENCE v2-interactions.mjs
+PASS 21 real-browser interaction checks
+FINAL CORRESPONDENCE v2-reduced-proof.mjs
+PASS8 reduced-motion captures
+FINAL CORRESPONDENCE v2-reference-bootstrap.mjs
+1440 composition reference ready 77.1 FCP 168 CLS 0 selected image widths 230/230/230
+1440 single-detail reference ready 101.9 FCP 184 CLS 0 selected image widths 420/720
+768 composition reference ready 66.2 FCP 172 CLS 0 selected image widths 122/122/122
+768 single-detail reference ready 77.4 FCP 132 CLS 0 selected image widths 420/720
+390 composition reference ready 72.2 FCP 140 CLS 0 selected image widths 104/104/104
+390 single-detail reference ready 70.4 FCP 124 CLS 0 selected image widths 420/720
+375 composition reference ready 69.4 FCP 120 CLS 0 selected image widths 99/99/99
+375 single-detail reference ready 85.5 FCP 140 CLS 0 selected image widths 420/720
+FINAL CORRESPONDENCE v2-review-clarity.mjs
+PASS explicit three-part review and24 mobile plan/anchor journeys
+FINAL CORRESPONDENCE v2-preservation.mjs
+PASS 142 portfolio images, prices, form fields
+FINAL CORRESPONDENCE v2-static-proof.mjs
+Static proof: 19 routes, real404 404 unique titles 19
+Wedding-day styling and up to six hours of on-site touch-ups and styli"
+WARN  /sculp-afterdark/bridal/      sentence repeated 2x: "Wedding-day styling and up to ten hours of on-site touch-ups and styli"
+
+18 pages crawled from http://127.0.0.1:40119/sculp-afterdark/
+heaviest page /sculp-afterdark/artists/miranda/: ~2071 KB | html 5 | JS 12 (gz) | CSS 19 (gz) | fonts 44 | images 1992
+0 FAIL, 6 WARN
+

@@ -1,0 +1,104 @@
+MEASURE v2-release-performance.mjs
+home LCP 1160 CLS 0 cold 60 17 warm 61 17
+portfolio/ LCP 1356 CLS 0 cold 61 17 warm 37 450
+bridal/ LCP 1904 CLS 0 cold 59 33 warm 60 34
+occasions/ LCP 876 CLS 0 cold 60 33 warm 58 50
+team/ LCP 1276 CLS 0 cold 59 67 warm 61 17
+about/ LCP 1160 CLS 0 cold 60 17 warm 60 33
+book/ LCP 1008 CLS 0 cold 60 17 warm 61 17
+artists/miranda/ LCP 1300 CLS 0 cold 60 17 warm 60 17
+studies/modern-chinese/ LCP 1008 CLS 0 cold 60 17 warm 60 17
+MEASURE v2-release-performance.mjs polished/release-performance-repeat
+home LCP 1104 CLS 0 cold 60 33 warm 60 17
+portfolio/ LCP 1280 CLS 0 cold 60 33 warm 60 17
+bridal/ LCP 1100 CLS 0 cold 60 50 warm 60 33
+occasions/ LCP 976 CLS 0 cold 60 17 warm 60 17
+team/ LCP 1212 CLS 0 cold 60 33 warm 60 17
+about/ LCP 1152 CLS 0 cold 61 17 warm 61 17
+book/ LCP 1028 CLS 0 cold 60 17 warm 52 183
+artists/miranda/ LCP 1348 CLS 0 cold 60 17 warm 59 83
+studies/modern-chinese/ LCP 1104 CLS 0 cold 59 67 warm 60 50
+MEASURE v2-wheel-performance.mjs
+home wheel distance 900 900 max 16.800000000000182 16.800000000000182
+portfolio/ wheel distance 900 900 max 166.59999999999945 433.3000000000002
+bridal/ wheel distance 900 900 max 133.40000000000146 216.59999999999854
+occasions/ wheel distance 900 900 max 83.30000000000018 16.800000000000182
+team/ wheel distance 900 900 max 33.40000000000009 99.90000000000055
+about/ wheel distance 900 900 max 16.800000000000182 16.800000000000182
+book/ wheel distance 900 900 max 16.800000000000182 16.800000000000182
+artists/miranda/ wheel distance 900 900 max 33.400000000000546 33.399999999999636
+studies/modern-chinese/ wheel distance 900 900 max 16.800000000000182 16.800000000000182
+MEASURE v2-fresh-process-performance.mjs
+home LCP 1136 CLS 0 cold 59 50 warm 60 33
+portfolio/ LCP 1508 CLS 0 cold 35 1133 warm 14 1150
+bridal/ LCP 2796 CLS 0 cold 60 17 warm 61 17
+occasions/ LCP 876 CLS 0 cold 60 17 warm 60 17
+team/ LCP 1320 CLS 0 cold 61 17 warm 60 17
+about/ LCP 1156 CLS 0 cold 61 17 warm 59 83
+book/ LCP 944 CLS 0 cold 60 17 warm 42 617
+artists/miranda/ LCP 1952 CLS 0 cold 59 50 warm 61 17
+studies/modern-chinese/ LCP 1040 CLS 0 cold 60 17 warm 51 200
+MEASURE qa-lighthouse.mjs /workspace/scratch/f4692c7f7fd9/afterdark /workspace/scratch/f4692c7f7fd9/v2-evidence/polished/release-lighthouse
+{
+  "categories": {
+    "performance": 100,
+    "accessibility": 100,
+    "best-practices": 100,
+    "seo": 100
+  },
+  "metrics": {
+    "largest-contentful-paint": 1817.299,
+    "cumulative-layout-shift": 0,
+    "total-blocking-time": 23,
+    "total-byte-weight": 226458
+  },
+  "failedA11y": []
+}
+MEASURE qa-lighthouse.mjs /workspace/scratch/f4692c7f7fd9/afterdark /workspace/scratch/f4692c7f7fd9/v2-evidence/polished/release-lighthouse-performance-only performance
+{
+  "categories": {
+    "performance": 99
+  },
+  "metrics": {
+    "largest-contentful-paint": 2108.8329999999996,
+    "cumulative-layout-shift": 0,
+    "total-blocking-time": 48,
+    "total-byte-weight": 226458
+  },
+  "failedA11y": []
+}
+MEASURE qa-lighthouse.mjs /workspace/scratch/f4692c7f7fd9/afterdark /workspace/scratch/f4692c7f7fd9/v2-evidence/polished/release-lighthouse-repeat
+{
+  "categories": {
+    "performance": 92,
+    "accessibility": 100,
+    "best-practices": 100,
+    "seo": 100
+  },
+  "metrics": {
+    "largest-contentful-paint": 2109.54,
+    "cumulative-layout-shift": 0,
+    "total-blocking-time": 307.23,
+    "total-byte-weight": 226458
+  },
+  "failedA11y": []
+}
+MEASURE v2-native-cpu-performance.mjs
+1440 home LCP 1028 cssom-cold:166.6 cssom-warm:33.3 wheel-cold:483.3 wheel-warm:4549.8
+1440 portfolio/ LCP 912 cssom-cold:1033.3 cssom-warm:616.6 wheel-cold:316.7 wheel-warm:233.3
+1440 bridal/ LCP 1968 cssom-cold:1099.9 cssom-warm:266.6 wheel-cold:133.3 wheel-warm:16.8
+1440 occasions/ LCP 780 cssom-cold:66.6 cssom-warm:150.0 wheel-cold:49.9 wheel-warm:16.8
+1440 team/ LCP 756 cssom-cold:283.4 cssom-warm:183.3 wheel-cold:16.8 wheel-warm:16.8
+1440 about/ LCP 768 cssom-cold:300.0 cssom-warm:16.8 wheel-cold:100.0 wheel-warm:349.9
+1440 book/ LCP 1220 cssom-cold:216.6 cssom-warm:33.3 wheel-cold:50.0 wheel-warm:150.0
+1440 artists/miranda/ LCP 1100 cssom-cold:16.8 cssom-warm:16.8 wheel-cold:16.8 wheel-warm:183.3
+1440 studies/modern-chinese/ LCP 900 cssom-cold:100.0 cssom-warm:33.3 wheel-cold:166.7 wheel-warm:166.7
+390 home LCP 1048 cssom-cold:16.8 cssom-warm:83.4 wheel-cold:16.8 wheel-warm:16.8
+390 portfolio/ LCP 1148 cssom-cold:33.3 cssom-warm:183.4 wheel-cold:200.1 wheel-warm:216.7
+390 bridal/ LCP 880 cssom-cold:16.8 cssom-warm:266.7 wheel-cold:200.0 wheel-warm:200.1
+390 occasions/ LCP 804 cssom-cold:133.3 cssom-warm:83.3 wheel-cold:16.8 wheel-warm:100.1
+390 team/ LCP 1104 cssom-cold:150.0 cssom-warm:116.8 wheel-cold:83.4 wheel-warm:16.8
+390 about/ LCP 1028 cssom-cold:16.8 cssom-warm:16.8 wheel-cold:50.1 wheel-warm:183.3
+390 book/ LCP 776 cssom-cold:16.8 cssom-warm:33.3 wheel-cold:33.3 wheel-warm:50.0
+390 artists/miranda/ LCP 976 cssom-cold:16.8 cssom-warm:16.8 wheel-cold:16.8 wheel-warm:16.8
+390 studies/modern-chinese/ LCP 948 cssom-cold:16.8 cssom-warm:16.8 wheel-cold:16.8 wheel-warm:50.0

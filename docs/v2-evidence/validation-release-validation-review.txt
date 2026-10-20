@@ -1,0 +1,206 @@
+VALIDATE v2-last-functional.mjs
+RUN v2-matrix.mjs polished/matrix
+polished/matrix 1440 about axe 0 overflow false errors 0
+polished/matrix 1440 book axe 0 overflow false errors 0
+polished/matrix 1440 bridal axe 0 overflow false errors 0
+polished/matrix 1440 enquiry-sent axe 0 overflow false errors 0
+polished/matrix 1440 home axe 0 overflow false errors 0
+polished/matrix 1440 occasions axe 0 overflow false errors 0
+polished/matrix 1440 portfolio axe 0 overflow false errors 0
+polished/matrix 1440 team axe 0 overflow false errors 0
+polished/matrix 1440 artist-miranda axe 0 overflow false errors 0
+polished/matrix 1440 artist-yuki axe 0 overflow false errors 0
+polished/matrix 1440 artist-mira axe 0 overflow false errors 0
+polished/matrix 1440 artist-angelina axe 0 overflow false errors 0
+polished/matrix 1440 artist-elaine axe 0 overflow false errors 0
+polished/matrix 1440 artist-emily axe 0 overflow false errors 0
+polished/matrix 1440 artist-michelle axe 0 overflow false errors 0
+polished/matrix 1440 artist-giselle axe 0 overflow false errors 0
+polished/matrix 1440 study-fresh-bridal axe 0 overflow false errors 0
+polished/matrix 1440 study-modern-chinese axe 0 overflow false errors 0
+polished/matrix 1440 study-classic-glamour axe 0 overflow false errors 0
+polished/matrix 768 about axe 0 overflow false errors 0
+polished/matrix 768 book axe 0 overflow false errors 0
+polished/matrix 768 bridal axe 0 overflow false errors 0
+polished/matrix 768 enquiry-sent axe 0 overflow false errors 0
+polished/matrix 768 home axe 0 overflow false errors 0
+polished/matrix 768 occasions axe 0 overflow false errors 0
+polished/matrix 768 portfolio axe 0 overflow false errors 0
+polished/matrix 768 team axe 0 overflow false errors 0
+polished/matrix 768 artist-miranda axe 0 overflow false errors 0
+polished/matrix 768 artist-yuki axe 0 overflow false errors 0
+polished/matrix 768 artist-mira axe 0 overflow false errors 0
+polished/matrix 768 artist-angelina axe 0 overflow false errors 0
+polished/matrix 768 artist-elaine axe 0 overflow false errors 0
+polished/matrix 768 artist-emily axe 0 overflow false errors 0
+polished/matrix 768 artist-michelle axe 0 overflow false errors 0
+polished/matrix 768 artist-giselle axe 0 overflow false errors 0
+polished/matrix 768 study-fresh-bridal axe 0 overflow false errors 0
+polished/matrix 768 study-modern-chinese axe 0 overflow false errors 0
+polished/matrix 768 study-classic-glamour axe 0 overflow false errors 0
+polished/matrix 390 about axe 0 overflow false errors 0
+polished/matrix 390 book axe 0 overflow false errors 0
+polished/matrix 390 bridal axe 0 overflow false errors 0
+polished/matrix 390 enquiry-sent axe 0 overflow false errors 0
+polished/matrix 390 home axe 0 overflow false errors 0
+polished/matrix 390 occasions axe 0 overflow false errors 0
+polished/matrix 390 portfolio axe 0 overflow false errors 0
+polished/matrix 390 team axe 0 overflow false errors 0
+polished/matrix 390 artist-miranda axe 0 overflow false errors 0
+polished/matrix 390 artist-yuki axe 0 overflow false errors 0
+polished/matrix 390 artist-mira axe 0 overflow false errors 0
+polished/matrix 390 artist-angelina axe 0 overflow false errors 0
+polished/matrix 390 artist-elaine axe 0 overflow false errors 0
+polished/matrix 390 artist-emily axe 0 overflow false errors 0
+polished/matrix 390 artist-michelle axe 0 overflow false errors 0
+polished/matrix 390 artist-giselle axe 0 overflow false errors 0
+polished/matrix 390 study-fresh-bridal axe 0 overflow false errors 0
+polished/matrix 390 study-modern-chinese axe 0 overflow false errors 0
+polished/matrix 390 study-classic-glamour axe 0 overflow false errors 0
+polished/matrix 375 about axe 0 overflow false errors 0
+polished/matrix 375 book axe 0 overflow false errors 0
+polished/matrix 375 bridal axe 0 overflow false errors 0
+polished/matrix 375 enquiry-sent axe 0 overflow false errors 0
+polished/matrix 375 home axe 0 overflow false errors 0
+polished/matrix 375 occasions axe 0 overflow false errors 0
+polished/matrix 375 portfolio axe 0 overflow false errors 0
+polished/matrix 375 team axe 0 overflow false errors 0
+polished/matrix 375 artist-miranda axe 0 overflow false errors 0
+polished/matrix 375 artist-yuki axe 0 overflow false errors 0
+polished/matrix 375 artist-mira axe 0 overflow false errors 0
+polished/matrix 375 artist-angelina axe 0 overflow false errors 0
+polished/matrix 375 artist-elaine axe 0 overflow false errors 0
+polished/matrix 375 artist-emily axe 0 overflow false errors 0
+polished/matrix 375 artist-michelle axe 0 overflow false errors 0
+polished/matrix 375 artist-giselle axe 0 overflow false errors 0
+polished/matrix 375 study-fresh-bridal axe 0 overflow false errors 0
+polished/matrix 375 study-modern-chinese axe 0 overflow false errors 0
+polished/matrix 375 study-classic-glamour axe 0 overflow false errors 0
+Saved 76 views and 19 reduced states.
+RUN v2-ui-proof.mjs
+Verified 25 primary hover fixes, photo dialog axe0, no errors
+RUN v2-motion-expanded.mjs
+1440 forward 17 actual chronological frames
+1440 back 30 actual chronological frames
+390 forward 14 actual chronological frames
+390 back 4 actual chronological frames
+RUN v2-composition-motion.mjs
+1440 forward 9 actual chronological frames
+1440 back 6 actual chronological frames
+390 forward 15 actual chronological frames
+390 back 13 actual chronological frames
+RUN v2-composition-proof.mjs
+PASS all27 compositions, exact source/crop carry, clear preserves own note
+PASS four-width keyboard/composed brief/single-reference replacement
+PASS composition database/email retry and native success,zero real writes
+RUN v2-mobile-plans.mjs
+PASS two phone widths, first choice+next in viewport, all18 tier prices14px+, six native inclusions/enquiry actions
+RUN v2-selected-contrast.mjs
+PASS 24 selected-state visual/contrast checks
+RUN v2-static-proof.mjs
+Static proof: 19 routes, real404 404 unique titles 19
+RUN v2-preservation.mjs
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
++ actual - expected
+... Skipped lines
+
+  [
+    '$1,000',
+    '$1,000',
+-   '$1,000',
+    '$1,100',
+    '$1,200',
+    '$1,400',
+    '$100',
+    '$100',
+...
+    '$290',
+-   '$290',
+    '$300',
+    '$300',
+-   '$300',
+    '$350',
+    '$350',
+    '$390',
+    '$390',
+    '$390',
+    '$390',
+-   '$390',
+    '$400',
+    '$450',
+    '$490',
+    '$490',
+    '$490',
+-   '$490',
+    '$500',
+    '$550',
+    '$550',
+    '$590',
+    '$60',
+    '$600',
+    '$600',
+-   '$600',
+    '$750',
+    '$900'
+  ]
+
+    at file:///workspace/scratch/f4692c7f7fd9/v2-preservation.mjs:4:372
+    at ModuleJob.run (node:internal/modules/esm/module_job:439:25)
+    at async node:internal/modules/esm/loader:643:26
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5) {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: [
+    '$1,000', '$1,000', '$1,100', '$1,200',
+    '$1,400', '$100',   '$100',   '$120',
+    '$160',   '$180',   '$190',   '$200',
+    '$290',   '$290',   '$290',   '$300',
+    '$300',   '$350',   '$350',   '$390',
+    '$390',   '$390',   '$390',   '$400',
+    '$450',   '$490',   '$490',   '$490',
+    '$500',   '$550',   '$550',   '$590',
+    '$60',    '$600',   '$600',   '$750',
+    '$900'
+  ],
+  expected: [
+    '$1,000', '$1,000', '$1,000', '$1,100',
+    '$1,200', '$1,400', '$100',   '$100',
+    '$120',   '$160',   '$180',   '$190',
+    '$200',   '$290',   '$290',   '$290',
+    '$290',   '$300',   '$300',   '$300',
+    '$350',   '$350',   '$390',   '$390',
+    '$390',   '$390',   '$390',   '$400',
+    '$450',   '$490',   '$490',   '$490',
+    '$490',   '$500',   '$550',   '$550',
+    '$590',   '$60',    '$600',   '$600',
+    '$600',   '$750',   '$900'
+  ],
+  operator: 'deepStrictEqual',
+  diff: 'simple'
+}
+
+Node.js v24.19.0
+file:///workspace/scratch/f4692c7f7fd9/v2-last-functional.mjs:3
+for(const args of [['v2-matrix.mjs','polished/matrix'],['v2-ui-proof.mjs'],['v2-motion-expanded.mjs'],['v2-composition-motion.mjs'],['v2-composition-proof.mjs'],['v2-mobile-plans.mjs'],['v2-selected-contrast.mjs'],['v2-static-proof.mjs'],['v2-preservation.mjs'],['v2-interactions.mjs'],['v2-event-latency.mjs'],['v2-reduced-proof.mjs']]){console.log('RUN',args.join(' '));await new Promise((resolve,reject)=>{const p=spawn(process.execPath,args,{cwd:R,stdio:'inherit'});p.on('exit',c=>c===0?resolve():reject(Error(args[0]+' exited '+c)));});}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ^
+
+Error: v2-preservation.mjs exited 1
+    at ChildProcess.<anonymous> (file:///workspace/scratch/f4692c7f7fd9/v2-last-functional.mjs:3:509)
+    at ChildProcess.emit (node:events:509:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:295:12)
+
+Node.js v24.19.0
+file:///workspace/scratch/f4692c7f7fd9/v2-release-validation.mjs:3
+for(const args of [['v2-last-functional.mjs'],['v2-review-clarity.mjs','v2-reference-bootstrap.mjs'],['v2-observations.mjs'],['v2-focus-inventory.mjs'],['v2-focus-states.mjs'],['v2-report-figures.mjs'],['v2-legacy-campaign.mjs'],['v2-analytics-proof.mjs']]){console.log('VALIDATE',args.join(' '));await new Promise((resolve,reject)=>{const p=spawn(process.execPath,args,{cwd:R,stdio:'inherit'});p.on('exit',c=>c===0?resolve():reject(Error(args[0]+' exited '+c)));});}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                 ^
+
+Error: v2-last-functional.mjs exited 1
+    at ChildProcess.<anonymous> (file:///workspace/scratch/f4692c7f7fd9/v2-release-validation.mjs:3:434)
+    at ChildProcess.emit (node:events:509:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:295:12)
+
+Node.js v24.19.0

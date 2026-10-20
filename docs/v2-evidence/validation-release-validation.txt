@@ -1,0 +1,175 @@
+VALIDATE v2-last-functional.mjs
+RUN v2-matrix.mjs polished/matrix
+polished/matrix 1440 about axe 0 overflow false errors 0
+polished/matrix 1440 book axe 0 overflow false errors 0
+polished/matrix 1440 bridal axe 0 overflow false errors 0
+polished/matrix 1440 enquiry-sent axe 0 overflow false errors 0
+polished/matrix 1440 home axe 0 overflow false errors 0
+polished/matrix 1440 occasions axe 0 overflow false errors 0
+polished/matrix 1440 portfolio axe 0 overflow false errors 0
+polished/matrix 1440 team axe 0 overflow false errors 0
+polished/matrix 1440 artist-miranda axe 0 overflow false errors 0
+polished/matrix 1440 artist-yuki axe 0 overflow false errors 0
+polished/matrix 1440 artist-mira axe 0 overflow false errors 0
+polished/matrix 1440 artist-angelina axe 0 overflow false errors 0
+polished/matrix 1440 artist-elaine axe 0 overflow false errors 0
+polished/matrix 1440 artist-emily axe 0 overflow false errors 0
+polished/matrix 1440 artist-michelle axe 0 overflow false errors 0
+polished/matrix 1440 artist-giselle axe 0 overflow false errors 0
+polished/matrix 1440 study-fresh-bridal axe 0 overflow false errors 0
+polished/matrix 1440 study-modern-chinese axe 0 overflow false errors 0
+polished/matrix 1440 study-classic-glamour axe 0 overflow false errors 0
+polished/matrix 768 about axe 0 overflow false errors 0
+polished/matrix 768 book axe 0 overflow false errors 0
+polished/matrix 768 bridal axe 0 overflow false errors 0
+polished/matrix 768 enquiry-sent axe 0 overflow false errors 0
+polished/matrix 768 home axe 0 overflow false errors 0
+polished/matrix 768 occasions axe 0 overflow false errors 0
+polished/matrix 768 portfolio axe 0 overflow false errors 0
+polished/matrix 768 team axe 0 overflow false errors 0
+polished/matrix 768 artist-miranda axe 0 overflow false errors 0
+polished/matrix 768 artist-yuki axe 0 overflow false errors 0
+polished/matrix 768 artist-mira axe 0 overflow false errors 0
+polished/matrix 768 artist-angelina axe 0 overflow false errors 0
+polished/matrix 768 artist-elaine axe 0 overflow false errors 0
+polished/matrix 768 artist-emily axe 0 overflow false errors 0
+polished/matrix 768 artist-michelle axe 0 overflow false errors 0
+polished/matrix 768 artist-giselle axe 0 overflow false errors 0
+polished/matrix 768 study-fresh-bridal axe 0 overflow false errors 0
+polished/matrix 768 study-modern-chinese axe 0 overflow false errors 0
+polished/matrix 768 study-classic-glamour axe 0 overflow false errors 0
+polished/matrix 390 about axe 0 overflow false errors 0
+polished/matrix 390 book axe 0 overflow false errors 0
+polished/matrix 390 bridal axe 0 overflow false errors 0
+polished/matrix 390 enquiry-sent axe 0 overflow false errors 0
+polished/matrix 390 home axe 0 overflow false errors 0
+polished/matrix 390 occasions axe 0 overflow false errors 0
+polished/matrix 390 portfolio axe 0 overflow false errors 0
+polished/matrix 390 team axe 0 overflow false errors 0
+polished/matrix 390 artist-miranda axe 0 overflow false errors 0
+polished/matrix 390 artist-yuki axe 0 overflow false errors 0
+polished/matrix 390 artist-mira axe 0 overflow false errors 0
+polished/matrix 390 artist-angelina axe 0 overflow false errors 0
+polished/matrix 390 artist-elaine axe 0 overflow false errors 0
+polished/matrix 390 artist-emily axe 0 overflow false errors 0
+polished/matrix 390 artist-michelle axe 0 overflow false errors 0
+polished/matrix 390 artist-giselle axe 0 overflow false errors 0
+polished/matrix 390 study-fresh-bridal axe 0 overflow false errors 0
+polished/matrix 390 study-modern-chinese axe 0 overflow false errors 0
+polished/matrix 390 study-classic-glamour axe 0 overflow false errors 0
+polished/matrix 375 about axe 0 overflow false errors 0
+polished/matrix 375 book axe 0 overflow false errors 0
+polished/matrix 375 bridal axe 0 overflow false errors 0
+polished/matrix 375 enquiry-sent axe 0 overflow false errors 0
+polished/matrix 375 home axe 0 overflow false errors 0
+polished/matrix 375 occasions axe 0 overflow false errors 0
+polished/matrix 375 portfolio axe 0 overflow false errors 0
+polished/matrix 375 team axe 0 overflow false errors 0
+polished/matrix 375 artist-miranda axe 0 overflow false errors 0
+polished/matrix 375 artist-yuki axe 0 overflow false errors 0
+polished/matrix 375 artist-mira axe 0 overflow false errors 0
+polished/matrix 375 artist-angelina axe 0 overflow false errors 0
+polished/matrix 375 artist-elaine axe 0 overflow false errors 0
+polished/matrix 375 artist-emily axe 0 overflow false errors 0
+polished/matrix 375 artist-michelle axe 0 overflow false errors 0
+polished/matrix 375 artist-giselle axe 0 overflow false errors 0
+polished/matrix 375 study-fresh-bridal axe 0 overflow false errors 0
+polished/matrix 375 study-modern-chinese axe 0 overflow false errors 0
+polished/matrix 375 study-classic-glamour axe 0 overflow false errors 0
+Saved 76 views and 19 reduced states.
+RUN v2-ui-proof.mjs
+Verified 25 primary hover fixes, photo dialog axe0, no errors
+RUN v2-motion-expanded.mjs
+1440 forward 14 actual chronological frames
+1440 back 14 actual chronological frames
+390 forward 27 actual chronological frames
+390 back 56 actual chronological frames
+RUN v2-composition-motion.mjs
+1440 forward 16 actual chronological frames
+1440 back 15 actual chronological frames
+390 forward 31 actual chronological frames
+390 back 55 actual chronological frames
+RUN v2-composition-proof.mjs
+PASS all27 compositions, exact source/crop carry, clear preserves own note
+PASS four-width keyboard/composed brief/single-reference replacement
+PASS composition database/email retry and native success,zero real writes
+RUN v2-mobile-plans.mjs
+PASS two phone widths, first choice+next in viewport, all18 tier prices14px+, six native inclusions/enquiry actions
+RUN v2-selected-contrast.mjs
+PASS 24 selected-state visual/contrast checks
+RUN v2-static-proof.mjs
+Static proof: 19 routes, real404 404 unique titles 19
+RUN v2-preservation.mjs
+PASS 142 portfolio images, prices, form fields
+RUN v2-interactions.mjs
+PASS 21 real-browser interaction checks
+RUN v2-event-latency.mjs
+Lab scripted max event latency 288 ms; 18 recorded interaction groups; fieldINP not measured
+RUN v2-reduced-proof.mjs
+PASS8 reduced-motion captures
+Wedding-day styling and up to six hours of on-site touch-ups and styli"
+WARN  /sculp-afterdark/bridal/      sentence repeated 2x: "Wedding-day styling and up to ten hours of on-site touch-ups and styli"
+
+18 pages crawled from http://127.0.0.1:46193/sculp-afterdark/
+heaviest page /sculp-afterdark/artists/miranda/: ~2070 KB | html 5 | JS 11 (gz) | CSS 18 (gz) | fonts 44 | images 1992
+0 FAIL, 6 WARN
+
+VALIDATE v2-reference-bootstrap.mjs
+1440 composition reference ready 85.2 FCP 244 CLS 0 selected image widths 230/230/230
+1440 single-detail reference ready 117.4 FCP 244 CLS 0 selected image widths 420/720
+768 composition reference ready 83.2 FCP 148 CLS 0 selected image widths 122/122/122
+768 single-detail reference ready 109.1 FCP 184 CLS 0 selected image widths 420/720
+390 composition reference ready 635.2 FCP 756 CLS 0 selected image widths 104/104/104
+390 single-detail reference ready 147.6 FCP 272 CLS 0 selected image widths 420/720
+375 composition reference ready 59.0 FCP 112 CLS 0 selected image widths 99/99/99
+375 single-detail reference ready 131.4 FCP 296 CLS 0 selected image widths 420/720
+VALIDATE v2-observations.mjs
+PASS 16 artist detail journeys, both bridal hero price jumps
+VALIDATE v2-focus-inventory.mjs
+1440 about 20 focus stops, bad 0
+1440 book 26 focus stops, bad 0
+1440 bridal 35 focus stops, bad 0
+1440 enquiry-sent 19 focus stops, bad 0
+1440 home 38 focus stops, bad 0
+1440 occasions 22 focus stops, bad 0
+1440 portfolio 29 focus stops, bad 0
+1440 team 35 focus stops, bad 0
+1440 artist-miranda 69 focus stops, bad 0
+1440 artist-yuki 43 focus stops, bad 0
+1440 artist-mira 43 focus stops, bad 0
+1440 artist-angelina 56 focus stops, bad 0
+1440 artist-elaine 42 focus stops, bad 0
+1440 artist-emily 37 focus stops, bad 0
+1440 artist-michelle 39 focus stops, bad 0
+1440 artist-giselle 48 focus stops, bad 0
+1440 study-fresh-bridal 27 focus stops, bad 0
+1440 study-modern-chinese 27 focus stops, bad 0
+1440 study-classic-glamour 27 focus stops, bad 0
+390 about 16 focus stops, bad 0
+390 book 22 focus stops, bad 0
+390 bridal 37 focus stops, bad 0
+390 enquiry-sent 15 focus stops, bad 0
+390 home 34 focus stops, bad 0
+390 occasions 18 focus stops, bad 0
+390 portfolio 25 focus stops, bad 0
+390 team 31 focus stops, bad 0
+390 artist-miranda 65 focus stops, bad 0
+390 artist-yuki 39 focus stops, bad 0
+390 artist-mira 39 focus stops, bad 0
+390 artist-angelina 52 focus stops, bad 0
+390 artist-elaine 38 focus stops, bad 0
+390 artist-emily 33 focus stops, bad 0
+390 artist-michelle 35 focus stops, bad 0
+390 artist-giselle 44 focus stops, bad 0
+390 study-fresh-bridal 23 focus stops, bad 0
+390 study-modern-chinese 23 focus stops, bad 0
+390 study-classic-glamour 23 focus stops, bad 0
+VALIDATE v2-focus-states.mjs
+PASS 13 interactive-state focus inventories
+VALIDATE v2-report-figures.mjs
+Captured two report figures from the unchanged production source; no POST.
+VALIDATE v2-legacy-campaign.mjs
+PASS6 legacy/native campaign journeys, exact five tags in both original payloads
+VALIDATE v2-analytics-proof.mjs
+PASS scroll-depth milestone behavior, duplicates, leave flush
+Complete functional validation finished.
