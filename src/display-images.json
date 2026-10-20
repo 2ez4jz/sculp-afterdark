@@ -1,0 +1,857 @@
+{
+  "assets/images/angelina-portrait.webp": {
+    "420": "assets/images/display/420/angelina-portrait.webp",
+    "720": "assets/images/display/720/angelina-portrait.webp",
+    "originalWidth": 814
+  },
+  "assets/images/artists/angelina/angelina-01.webp": {
+    "420": "assets/images/display/420/artists/angelina/angelina-01.webp",
+    "720": "assets/images/display/720/artists/angelina/angelina-01.webp",
+    "originalWidth": 1080
+  },
+  "assets/images/artists/angelina/angelina-02.webp": {
+    "420": "assets/images/display/420/artists/angelina/angelina-02.webp",
+    "720": "assets/images/display/720/artists/angelina/angelina-02.webp",
+    "originalWidth": 1318
+  },
+  "assets/images/artists/angelina/angelina-03.webp": {
+    "420": "assets/images/display/420/artists/angelina/angelina-03.webp",
+    "720": "assets/images/display/720/artists/angelina/angelina-03.webp",
+    "originalWidth": 1080
+  },
+  "assets/images/artists/angelina/angelina-04.webp": {
+    "420": "assets/images/display/420/artists/angelina/angelina-04.webp",
+    "720": "assets/images/display/720/artists/angelina/angelina-04.webp",
+    "originalWidth": 1350
+  },
+  "assets/images/artists/angelina/angelina-05.webp": {
+    "420": "assets/images/display/420/artists/angelina/angelina-05.webp",
+    "720": "assets/images/display/720/artists/angelina/angelina-05.webp",
+    "originalWidth": 1350
+  },
+  "assets/images/artists/angelina/angelina-06.webp": {
+    "420": "assets/images/display/420/artists/angelina/angelina-06.webp",
+    "720": "assets/images/display/720/artists/angelina/angelina-06.webp",
+    "originalWidth": 1080
+  },
+  "assets/images/artists/angelina/angelina-07.webp": {
+    "420": "assets/images/display/420/artists/angelina/angelina-07.webp",
+    "720": "assets/images/display/720/artists/angelina/angelina-07.webp",
+    "originalWidth": 1350
+  },
+  "assets/images/artists/angelina/angelina-08.webp": {
+    "420": "assets/images/display/420/artists/angelina/angelina-08.webp",
+    "720": "assets/images/display/720/artists/angelina/angelina-08.webp",
+    "originalWidth": 1199
+  },
+  "assets/images/artists/angelina/angelina-09.webp": {
+    "420": "assets/images/display/420/artists/angelina/angelina-09.webp",
+    "720": "assets/images/display/720/artists/angelina/angelina-09.webp",
+    "originalWidth": 1200
+  },
+  "assets/images/artists/angelina/angelina-10.webp": {
+    "420": "assets/images/display/420/artists/angelina/angelina-10.webp",
+    "720": "assets/images/display/720/artists/angelina/angelina-10.webp",
+    "originalWidth": 1200
+  },
+  "assets/images/artists/angelina/angelina-11.webp": {
+    "420": "assets/images/display/420/artists/angelina/angelina-11.webp",
+    "720": "assets/images/display/720/artists/angelina/angelina-11.webp",
+    "originalWidth": 1080
+  },
+  "assets/images/artists/angelina/angelina-12.webp": {
+    "420": "assets/images/display/420/artists/angelina/angelina-12.webp",
+    "720": "assets/images/display/720/artists/angelina/angelina-12.webp",
+    "originalWidth": 1280
+  },
+  "assets/images/artists/angelina/angelina-13.webp": {
+    "420": "assets/images/display/420/artists/angelina/angelina-13.webp",
+    "720": "assets/images/display/720/artists/angelina/angelina-13.webp",
+    "originalWidth": 1080
+  },
+  "assets/images/artists/angelina/angelina-14.webp": {
+    "420": "assets/images/display/420/artists/angelina/angelina-14.webp",
+    "720": "assets/images/display/720/artists/angelina/angelina-14.webp",
+    "originalWidth": 1080
+  },
+  "assets/images/artists/angelina/angelina-15.webp": {
+    "420": "assets/images/display/420/artists/angelina/angelina-15.webp",
+    "720": "assets/images/display/720/artists/angelina/angelina-15.webp",
+    "originalWidth": 1080
+  },
+  "assets/images/artists/angelina/angelina-16.webp": {
+    "420": "assets/images/display/420/artists/angelina/angelina-16.webp",
+    "720": "assets/images/display/720/artists/angelina/angelina-16.webp",
+    "originalWidth": 1320
+  },
+  "assets/images/artists/angelina/angelina-17.webp": {
+    "420": "assets/images/display/420/artists/angelina/angelina-17.webp",
+    "720": "assets/images/display/720/artists/angelina/angelina-17.webp",
+    "originalWidth": 1320
+  },
+  "assets/images/artists/angelina/angelina-18.webp": {
+    "420": "assets/images/display/420/artists/angelina/angelina-18.webp",
+    "720": "assets/images/display/720/artists/angelina/angelina-18.webp",
+    "originalWidth": 1297
+  },
+  "assets/images/artists/angelina/angelina-19.webp": {
+    "420": "assets/images/display/420/artists/angelina/angelina-19.webp",
+    "720": "assets/images/display/720/artists/angelina/angelina-19.webp",
+    "originalWidth": 1080
+  },
+  "assets/images/artists/angelina/angelina-20.webp": {
+    "420": "assets/images/display/420/artists/angelina/angelina-20.webp",
+    "720": "assets/images/display/720/artists/angelina/angelina-20.webp",
+    "originalWidth": 1080
+  },
+  "assets/images/artists/angelina/angelina-21.webp": {
+    "420": "assets/images/display/420/artists/angelina/angelina-21.webp",
+    "720": "assets/images/display/720/artists/angelina/angelina-21.webp",
+    "originalWidth": 1201
+  },
+  "assets/images/artists/angelina/angelina-22.webp": {
+    "420": "assets/images/display/420/artists/angelina/angelina-22.webp",
+    "720": "assets/images/display/720/artists/angelina/angelina-22.webp",
+    "originalWidth": 1200
+  },
+  "assets/images/artists/angelina/angelina-23.webp": {
+    "420": "assets/images/display/420/artists/angelina/angelina-23.webp",
+    "720": "assets/images/display/720/artists/angelina/angelina-23.webp",
+    "originalWidth": 1397
+  },
+  "assets/images/artists/angelina/angelina-24.webp": {
+    "420": "assets/images/display/420/artists/angelina/angelina-24.webp",
+    "720": "assets/images/display/720/artists/angelina/angelina-24.webp",
+    "originalWidth": 1224
+  },
+  "assets/images/artists/angelina/angelina-25.webp": {
+    "420": "assets/images/display/420/artists/angelina/angelina-25.webp",
+    "720": "assets/images/display/720/artists/angelina/angelina-25.webp",
+    "originalWidth": 1200
+  },
+  "assets/images/artists/angelina/angelina-26.webp": {
+    "420": "assets/images/display/420/artists/angelina/angelina-26.webp",
+    "720": "assets/images/display/720/artists/angelina/angelina-26.webp",
+    "originalWidth": 1200
+  },
+  "assets/images/artists/elaine/elaine-01.webp": {
+    "420": "assets/images/display/420/artists/elaine/elaine-01.webp",
+    "720": "assets/images/display/720/artists/elaine/elaine-01.webp",
+    "originalWidth": 1200
+  },
+  "assets/images/artists/elaine/elaine-02.webp": {
+    "420": "assets/images/display/420/artists/elaine/elaine-02.webp",
+    "720": "assets/images/display/720/artists/elaine/elaine-02.webp",
+    "originalWidth": 1200
+  },
+  "assets/images/artists/elaine/elaine-03.webp": {
+    "420": "assets/images/display/420/artists/elaine/elaine-03.webp",
+    "720": "assets/images/display/720/artists/elaine/elaine-03.webp",
+    "originalWidth": 1200
+  },
+  "assets/images/artists/elaine/elaine-04.webp": {
+    "420": "assets/images/display/420/artists/elaine/elaine-04.webp",
+    "720": "assets/images/display/720/artists/elaine/elaine-04.webp",
+    "originalWidth": 1200
+  },
+  "assets/images/artists/elaine/elaine-05.webp": {
+    "420": "assets/images/display/420/artists/elaine/elaine-05.webp",
+    "720": "assets/images/display/720/artists/elaine/elaine-05.webp",
+    "originalWidth": 1200
+  },
+  "assets/images/artists/elaine/elaine-06.webp": {
+    "420": "assets/images/display/420/artists/elaine/elaine-06.webp",
+    "720": "assets/images/display/720/artists/elaine/elaine-06.webp",
+    "originalWidth": 1200
+  },
+  "assets/images/artists/elaine/elaine-07.webp": {
+    "420": "assets/images/display/420/artists/elaine/elaine-07.webp",
+    "720": "assets/images/display/720/artists/elaine/elaine-07.webp",
+    "originalWidth": 1200
+  },
+  "assets/images/artists/elaine/elaine-08.webp": {
+    "420": "assets/images/display/420/artists/elaine/elaine-08.webp",
+    "720": "assets/images/display/720/artists/elaine/elaine-08.webp",
+    "originalWidth": 1200
+  },
+  "assets/images/artists/elaine/elaine-09.webp": {
+    "420": "assets/images/display/420/artists/elaine/elaine-09.webp",
+    "720": "assets/images/display/720/artists/elaine/elaine-09.webp",
+    "originalWidth": 1200
+  },
+  "assets/images/artists/elaine/elaine-10.webp": {
+    "420": "assets/images/display/420/artists/elaine/elaine-10.webp",
+    "720": "assets/images/display/720/artists/elaine/elaine-10.webp",
+    "originalWidth": 1200
+  },
+  "assets/images/artists/elaine/elaine-11.webp": {
+    "420": "assets/images/display/420/artists/elaine/elaine-11.webp",
+    "720": "assets/images/display/720/artists/elaine/elaine-11.webp",
+    "originalWidth": 1201
+  },
+  "assets/images/artists/elaine/elaine-12.webp": {
+    "420": "assets/images/display/420/artists/elaine/elaine-12.webp",
+    "720": "assets/images/display/720/artists/elaine/elaine-12.webp",
+    "originalWidth": 1200
+  },
+  "assets/images/artists/elaine/elaine-13.webp": {
+    "420": "assets/images/display/420/artists/elaine/elaine-13.webp",
+    "720": "assets/images/display/720/artists/elaine/elaine-13.webp",
+    "originalWidth": 1080
+  },
+  "assets/images/artists/emily/emily-01.webp": {
+    "420": "assets/images/display/420/artists/emily/emily-01.webp",
+    "720": "assets/images/display/720/artists/emily/emily-01.webp",
+    "originalWidth": 1067
+  },
+  "assets/images/artists/emily/emily-02.webp": {
+    "420": "assets/images/display/420/artists/emily/emily-02.webp",
+    "720": "assets/images/display/720/artists/emily/emily-02.webp",
+    "originalWidth": 1201
+  },
+  "assets/images/artists/emily/emily-03.webp": {
+    "420": "assets/images/display/420/artists/emily/emily-03.webp",
+    "720": "assets/images/display/720/artists/emily/emily-03.webp",
+    "originalWidth": 1201
+  },
+  "assets/images/artists/emily/emily-04.webp": {
+    "420": "assets/images/display/420/artists/emily/emily-04.webp",
+    "720": "assets/images/display/720/artists/emily/emily-04.webp",
+    "originalWidth": 1067
+  },
+  "assets/images/artists/emily/emily-05.webp": {
+    "420": "assets/images/display/420/artists/emily/emily-05.webp",
+    "720": "assets/images/display/720/artists/emily/emily-05.webp",
+    "originalWidth": 1067
+  },
+  "assets/images/artists/emily/emily-06.webp": {
+    "420": "assets/images/display/420/artists/emily/emily-06.webp",
+    "720": "assets/images/display/720/artists/emily/emily-06.webp",
+    "originalWidth": 1200
+  },
+  "assets/images/artists/emily/emily-07.webp": {
+    "420": "assets/images/display/420/artists/emily/emily-07.webp",
+    "720": "assets/images/display/720/artists/emily/emily-07.webp",
+    "originalWidth": 1800
+  },
+  "assets/images/artists/emily/emily-08.webp": {
+    "420": "assets/images/display/420/artists/emily/emily-08.webp",
+    "720": "assets/images/display/720/artists/emily/emily-08.webp",
+    "originalWidth": 960
+  },
+  "assets/images/artists/giselle/giselle-01.webp": {
+    "420": "assets/images/display/420/artists/giselle/giselle-01.webp",
+    "720": "assets/images/display/720/artists/giselle/giselle-01.webp",
+    "originalWidth": 1201
+  },
+  "assets/images/artists/giselle/giselle-02.webp": {
+    "420": "assets/images/display/420/artists/giselle/giselle-02.webp",
+    "720": "assets/images/display/720/artists/giselle/giselle-02.webp",
+    "originalWidth": 1280
+  },
+  "assets/images/artists/giselle/giselle-03.webp": {
+    "420": "assets/images/display/420/artists/giselle/giselle-03.webp",
+    "720": "assets/images/display/720/artists/giselle/giselle-03.webp",
+    "originalWidth": 1200
+  },
+  "assets/images/artists/giselle/giselle-04.webp": {
+    "420": "assets/images/display/420/artists/giselle/giselle-04.webp",
+    "720": "assets/images/display/720/artists/giselle/giselle-04.webp",
+    "originalWidth": 1201
+  },
+  "assets/images/artists/giselle/giselle-05.webp": {
+    "420": "assets/images/display/420/artists/giselle/giselle-05.webp",
+    "720": "assets/images/display/720/artists/giselle/giselle-05.webp",
+    "originalWidth": 1201
+  },
+  "assets/images/artists/giselle/giselle-06.webp": {
+    "420": "assets/images/display/420/artists/giselle/giselle-06.webp",
+    "720": "assets/images/display/720/artists/giselle/giselle-06.webp",
+    "originalWidth": 1200
+  },
+  "assets/images/artists/giselle/giselle-07.webp": {
+    "420": "assets/images/display/420/artists/giselle/giselle-07.webp",
+    "720": "assets/images/display/720/artists/giselle/giselle-07.webp",
+    "originalWidth": 1200
+  },
+  "assets/images/artists/giselle/giselle-08.webp": {
+    "420": "assets/images/display/420/artists/giselle/giselle-08.webp",
+    "720": "assets/images/display/720/artists/giselle/giselle-08.webp",
+    "originalWidth": 960
+  },
+  "assets/images/artists/giselle/giselle-09.webp": {
+    "420": "assets/images/display/420/artists/giselle/giselle-09.webp",
+    "720": "assets/images/display/720/artists/giselle/giselle-09.webp",
+    "originalWidth": 1200
+  },
+  "assets/images/artists/giselle/giselle-10.webp": {
+    "420": "assets/images/display/420/artists/giselle/giselle-10.webp",
+    "720": "assets/images/display/720/artists/giselle/giselle-10.webp",
+    "originalWidth": 1280
+  },
+  "assets/images/artists/giselle/giselle-11.webp": {
+    "420": "assets/images/display/420/artists/giselle/giselle-11.webp",
+    "720": "assets/images/display/720/artists/giselle/giselle-11.webp",
+    "originalWidth": 1199
+  },
+  "assets/images/artists/giselle/giselle-12.webp": {
+    "420": "assets/images/display/420/artists/giselle/giselle-12.webp",
+    "720": "assets/images/display/720/artists/giselle/giselle-12.webp",
+    "originalWidth": 1200
+  },
+  "assets/images/artists/giselle/giselle-13.webp": {
+    "420": "assets/images/display/420/artists/giselle/giselle-13.webp",
+    "720": "assets/images/display/720/artists/giselle/giselle-13.webp",
+    "originalWidth": 1200
+  },
+  "assets/images/artists/giselle/giselle-14.webp": {
+    "420": "assets/images/display/420/artists/giselle/giselle-14.webp",
+    "720": "assets/images/display/720/artists/giselle/giselle-14.webp",
+    "originalWidth": 1200
+  },
+  "assets/images/artists/giselle/giselle-15.webp": {
+    "420": "assets/images/display/420/artists/giselle/giselle-15.webp",
+    "720": "assets/images/display/720/artists/giselle/giselle-15.webp",
+    "originalWidth": 1200
+  },
+  "assets/images/artists/giselle/giselle-16.webp": {
+    "420": "assets/images/display/420/artists/giselle/giselle-16.webp",
+    "720": "assets/images/display/720/artists/giselle/giselle-16.webp",
+    "originalWidth": 1800
+  },
+  "assets/images/artists/giselle/giselle-17.webp": {
+    "420": "assets/images/display/420/artists/giselle/giselle-17.webp",
+    "720": "assets/images/display/720/artists/giselle/giselle-17.webp",
+    "originalWidth": 1200
+  },
+  "assets/images/artists/giselle/giselle-18.webp": {
+    "420": "assets/images/display/420/artists/giselle/giselle-18.webp",
+    "720": "assets/images/display/720/artists/giselle/giselle-18.webp",
+    "originalWidth": 1800
+  },
+  "assets/images/artists/giselle/giselle-19.webp": {
+    "420": "assets/images/display/420/artists/giselle/giselle-19.webp",
+    "720": "assets/images/display/720/artists/giselle/giselle-19.webp",
+    "originalWidth": 1200
+  },
+  "assets/images/artists/michelle/michelle-01.webp": {
+    "420": "assets/images/display/420/artists/michelle/michelle-01.webp",
+    "720": "assets/images/display/720/artists/michelle/michelle-01.webp",
+    "originalWidth": 1200
+  },
+  "assets/images/artists/michelle/michelle-02.webp": {
+    "420": "assets/images/display/420/artists/michelle/michelle-02.webp",
+    "720": "assets/images/display/720/artists/michelle/michelle-02.webp",
+    "originalWidth": 960
+  },
+  "assets/images/artists/michelle/michelle-03.webp": {
+    "420": "assets/images/display/420/artists/michelle/michelle-03.webp",
+    "720": "assets/images/display/720/artists/michelle/michelle-03.webp",
+    "originalWidth": 960
+  },
+  "assets/images/artists/michelle/michelle-04.webp": {
+    "420": "assets/images/display/420/artists/michelle/michelle-04.webp",
+    "720": "assets/images/display/720/artists/michelle/michelle-04.webp",
+    "originalWidth": 1080
+  },
+  "assets/images/artists/michelle/michelle-05.webp": {
+    "420": "assets/images/display/420/artists/michelle/michelle-05.webp",
+    "720": "assets/images/display/720/artists/michelle/michelle-05.webp",
+    "originalWidth": 1080
+  },
+  "assets/images/artists/michelle/michelle-06.webp": {
+    "420": "assets/images/display/420/artists/michelle/michelle-06.webp",
+    "720": "assets/images/display/720/artists/michelle/michelle-06.webp",
+    "originalWidth": 1080
+  },
+  "assets/images/artists/michelle/michelle-07.webp": {
+    "420": "assets/images/display/420/artists/michelle/michelle-07.webp",
+    "720": "assets/images/display/720/artists/michelle/michelle-07.webp",
+    "originalWidth": 1080
+  },
+  "assets/images/artists/michelle/michelle-08.webp": {
+    "420": "assets/images/display/420/artists/michelle/michelle-08.webp",
+    "720": "assets/images/display/720/artists/michelle/michelle-08.webp",
+    "originalWidth": 810
+  },
+  "assets/images/artists/michelle/michelle-09.webp": {
+    "420": "assets/images/display/420/artists/michelle/michelle-09.webp",
+    "720": "assets/images/display/720/artists/michelle/michelle-09.webp",
+    "originalWidth": 1023
+  },
+  "assets/images/artists/michelle/michelle-10.webp": {
+    "420": "assets/images/display/420/artists/michelle/michelle-10.webp",
+    "720": "assets/images/display/720/artists/michelle/michelle-10.webp",
+    "originalWidth": 1536
+  },
+  "assets/images/artists/mira/mira-01.webp": {
+    "420": "assets/images/display/420/artists/mira/mira-01.webp",
+    "720": "assets/images/display/720/artists/mira/mira-01.webp",
+    "originalWidth": 1200
+  },
+  "assets/images/artists/mira/mira-02.webp": {
+    "420": "assets/images/display/420/artists/mira/mira-02.webp",
+    "720": "assets/images/display/720/artists/mira/mira-02.webp",
+    "originalWidth": 1200
+  },
+  "assets/images/artists/mira/mira-03.webp": {
+    "420": "assets/images/display/420/artists/mira/mira-03.webp",
+    "720": "assets/images/display/720/artists/mira/mira-03.webp",
+    "originalWidth": 1080
+  },
+  "assets/images/artists/mira/mira-04.webp": {
+    "420": "assets/images/display/420/artists/mira/mira-04.webp",
+    "720": "assets/images/display/720/artists/mira/mira-04.webp",
+    "originalWidth": 842
+  },
+  "assets/images/artists/mira/mira-05.webp": {
+    "420": "assets/images/display/420/artists/mira/mira-05.webp",
+    "720": "assets/images/display/720/artists/mira/mira-05.webp",
+    "originalWidth": 1200
+  },
+  "assets/images/artists/mira/mira-06.webp": {
+    "420": "assets/images/display/420/artists/mira/mira-06.webp",
+    "720": "assets/images/display/720/artists/mira/mira-06.webp",
+    "originalWidth": 842
+  },
+  "assets/images/artists/mira/mira-07.webp": {
+    "420": "assets/images/display/420/artists/mira/mira-07.webp",
+    "720": "assets/images/display/720/artists/mira/mira-07.webp",
+    "originalWidth": 1080
+  },
+  "assets/images/artists/mira/mira-08.webp": {
+    "420": "assets/images/display/420/artists/mira/mira-08.webp",
+    "720": "assets/images/display/720/artists/mira/mira-08.webp",
+    "originalWidth": 960
+  },
+  "assets/images/artists/mira/mira-09.webp": {
+    "420": "assets/images/display/420/artists/mira/mira-09.webp",
+    "720": "assets/images/display/720/artists/mira/mira-09.webp",
+    "originalWidth": 1200
+  },
+  "assets/images/artists/mira/mira-10.webp": {
+    "420": "assets/images/display/420/artists/mira/mira-10.webp",
+    "720": "assets/images/display/720/artists/mira/mira-10.webp",
+    "originalWidth": 1200
+  },
+  "assets/images/artists/mira/mira-11.webp": {
+    "420": "assets/images/display/420/artists/mira/mira-11.webp",
+    "720": "assets/images/display/720/artists/mira/mira-11.webp",
+    "originalWidth": 1200
+  },
+  "assets/images/artists/mira/mira-12.webp": {
+    "420": "assets/images/display/420/artists/mira/mira-12.webp",
+    "720": "assets/images/display/720/artists/mira/mira-12.webp",
+    "originalWidth": 1200
+  },
+  "assets/images/artists/mira/mira-13.webp": {
+    "420": "assets/images/display/420/artists/mira/mira-13.webp",
+    "720": "assets/images/display/720/artists/mira/mira-13.webp",
+    "originalWidth": 1200
+  },
+  "assets/images/artists/miranda/miranda-01.webp": {
+    "420": "assets/images/display/420/artists/miranda/miranda-01.webp",
+    "720": "assets/images/display/720/artists/miranda/miranda-01.webp",
+    "originalWidth": 1200
+  },
+  "assets/images/artists/miranda/miranda-02.webp": {
+    "420": "assets/images/display/420/artists/miranda/miranda-02.webp",
+    "720": "assets/images/display/720/artists/miranda/miranda-02.webp",
+    "originalWidth": 1170
+  },
+  "assets/images/artists/miranda/miranda-03.webp": {
+    "420": "assets/images/display/420/artists/miranda/miranda-03.webp",
+    "720": "assets/images/display/720/artists/miranda/miranda-03.webp",
+    "originalWidth": 1201
+  },
+  "assets/images/artists/miranda/miranda-04.webp": {
+    "420": "assets/images/display/420/artists/miranda/miranda-04.webp",
+    "720": "assets/images/display/720/artists/miranda/miranda-04.webp",
+    "originalWidth": 1486
+  },
+  "assets/images/artists/miranda/miranda-05.webp": {
+    "420": "assets/images/display/420/artists/miranda/miranda-05.webp",
+    "720": "assets/images/display/720/artists/miranda/miranda-05.webp",
+    "originalWidth": 1201
+  },
+  "assets/images/artists/miranda/miranda-06.webp": {
+    "420": "assets/images/display/420/artists/miranda/miranda-06.webp",
+    "720": "assets/images/display/720/artists/miranda/miranda-06.webp",
+    "originalWidth": 1200
+  },
+  "assets/images/artists/miranda/miranda-07.webp": {
+    "420": "assets/images/display/420/artists/miranda/miranda-07.webp",
+    "720": "assets/images/display/720/artists/miranda/miranda-07.webp",
+    "originalWidth": 1200
+  },
+  "assets/images/artists/miranda/miranda-08.webp": {
+    "420": "assets/images/display/420/artists/miranda/miranda-08.webp",
+    "720": "assets/images/display/720/artists/miranda/miranda-08.webp",
+    "originalWidth": 1199
+  },
+  "assets/images/artists/miranda/miranda-09.webp": {
+    "420": "assets/images/display/420/artists/miranda/miranda-09.webp",
+    "720": "assets/images/display/720/artists/miranda/miranda-09.webp",
+    "originalWidth": 1381
+  },
+  "assets/images/artists/miranda/miranda-10.webp": {
+    "420": "assets/images/display/420/artists/miranda/miranda-10.webp",
+    "720": "assets/images/display/720/artists/miranda/miranda-10.webp",
+    "originalWidth": 1200
+  },
+  "assets/images/artists/miranda/miranda-11.webp": {
+    "420": "assets/images/display/420/artists/miranda/miranda-11.webp",
+    "720": "assets/images/display/720/artists/miranda/miranda-11.webp",
+    "originalWidth": 1200
+  },
+  "assets/images/artists/miranda/miranda-12.webp": {
+    "420": "assets/images/display/420/artists/miranda/miranda-12.webp",
+    "720": "assets/images/display/720/artists/miranda/miranda-12.webp",
+    "originalWidth": 1200
+  },
+  "assets/images/artists/miranda/miranda-13.webp": {
+    "420": "assets/images/display/420/artists/miranda/miranda-13.webp",
+    "720": "assets/images/display/720/artists/miranda/miranda-13.webp",
+    "originalWidth": 1201
+  },
+  "assets/images/artists/miranda/miranda-14.webp": {
+    "420": "assets/images/display/420/artists/miranda/miranda-14.webp",
+    "720": "assets/images/display/720/artists/miranda/miranda-14.webp",
+    "originalWidth": 1200
+  },
+  "assets/images/artists/miranda/miranda-15.webp": {
+    "420": "assets/images/display/420/artists/miranda/miranda-15.webp",
+    "720": "assets/images/display/720/artists/miranda/miranda-15.webp",
+    "originalWidth": 1200
+  },
+  "assets/images/artists/miranda/miranda-16.webp": {
+    "420": "assets/images/display/420/artists/miranda/miranda-16.webp",
+    "720": "assets/images/display/720/artists/miranda/miranda-16.webp",
+    "originalWidth": 1318
+  },
+  "assets/images/artists/miranda/miranda-17.webp": {
+    "420": "assets/images/display/420/artists/miranda/miranda-17.webp",
+    "720": "assets/images/display/720/artists/miranda/miranda-17.webp",
+    "originalWidth": 1200
+  },
+  "assets/images/artists/miranda/miranda-18.webp": {
+    "420": "assets/images/display/420/artists/miranda/miranda-18.webp",
+    "720": "assets/images/display/720/artists/miranda/miranda-18.webp",
+    "originalWidth": 1200
+  },
+  "assets/images/artists/miranda/miranda-19.webp": {
+    "420": "assets/images/display/420/artists/miranda/miranda-19.webp",
+    "720": "assets/images/display/720/artists/miranda/miranda-19.webp",
+    "originalWidth": 1202
+  },
+  "assets/images/artists/miranda/miranda-20.webp": {
+    "420": "assets/images/display/420/artists/miranda/miranda-20.webp",
+    "720": "assets/images/display/720/artists/miranda/miranda-20.webp",
+    "originalWidth": 1200
+  },
+  "assets/images/artists/miranda/miranda-21.webp": {
+    "420": "assets/images/display/420/artists/miranda/miranda-21.webp",
+    "720": "assets/images/display/720/artists/miranda/miranda-21.webp",
+    "originalWidth": 1200
+  },
+  "assets/images/artists/miranda/miranda-22.webp": {
+    "420": "assets/images/display/420/artists/miranda/miranda-22.webp",
+    "720": "assets/images/display/720/artists/miranda/miranda-22.webp",
+    "originalWidth": 1206
+  },
+  "assets/images/artists/miranda/miranda-23.webp": {
+    "420": "assets/images/display/420/artists/miranda/miranda-23.webp",
+    "720": "assets/images/display/720/artists/miranda/miranda-23.webp",
+    "originalWidth": 1043
+  },
+  "assets/images/artists/miranda/miranda-24.webp": {
+    "420": "assets/images/display/420/artists/miranda/miranda-24.webp",
+    "720": "assets/images/display/720/artists/miranda/miranda-24.webp",
+    "originalWidth": 1182
+  },
+  "assets/images/artists/miranda/miranda-25.webp": {
+    "420": "assets/images/display/420/artists/miranda/miranda-25.webp",
+    "720": "assets/images/display/720/artists/miranda/miranda-25.webp",
+    "originalWidth": 1200
+  },
+  "assets/images/artists/miranda/miranda-26.webp": {
+    "420": "assets/images/display/420/artists/miranda/miranda-26.webp",
+    "720": "assets/images/display/720/artists/miranda/miranda-26.webp",
+    "originalWidth": 1061
+  },
+  "assets/images/artists/miranda/miranda-27.webp": {
+    "420": "assets/images/display/420/artists/miranda/miranda-27.webp",
+    "720": "assets/images/display/720/artists/miranda/miranda-27.webp",
+    "originalWidth": 1200
+  },
+  "assets/images/artists/miranda/miranda-28.webp": {
+    "420": "assets/images/display/420/artists/miranda/miranda-28.webp",
+    "720": "assets/images/display/720/artists/miranda/miranda-28.webp",
+    "originalWidth": 1202
+  },
+  "assets/images/artists/miranda/miranda-29.webp": {
+    "420": "assets/images/display/420/artists/miranda/miranda-29.webp",
+    "720": "assets/images/display/720/artists/miranda/miranda-29.webp",
+    "originalWidth": 1318
+  },
+  "assets/images/artists/miranda/miranda-30.webp": {
+    "420": "assets/images/display/420/artists/miranda/miranda-30.webp",
+    "720": "assets/images/display/720/artists/miranda/miranda-30.webp",
+    "originalWidth": 1067
+  },
+  "assets/images/artists/miranda/miranda-31.webp": {
+    "420": "assets/images/display/420/artists/miranda/miranda-31.webp",
+    "720": "assets/images/display/720/artists/miranda/miranda-31.webp",
+    "originalWidth": 1200
+  },
+  "assets/images/artists/miranda/miranda-32.webp": {
+    "420": "assets/images/display/420/artists/miranda/miranda-32.webp",
+    "720": "assets/images/display/720/artists/miranda/miranda-32.webp",
+    "originalWidth": 1200
+  },
+  "assets/images/artists/miranda/miranda-33.webp": {
+    "420": "assets/images/display/420/artists/miranda/miranda-33.webp",
+    "720": "assets/images/display/720/artists/miranda/miranda-33.webp",
+    "originalWidth": 1067
+  },
+  "assets/images/artists/miranda/miranda-34.webp": {
+    "420": "assets/images/display/420/artists/miranda/miranda-34.webp",
+    "720": "assets/images/display/720/artists/miranda/miranda-34.webp",
+    "originalWidth": 1067
+  },
+  "assets/images/artists/miranda/miranda-35.webp": {
+    "420": "assets/images/display/420/artists/miranda/miranda-35.webp",
+    "720": "assets/images/display/720/artists/miranda/miranda-35.webp",
+    "originalWidth": 1308
+  },
+  "assets/images/artists/miranda/miranda-36.webp": {
+    "420": "assets/images/display/420/artists/miranda/miranda-36.webp",
+    "720": "assets/images/display/720/artists/miranda/miranda-36.webp",
+    "originalWidth": 1204
+  },
+  "assets/images/artists/miranda/miranda-37.webp": {
+    "420": "assets/images/display/420/artists/miranda/miranda-37.webp",
+    "720": "assets/images/display/720/artists/miranda/miranda-37.webp",
+    "originalWidth": 1200
+  },
+  "assets/images/artists/miranda/miranda-38.webp": {
+    "420": "assets/images/display/420/artists/miranda/miranda-38.webp",
+    "720": "assets/images/display/720/artists/miranda/miranda-38.webp",
+    "originalWidth": 1193
+  },
+  "assets/images/artists/miranda/miranda-39.webp": {
+    "420": "assets/images/display/420/artists/miranda/miranda-39.webp",
+    "720": "assets/images/display/720/artists/miranda/miranda-39.webp",
+    "originalWidth": 1200
+  },
+  "assets/images/artists/miranda/miranda-40.webp": {
+    "420": "assets/images/display/420/artists/miranda/miranda-40.webp",
+    "720": "assets/images/display/720/artists/miranda/miranda-40.webp",
+    "originalWidth": 1200
+  },
+  "assets/images/artists/yuki/yuki-01.webp": {
+    "420": "assets/images/display/420/artists/yuki/yuki-01.webp",
+    "720": "assets/images/display/720/artists/yuki/yuki-01.webp",
+    "originalWidth": 1200
+  },
+  "assets/images/artists/yuki/yuki-02.webp": {
+    "420": "assets/images/display/420/artists/yuki/yuki-02.webp",
+    "720": "assets/images/display/720/artists/yuki/yuki-02.webp",
+    "originalWidth": 1200
+  },
+  "assets/images/artists/yuki/yuki-03.webp": {
+    "420": "assets/images/display/420/artists/yuki/yuki-03.webp",
+    "720": "assets/images/display/720/artists/yuki/yuki-03.webp",
+    "originalWidth": 1198
+  },
+  "assets/images/artists/yuki/yuki-04.webp": {
+    "420": "assets/images/display/420/artists/yuki/yuki-04.webp",
+    "720": "assets/images/display/720/artists/yuki/yuki-04.webp",
+    "originalWidth": 1200
+  },
+  "assets/images/artists/yuki/yuki-05.webp": {
+    "420": "assets/images/display/420/artists/yuki/yuki-05.webp",
+    "720": "assets/images/display/720/artists/yuki/yuki-05.webp",
+    "originalWidth": 1074
+  },
+  "assets/images/artists/yuki/yuki-06.webp": {
+    "420": "assets/images/display/420/artists/yuki/yuki-06.webp",
+    "720": "assets/images/display/720/artists/yuki/yuki-06.webp",
+    "originalWidth": 1201
+  },
+  "assets/images/artists/yuki/yuki-07.webp": {
+    "420": "assets/images/display/420/artists/yuki/yuki-07.webp",
+    "720": "assets/images/display/720/artists/yuki/yuki-07.webp",
+    "originalWidth": 1201
+  },
+  "assets/images/artists/yuki/yuki-08.webp": {
+    "420": "assets/images/display/420/artists/yuki/yuki-08.webp",
+    "720": "assets/images/display/720/artists/yuki/yuki-08.webp",
+    "originalWidth": 1200
+  },
+  "assets/images/artists/yuki/yuki-09.webp": {
+    "420": "assets/images/display/420/artists/yuki/yuki-09.webp",
+    "720": "assets/images/display/720/artists/yuki/yuki-09.webp",
+    "originalWidth": 910
+  },
+  "assets/images/artists/yuki/yuki-10.webp": {
+    "420": "assets/images/display/420/artists/yuki/yuki-10.webp",
+    "720": "assets/images/display/720/artists/yuki/yuki-10.webp",
+    "originalWidth": 1206
+  },
+  "assets/images/artists/yuki/yuki-11.webp": {
+    "420": "assets/images/display/420/artists/yuki/yuki-11.webp",
+    "720": "assets/images/display/720/artists/yuki/yuki-11.webp",
+    "originalWidth": 1206
+  },
+  "assets/images/artists/yuki/yuki-12.webp": {
+    "420": "assets/images/display/420/artists/yuki/yuki-12.webp",
+    "720": "assets/images/display/720/artists/yuki/yuki-12.webp",
+    "originalWidth": 1200
+  },
+  "assets/images/artists/yuki/yuki-13.webp": {
+    "420": "assets/images/display/420/artists/yuki/yuki-13.webp",
+    "720": "assets/images/display/720/artists/yuki/yuki-13.webp",
+    "originalWidth": 1800
+  },
+  "assets/images/bridal-approach-orchid.webp": {
+    "420": "assets/images/display/420/bridal-approach-orchid.webp",
+    "720": "assets/images/display/720/bridal-approach-orchid.webp",
+    "originalWidth": 1333
+  },
+  "assets/images/bridal-story-soft-portrait.webp": {
+    "420": "assets/images/display/420/bridal-story-soft-portrait.webp",
+    "720": "assets/images/display/720/bridal-story-soft-portrait.webp",
+    "originalWidth": 1200
+  },
+  "assets/images/civil-ceremony-styling.webp": {
+    "420": "assets/images/display/420/civil-ceremony-styling.webp",
+    "720": "assets/images/display/720/civil-ceremony-styling.webp",
+    "originalWidth": 1122
+  },
+  "assets/images/collection-517.webp": {
+    "420": "assets/images/display/420/collection-517.webp",
+    "720": "assets/images/display/720/collection-517.webp",
+    "originalWidth": 1193
+  },
+  "assets/images/collection-598.webp": {
+    "420": "assets/images/display/420/collection-598.webp",
+    "720": "assets/images/display/720/collection-598.webp",
+    "originalWidth": 1201
+  },
+  "assets/images/collection-618.webp": {
+    "420": "assets/images/display/420/collection-618.webp",
+    "720": "assets/images/display/720/collection-618.webp",
+    "originalWidth": 1067
+  },
+  "assets/images/editorial/editorial-01.webp": {
+    "420": "assets/images/display/420/editorial/editorial-01.webp",
+    "720": "assets/images/display/720/editorial/editorial-01.webp",
+    "originalWidth": 1090
+  },
+  "assets/images/editorial/editorial-02.webp": {
+    "420": "assets/images/display/420/editorial/editorial-02.webp",
+    "720": "assets/images/display/720/editorial/editorial-02.webp",
+    "originalWidth": 1080
+  },
+  "assets/images/editorial/editorial-04.webp": {
+    "420": "assets/images/display/420/editorial/editorial-04.webp",
+    "720": "assets/images/display/720/editorial/editorial-04.webp",
+    "originalWidth": 1080
+  },
+  "assets/images/editorial/editorial-05.webp": {
+    "420": "assets/images/display/420/editorial/editorial-05.webp",
+    "720": "assets/images/display/720/editorial/editorial-05.webp",
+    "originalWidth": 1080
+  },
+  "assets/images/editorial/editorial-10.webp": {
+    "420": "assets/images/display/420/editorial/editorial-10.webp",
+    "720": "assets/images/display/720/editorial/editorial-10.webp",
+    "originalWidth": 1080
+  },
+  "assets/images/editorial/editorial-14.webp": {
+    "420": "assets/images/display/420/editorial/editorial-14.webp",
+    "720": "assets/images/display/720/editorial/editorial-14.webp",
+    "originalWidth": 1080
+  },
+  "assets/images/editorial/editorial-15.webp": {
+    "420": "assets/images/display/420/editorial/editorial-15.webp",
+    "720": "assets/images/display/720/editorial/editorial-15.webp",
+    "originalWidth": 1080
+  },
+  "assets/images/editorial/editorial-16.webp": {
+    "420": "assets/images/display/420/editorial/editorial-16.webp",
+    "720": "assets/images/display/720/editorial/editorial-16.webp",
+    "originalWidth": 1080
+  },
+  "assets/images/editorial/editorial-17.webp": {
+    "420": "assets/images/display/420/editorial/editorial-17.webp",
+    "720": "assets/images/display/720/editorial/editorial-17.webp",
+    "originalWidth": 1350
+  },
+  "assets/images/editorial/editorial-18.webp": {
+    "420": "assets/images/display/420/editorial/editorial-18.webp",
+    "720": "assets/images/display/720/editorial/editorial-18.webp",
+    "originalWidth": 1080
+  },
+  "assets/images/editorial/editorial-19.webp": {
+    "420": "assets/images/display/420/editorial/editorial-19.webp",
+    "720": "assets/images/display/720/editorial/editorial-19.webp",
+    "originalWidth": 1024
+  },
+  "assets/images/elaine-portrait.webp": {
+    "420": "assets/images/display/420/elaine-portrait.webp",
+    "720": "assets/images/display/720/elaine-portrait.webp",
+    "originalWidth": 1280
+  },
+  "assets/images/emily-portrait.webp": {
+    "420": "assets/images/display/420/emily-portrait.webp",
+    "720": "assets/images/display/720/emily-portrait.webp",
+    "originalWidth": 960
+  },
+  "assets/images/giselle-portrait.webp": {
+    "420": "assets/images/display/420/giselle-portrait.webp",
+    "720": "assets/images/display/720/giselle-portrait.webp",
+    "originalWidth": 1280
+  },
+  "assets/images/michelle-portrait.webp": {
+    "420": "assets/images/display/420/michelle-portrait.webp",
+    "720": "assets/images/display/720/michelle-portrait.webp",
+    "originalWidth": 1024
+  },
+  "assets/images/mira-portrait.webp": {
+    "420": "assets/images/display/420/mira-portrait.webp",
+    "720": "assets/images/display/720/mira-portrait.webp",
+    "originalWidth": 844
+  },
+  "assets/images/miranda-portrait.webp": {
+    "420": "assets/images/display/420/miranda-portrait.webp",
+    "720": "assets/images/display/720/miranda-portrait.webp",
+    "originalWidth": 1025
+  },
+  "assets/images/studio-consultation.webp": {
+    "420": "assets/images/display/420/studio-consultation.webp",
+    "720": "assets/images/display/720/studio-consultation.webp",
+    "originalWidth": 1206
+  },
+  "assets/images/studio-location-map.webp": {
+    "420": "assets/images/display/420/studio-location-map.webp",
+    "720": "assets/images/display/720/studio-location-map.webp",
+    "originalWidth": 1158
+  },
+  "assets/images/studio-lounge.webp": {
+    "420": "assets/images/display/420/studio-lounge.webp",
+    "720": "assets/images/display/720/studio-lounge.webp",
+    "originalWidth": 1536
+  },
+  "assets/images/studio-vanity.webp": {
+    "420": "assets/images/display/420/studio-vanity.webp",
+    "720": "assets/images/display/720/studio-vanity.webp",
+    "originalWidth": 2048
+  },
+  "assets/images/yuki-portrait.webp": {
+    "420": "assets/images/display/420/yuki-portrait.webp",
+    "720": "assets/images/display/720/yuki-portrait.webp",
+    "originalWidth": 904
+  }
+}

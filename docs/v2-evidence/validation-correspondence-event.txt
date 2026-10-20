@@ -1,0 +1,1 @@
+Lab scripted max event latency 120 ms; 18 recorded interaction groups; fieldINP not measured

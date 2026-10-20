@@ -1,0 +1,74 @@
+RECOVERY MEASURE v2-fresh-process-performance.mjs
+home LCP 1112 CLS 0 cold 60 17 warm 61 17
+portfolio/ LCP 1432 CLS 0 cold 61 17 warm 60 33
+bridal/ LCP 900 CLS 0 cold 59 33 warm 61 17
+occasions/ LCP 800 CLS 0 cold 61 17 warm 61 17
+team/ LCP 1176 CLS 0 cold 60 17 warm 60 17
+about/ LCP 1428 CLS 0 cold 61 17 warm 60 33
+book/ LCP 968 CLS 0 cold 60 17 warm 60 17
+artists/miranda/ LCP 1292 CLS 0 cold 60 17 warm 59 50
+studies/modern-chinese/ LCP 1312 CLS 0 cold 60 33 warm 52 150
+RECOVERY MEASURE qa-lighthouse.mjs /workspace/scratch/f4692c7f7fd9/afterdark /workspace/scratch/f4692c7f7fd9/v2-evidence/polished/release-lighthouse
+{
+  "categories": {
+    "performance": 100,
+    "accessibility": 100,
+    "best-practices": 100,
+    "seo": 100
+  },
+  "metrics": {
+    "largest-contentful-paint": 1854.323,
+    "cumulative-layout-shift": 0,
+    "total-blocking-time": 0,
+    "total-byte-weight": 225383
+  },
+  "failedA11y": []
+}
+RECOVERY MEASURE qa-lighthouse.mjs /workspace/scratch/f4692c7f7fd9/afterdark /workspace/scratch/f4692c7f7fd9/v2-evidence/polished/release-lighthouse-performance-only performance
+{
+  "categories": {
+    "performance": 99
+  },
+  "metrics": {
+    "largest-contentful-paint": 2108.134,
+    "cumulative-layout-shift": 0,
+    "total-blocking-time": 0,
+    "total-byte-weight": 225383
+  },
+  "failedA11y": []
+}
+RECOVERY MEASURE qa-lighthouse.mjs /workspace/scratch/f4692c7f7fd9/afterdark /workspace/scratch/f4692c7f7fd9/v2-evidence/polished/release-lighthouse-repeat
+{
+  "categories": {
+    "performance": 99,
+    "accessibility": 100,
+    "best-practices": 100,
+    "seo": 100
+  },
+  "metrics": {
+    "largest-contentful-paint": 1814.7915,
+    "cumulative-layout-shift": 0,
+    "total-blocking-time": 0,
+    "total-byte-weight": 225383
+  },
+  "failedA11y": []
+}
+RECOVERY MEASURE v2-native-cpu-performance.mjs
+1440 home LCP 1732 cssom-cold:149.9 cssom-warm:16.8 wheel-cold:66.7 wheel-warm:16.8
+1440 portfolio/ LCP 1612 cssom-cold:16.8 cssom-warm:233.4 wheel-cold:16.8 wheel-warm:233.3
+1440 bridal/ LCP 1936 cssom-cold:16.8 cssom-warm:83.3 wheel-cold:16.8 wheel-warm:16.8
+1440 occasions/ LCP 768 cssom-cold:16.8 cssom-warm:16.8 wheel-cold:16.8 wheel-warm:33.3
+1440 team/ LCP 760 cssom-cold:33.4 cssom-warm:16.8 wheel-cold:49.9 wheel-warm:33.3
+1440 about/ LCP 768 cssom-cold:33.4 cssom-warm:500.0 wheel-cold:283.3 wheel-warm:33.5
+1440 book/ LCP 780 cssom-cold:166.6 cssom-warm:133.3 wheel-cold:16.8 wheel-warm:16.8
+1440 artists/miranda/ LCP 888 cssom-cold:300.0 cssom-warm:16.8 wheel-cold:16.8 wheel-warm:16.8
+1440 studies/modern-chinese/ LCP 944 cssom-cold:16.8 cssom-warm:16.8 wheel-cold:16.8 wheel-warm:16.8
+390 home LCP 1056 cssom-cold:16.8 cssom-warm:66.6 wheel-cold:16.8 wheel-warm:16.8
+390 portfolio/ LCP 1164 cssom-cold:16.8 cssom-warm:66.7 wheel-cold:16.8 wheel-warm:16.8
+390 bridal/ LCP 736 cssom-cold:16.8 cssom-warm:16.8 wheel-cold:16.8 wheel-warm:83.4
+390 occasions/ LCP 736 cssom-cold:16.8 cssom-warm:16.8 wheel-cold:16.8 wheel-warm:16.8
+390 team/ LCP 1080 cssom-cold:316.7 cssom-warm:200.0 wheel-cold:149.9 wheel-warm:16.8
+390 about/ LCP 996 cssom-cold:83.3 cssom-warm:16.8 wheel-cold:33.4 wheel-warm:16.8
+390 book/ LCP 740 cssom-cold:16.8 cssom-warm:16.8 wheel-cold:16.8 wheel-warm:166.7
+390 artists/miranda/ LCP 872 cssom-cold:16.8 cssom-warm:183.4 wheel-cold:16.8 wheel-warm:16.8
+390 studies/modern-chinese/ LCP 1036 cssom-cold:16.8 cssom-warm:200.0 wheel-cold:133.3 wheel-warm:150.0

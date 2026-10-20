@@ -1,0 +1,155 @@
+[
+  {
+    "slug": "fresh-bridal",
+    "title": "Fresh, with definition.",
+    "label": "Fresh bridal",
+    "artist": "Angelina",
+    "key": "angelina",
+    "image": "assets/images/artists/angelina/angelina-01.webp",
+    "width": 1080,
+    "height": 1440,
+    "position": "50% 38%",
+    "question": "How do you define the eyes and still keep the whole look light?",
+    "idea": "Let the eye line do the work. Keep the surrounding colour soft.",
+    "effect": "The eyes have a clear outline, while the luminous cheeks and rose lip keep the overall balance gentle.",
+    "notes": [
+      [
+        "The eye line",
+        "A fine outward line and fanned lashes give the eyes definition without a dense band of shadow."
+      ],
+      [
+        "The finish",
+        "Light catches the cheeks; a glossy rose lip adds colour without a hard edge."
+      ],
+      [
+        "The silhouette",
+        "Swept-back hair opens the face. A small white floral detail adds a quiet point of interest behind the ear."
+      ]
+    ],
+    "adapt": "Bring the eye definition, lip finish or hair shape that you like. We can discuss the balance around your own features, outfit and occasion.",
+    "crops": [
+      [
+        185,
+        42,
+        28
+      ],
+      [
+        180,
+        47,
+        60
+      ],
+      [
+        215,
+        76,
+        43
+      ]
+    ],
+    "fragmentPositions": [
+      "50% 45%",
+      "50% 47%",
+      "50% 65%"
+    ]
+  },
+  {
+    "slug": "modern-chinese",
+    "title": "Tradition, in a new register.",
+    "label": "Modern Chinese",
+    "artist": "Mira",
+    "key": "mira",
+    "image": "assets/images/artists/mira/mira-04.webp",
+    "width": 842,
+    "height": 1264,
+    "position": "50% 34%",
+    "question": "How can the beauty support a strong collar rather than compete with it?",
+    "idea": "Keep the face warm, the crown controlled and the central proportions clear.",
+    "effect": "Peach and coral create a warm counterpoint to the blue collar. The swept-back silhouette gives both the face and the garment space.",
+    "notes": [
+      [
+        "The colour",
+        "Peach around the eyes and a muted coral lip bring warmth beside the cool blue collar."
+      ],
+      [
+        "The structure",
+        "The hair is swept away from the face with a close, controlled crown."
+      ],
+      [
+        "The balance",
+        "Soft brows and restrained colour sit beside a strong high collar and the clean shape of a calla lily."
+      ]
+    ],
+    "adapt": "If this direction speaks to you, tell us about the neckline, outfit changes and accessories you are considering. Mira's stated focus is modern bridal and New Chinese Style.",
+    "crops": [
+      [
+        185,
+        53,
+        34
+      ],
+      [
+        135,
+        50,
+        25
+      ],
+      [
+        160,
+        50,
+        70
+      ]
+    ],
+    "fragmentPositions": [
+      "50% 80%",
+      "50% 23%",
+      "50% 60%"
+    ]
+  },
+  {
+    "slug": "classic-glamour",
+    "title": "A little more presence.",
+    "label": "Classic glamour",
+    "artist": "Yuki",
+    "key": "yuki",
+    "image": "assets/images/artists/yuki/yuki-11.webp",
+    "width": 1206,
+    "height": 1495,
+    "position": "50% 32%",
+    "question": "How do stronger eyes, lips and accessories hold together?",
+    "idea": "Repeat the clarity of the makeup in a controlled hair silhouette.",
+    "effect": "The crisp wing, red lip and sculpted side wave share a deliberate finish. Jewellery frames the profile rather than adding another loose shape.",
+    "notes": [
+      [
+        "The contrast",
+        "A crisp black wing and full lashes sit against a clearly defined red lip."
+      ],
+      [
+        "The hair",
+        "A sculpted side wave rolls into a low gathered shape, giving the look a controlled profile."
+      ],
+      [
+        "The frame",
+        "A jewelled headpiece and drop earrings follow the profile and set the scale of the styling."
+      ]
+    ],
+    "adapt": "Use this as a conversation about how much contrast feels like you. Yuki brings over ten years in bridal beauty and training in Hong Kong and South Korea.",
+    "crops": [
+      [
+        190,
+        68,
+        31
+      ],
+      [
+        165,
+        43,
+        22
+      ],
+      [
+        185,
+        48,
+        31
+      ]
+    ],
+    "fragmentPositions": [
+      "50% 32%",
+      "50% 32%",
+      "50% 78%"
+    ]
+  }
+]

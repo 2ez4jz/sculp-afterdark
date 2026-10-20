@@ -1,0 +1,9 @@
+home LCP 1088 CLS 0 cold 60 17 warm 60 17
+portfolio/ LCP 1284 CLS 0 cold 60 50 warm 58 83
+bridal/ LCP 912 CLS 0 cold 60 17 warm 57 167
+occasions/ LCP 844 CLS 0 cold 61 17 warm 61 17
+team/ LCP 1204 CLS 0 cold 60 17 warm 52 150
+about/ LCP 1232 CLS 0 cold 60 17 warm 61 17
+book/ LCP 912 CLS 0 cold 60 17 warm 61 17
+artists/miranda/ LCP 1200 CLS 0 cold 60 17 warm 61 17
+studies/modern-chinese/ LCP 996 CLS 0 cold 61 17 warm 44 683

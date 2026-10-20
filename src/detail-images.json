@@ -1,0 +1,377 @@
+[
+  {
+    "source": "assets/images/artists/angelina/angelina-01.webp",
+    "box": [
+      161.70810810810815,
+      169.6864864864865,
+      745.4918918918919,
+      636.7135135135135
+    ],
+    "output": "assets/images/details/fresh-bridal-1.webp",
+    "size": [
+      720,
+      576
+    ],
+    "quality": 87
+  },
+  {
+    "source": "assets/images/artists/angelina/angelina-01.webp",
+    "box": [
+      207.60000000000002,
+      624.0,
+      807.6,
+      1104.0
+    ],
+    "output": "assets/images/details/fresh-bridal-2.webp",
+    "size": [
+      720,
+      576
+    ],
+    "quality": 87
+  },
+  {
+    "source": "assets/images/artists/angelina/angelina-01.webp",
+    "box": [
+      569.6372093023256,
+      418.2697674418605,
+      1071.9627906976743,
+      820.1302325581396
+    ],
+    "output": "assets/images/details/fresh-bridal-3.webp",
+    "size": [
+      720,
+      576
+    ],
+    "quality": 87
+  },
+  {
+    "source": "assets/images/artists/mira/mira-04.webp",
+    "box": [
+      218.69243243243244,
+      247.70594594594596,
+      673.8275675675675,
+      611.814054054054
+    ],
+    "output": "assets/images/details/modern-chinese-1.webp",
+    "size": [
+      720,
+      576
+    ],
+    "quality": 87
+  },
+  {
+    "source": "assets/images/artists/mira/mira-04.webp",
+    "box": [
+      109.14814814814815,
+      66.51851851851853,
+      732.8518518518518,
+      565.4814814814815
+    ],
+    "output": "assets/images/details/modern-chinese-2.webp",
+    "size": [
+      720,
+      576
+    ],
+    "quality": 87
+  },
+  {
+    "source": "assets/images/artists/mira/mira-04.webp",
+    "box": [
+      157.875,
+      674.3,
+      684.125,
+      1095.3
+    ],
+    "output": "assets/images/details/modern-chinese-3.webp",
+    "size": [
+      720,
+      576
+    ],
+    "quality": 87
+  },
+  {
+    "source": "assets/images/artists/yuki/yuki-11.webp",
+    "box": [
+      502.7115789473684,
+      209.5552631578947,
+      1137.4484210526316,
+      717.3447368421052
+    ],
+    "output": "assets/images/details/classic-glamour-1.webp",
+    "size": [
+      720,
+      576
+    ],
+    "quality": 87
+  },
+  {
+    "source": "assets/images/artists/yuki/yuki-11.webp",
+    "box": [
+      153.12545454545455,
+      36.5363636363636,
+      884.0345454545455,
+      621.2636363636364
+    ],
+    "output": "assets/images/details/classic-glamour-2.webp",
+    "size": [
+      720,
+      576
+    ],
+    "quality": 87
+  },
+  {
+    "source": "assets/images/artists/yuki/yuki-11.webp",
+    "box": [
+      252.93405405405406,
+      202.69324324324322,
+      904.8259459459459,
+      724.2067567567567
+    ],
+    "output": "assets/images/details/classic-glamour-3.webp",
+    "size": [
+      720,
+      576
+    ],
+    "quality": 87
+  },
+  {
+    "source": "assets/images/artists/miranda/miranda-03.webp",
+    "box": [
+      48.04000000000002,
+      669.9133333333333,
+      672.56,
+      878.0866666666667
+    ],
+    "output": "assets/images/details/miranda-1.webp",
+    "size": [
+      720,
+      240
+    ],
+    "quality": 88
+  },
+  {
+    "source": "assets/images/artists/miranda/miranda-03.webp",
+    "box": [
+      600.5,
+      673.9166666666666,
+      1201.0,
+      874.0833333333334
+    ],
+    "output": "assets/images/details/miranda-2.webp",
+    "size": [
+      720,
+      240
+    ],
+    "quality": 88
+  },
+  {
+    "source": "assets/images/artists/yuki/yuki-11.webp",
+    "box": [
+      596.97,
+      326.422,
+      1163.79,
+      779.8779999999999
+    ],
+    "output": "assets/images/details/yuki-1.webp",
+    "size": [
+      720,
+      576
+    ],
+    "quality": 88
+  },
+  {
+    "source": "assets/images/artists/yuki/yuki-11.webp",
+    "box": [
+      108.54000000000002,
+      132.55,
+      711.54,
+      614.95
+    ],
+    "output": "assets/images/details/yuki-2.webp",
+    "size": [
+      720,
+      576
+    ],
+    "quality": 88
+  },
+  {
+    "source": "assets/images/artists/mira/mira-04.webp",
+    "box": [
+      227.34000000000003,
+      224.93333333333334,
+      648.34,
+      786.2666666666667
+    ],
+    "output": "assets/images/details/mira-1.webp",
+    "size": [
+      360,
+      480
+    ],
+    "quality": 88
+  },
+  {
+    "source": "assets/images/artists/mira/mira-04.webp",
+    "box": [
+      202.07999999999998,
+      62.02666666666664,
+      639.9200000000001,
+      645.8133333333334
+    ],
+    "output": "assets/images/details/mira-2.webp",
+    "size": [
+      360,
+      480
+    ],
+    "quality": 88
+  },
+  {
+    "source": "assets/images/artists/angelina/angelina-01.webp",
+    "box": [
+      270.0,
+      215.99999999999994,
+      702.0,
+      792.0
+    ],
+    "output": "assets/images/details/angelina-1.webp",
+    "size": [
+      360,
+      480
+    ],
+    "quality": 88
+  },
+  {
+    "source": "assets/images/artists/angelina/angelina-01.webp",
+    "box": [
+      302.4,
+      432.0,
+      734.4,
+      1008.0
+    ],
+    "output": "assets/images/details/angelina-2.webp",
+    "size": [
+      360,
+      480
+    ],
+    "quality": 88
+  },
+  {
+    "source": "assets/images/artists/elaine/elaine-03.webp",
+    "box": [
+      480.0,
+      156.0,
+      1080.0,
+      636.0
+    ],
+    "output": "assets/images/details/elaine-1.webp",
+    "size": [
+      720,
+      576
+    ],
+    "quality": 88
+  },
+  {
+    "source": "assets/images/artists/elaine/elaine-03.webp",
+    "box": [
+      300.0,
+      348.0,
+      780.0,
+      732.0
+    ],
+    "output": "assets/images/details/elaine-2.webp",
+    "size": [
+      720,
+      576
+    ],
+    "quality": 88
+  },
+  {
+    "source": "assets/images/artists/emily/emily-02.webp",
+    "box": [
+      216.17999999999995,
+      421.9166666666667,
+      816.68,
+      622.0833333333334
+    ],
+    "output": "assets/images/details/emily-1.webp",
+    "size": [
+      720,
+      240
+    ],
+    "quality": 88
+  },
+  {
+    "source": "assets/images/artists/emily/emily-02.webp",
+    "box": [
+      312.26,
+      603.9333333333333,
+      792.6600000000001,
+      764.0666666666667
+    ],
+    "output": "assets/images/details/emily-2.webp",
+    "size": [
+      720,
+      240
+    ],
+    "quality": 88
+  },
+  {
+    "source": "assets/images/artists/michelle/michelle-01.webp",
+    "box": [
+      6.0,
+      450.0,
+      546.0,
+      882.0
+    ],
+    "output": "assets/images/details/michelle-1.webp",
+    "size": [
+      720,
+      576
+    ],
+    "quality": 88
+  },
+  {
+    "source": "assets/images/artists/michelle/michelle-01.webp",
+    "box": [
+      288.0,
+      525.6,
+      864.0,
+      986.4
+    ],
+    "output": "assets/images/details/michelle-2.webp",
+    "size": [
+      720,
+      576
+    ],
+    "quality": 88
+  },
+  {
+    "source": "assets/images/artists/giselle/giselle-08.webp",
+    "box": [
+      105.59999999999997,
+      321.59999999999997,
+      585.5999999999999,
+      513.5999999999999
+    ],
+    "output": "assets/images/details/giselle-1.webp",
+    "size": [
+      720,
+      288
+    ],
+    "quality": 88
+  },
+  {
+    "source": "assets/images/artists/giselle/giselle-08.webp",
+    "box": [
+      427.19999999999993,
+      531.2,
+      955.1999999999999,
+      707.2
+    ],
+    "output": "assets/images/details/giselle-2.webp",
+    "size": [
+      720,
+      240
+    ],
+    "quality": 88
+  }
+]

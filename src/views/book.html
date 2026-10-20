@@ -1,0 +1,129 @@
+<article class="view" data-page="book" hidden>
+<div class="shell intro">
+  <div class="book-intro">
+    <div class="eyebrow">Enquiries</div>
+    <h1>Tell us what<br>you're planning.</h1>
+    <p class="lead">Share the essentials below. We’ll review your enquiry and guide you toward the right service, artist, and next step.</p>
+  </div>
+
+  <div class="book-layout">
+    <div class="book-main">
+      <form class="form" id="sculp-form" action="https://formsubmit.co/sculpstudio.ca@gmail.com" method="POST">
+        <input type="hidden" name="_next" value="https://2ez4jz.github.io/sculp-afterdark/#enquiry-sent">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_cc" value="museycyk@gmail.com">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true" style="display:none">
+
+        <div class="form-group-title">
+          <div class="eyebrow">01 · Service details</div>
+          <p>Start with the appointment, date, location, and artist preference.</p>
+        </div>
+
+        <label class="field">Service *
+          <select name="service" required>
+            <option value="">Select a service</option>
+            <option>Bridal</option>
+            <option>Event Styling</option>
+            <option>Personal Styling</option>
+            <option>Commercial Beauty</option>
+            <option>Photoshoot Styling</option>
+            <option>1-on-1 Styling Lesson</option>
+            <option>Group Styling Class</option>
+          </select>
+        </label>
+
+        <label class="field">Preferred artist *
+          <select name="artist" required>
+            <option value="">Select a preference</option>
+            <option>Signature Artist / Founder</option>
+            <option>Director Artist</option>
+            <option>Senior Artist</option>
+            <option>No Preference</option>
+          </select>
+        </label>
+
+        <label class="field">Preferred date *
+          <input name="date" type="date" required>
+        </label>
+
+        <label class="field">Location *
+          <input name="location" placeholder="City / venue" required>
+        </label>
+
+        <label class="field">Party size
+          <input name="party" type="number" min="1" placeholder="Number of people">
+        </label>
+
+        <label class="field">Timing
+          <input name="timing" placeholder="e.g. Ready by 11:00 AM">
+        </label>
+
+        <div class="form-group-title">
+          <div class="eyebrow">02 · Your contact</div>
+          <p>Tell us how to reach you and anything else that will help us understand the booking.</p>
+        </div>
+
+        <label class="field">Your name *
+          <input name="name" autocomplete="name" required>
+        </label>
+
+        <label class="field">Email *
+          <input name="email" type="email" autocomplete="email" required>
+        </label>
+
+        <label class="field">Phone / Instagram
+          <input name="contact" autocomplete="tel">
+        </label>
+
+        <label class="field">Preferred contact
+          <select name="contact_method">
+            <option>Email</option>
+            <option>Phone</option>
+            <option>Instagram</option>
+          </select>
+        </label>
+
+        <label class="field full">Tell us more
+          <textarea name="details" placeholder="Plans, style, timing, reference details, or anything we should know"></textarea>
+        </label>
+
+        <div class="field full">
+          <button class="button fill" type="submit">Send enquiry →</button>
+          <p class="note">Your enquiry is sent directly to SCULP Studio. We’ll reply within 24 hours.</p>
+        </div>
+      <p class="note" id="enquiry-error" role="alert" hidden></p>
+      </form>
+
+      <div class="book-expectation">
+        <div class="eyebrow">What happens next</div>
+        <div class="book-expectation-grid">
+          <div>
+            <h3>We review</h3>
+            <p>We check your service, date, location, and artist preference.</p>
+          </div>
+          <div>
+            <h3>We reply</h3>
+            <p>We’ll reply within 24 hours of receiving your enquiry to confirm availability and guide you through the next step.</p>
+          </div>
+          <div>
+            <h3>You confirm</h3>
+            <p>Your date is only secured after availability is confirmed and the required booking payment is received.</p>
+          </div>
+        </div>
+      </div>
+
+      <p class="book-fallback">You can also email us directly at <a href="mailto:sculpstudio.ca@gmail.com">sculpstudio.ca@gmail.com</a>.</p>
+    </div>
+
+    <!-- PROMOTION MODULE: switch data-active to "true" and update the text below when an offer is live. -->
+    <aside class="promo-card" data-active="false" id="book-promotion">
+      <div class="eyebrow">Current Promotion</div>
+      <h3>Seasonal offer title</h3>
+      <p>Promotion details go here. Keep this short and clear so it complements the enquiry form rather than competing with it.</p>
+      <div class="promo-code">Offer code: SCULP</div>
+      <a class="button fill" href="#book">Enquire about this offer</a>
+    </aside>
+  </div>
+</div>
+</article>

@@ -1,0 +1,23 @@
+FINAL TARGET v2-motion-expanded.mjs
+1440 forward 4 actual chronological frames
+1440 back 33 actual chronological frames
+390 forward 18 actual chronological frames
+390 back 39 actual chronological frames
+FINAL TARGET v2-composition-motion.mjs
+1440 forward 7 actual chronological frames
+1440 back 23 actual chronological frames
+390 forward 9 actual chronological frames
+390 back 24 actual chronological frames
+FINAL TARGET v2-reference-bootstrap.mjs
+1440 composition reference ready 73.1 FCP 164 CLS 0 selected image widths 230/230/230
+1440 single-detail reference ready 77.6 FCP 172 CLS 0 selected image widths 420/720
+768 composition reference ready 93.0 FCP 184 CLS 0 selected image widths 122/122/122
+768 single-detail reference ready 88.0 FCP 276 CLS 0 selected image widths 420/720
+390 composition reference ready 64.4 FCP 128 CLS 0 selected image widths 104/104/104
+390 single-detail reference ready 57.2 FCP 112 CLS 0 selected image widths 420/720
+375 composition reference ready 76.5 FCP 172 CLS 0 selected image widths 99/99/99
+375 single-detail reference ready 90.5 FCP 172 CLS 0 selected image widths 420/720
+FINAL TARGET v2-event-latency.mjs
+Lab scripted max event latency 280 ms; 18 recorded interaction groups; fieldINP not measured
+FINAL TARGET v2-reduced-proof.mjs
+PASS8 reduced-motion captures

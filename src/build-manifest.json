@@ -1,0 +1,116 @@
+[
+  {
+    "key": "about",
+    "route": "about/",
+    "file": "about/index.html",
+    "title": "The Studio & Our Approach | SCULP Studio Markham"
+  },
+  {
+    "key": "book",
+    "route": "book/",
+    "file": "book/index.html",
+    "title": "Make an Enquiry | SCULP Studio Toronto"
+  },
+  {
+    "key": "bridal",
+    "route": "bridal/",
+    "file": "bridal/index.html",
+    "title": "Bridal Hair, Makeup & Pricing | SCULP Studio Toronto"
+  },
+  {
+    "key": "enquiry-sent",
+    "route": "enquiry-sent/",
+    "file": "enquiry-sent/index.html",
+    "title": "Enquiry Sent | SCULP Studio"
+  },
+  {
+    "key": "home",
+    "route": "",
+    "file": "index.html",
+    "title": "SCULP Studio | Personal Bridal & Beauty Styling Toronto"
+  },
+  {
+    "key": "occasions",
+    "route": "occasions/",
+    "file": "occasions/index.html",
+    "title": "Event, Editorial & Personal Styling | SCULP Studio"
+  },
+  {
+    "key": "portfolio",
+    "route": "portfolio/",
+    "file": "portfolio/index.html",
+    "title": "The SCULP Edit | Real Work & Artist Portfolios"
+  },
+  {
+    "key": "team",
+    "route": "team/",
+    "file": "team/index.html",
+    "title": "Eight Artists, Individual Points of View | SCULP Studio"
+  },
+  {
+    "key": "artist-miranda",
+    "route": "artists/miranda/",
+    "file": "artists/miranda/index.html",
+    "title": "Miranda | SCULP Artist Portfolio"
+  },
+  {
+    "key": "artist-yuki",
+    "route": "artists/yuki/",
+    "file": "artists/yuki/index.html",
+    "title": "Yuki | SCULP Artist Portfolio"
+  },
+  {
+    "key": "artist-mira",
+    "route": "artists/mira/",
+    "file": "artists/mira/index.html",
+    "title": "Mira | SCULP Artist Portfolio"
+  },
+  {
+    "key": "artist-angelina",
+    "route": "artists/angelina/",
+    "file": "artists/angelina/index.html",
+    "title": "Angelina | SCULP Artist Portfolio"
+  },
+  {
+    "key": "artist-elaine",
+    "route": "artists/elaine/",
+    "file": "artists/elaine/index.html",
+    "title": "Elaine | SCULP Artist Portfolio"
+  },
+  {
+    "key": "artist-emily",
+    "route": "artists/emily/",
+    "file": "artists/emily/index.html",
+    "title": "Emily | SCULP Artist Portfolio"
+  },
+  {
+    "key": "artist-michelle",
+    "route": "artists/michelle/",
+    "file": "artists/michelle/index.html",
+    "title": "Michelle | SCULP Artist Portfolio"
+  },
+  {
+    "key": "artist-giselle",
+    "route": "artists/giselle/",
+    "file": "artists/giselle/index.html",
+    "title": "Giselle | SCULP Artist Portfolio"
+  },
+  {
+    "key": "study-fresh-bridal",
+    "route": "studies/fresh-bridal/",
+    "file": "studies/fresh-bridal/index.html",
+    "title": "Fresh bridal by Angelina | The SCULP Edit"
+  },
+  {
+    "key": "study-modern-chinese",
+    "route": "studies/modern-chinese/",
+    "file": "studies/modern-chinese/index.html",
+    "title": "Modern Chinese by Mira | The SCULP Edit"
+  },
+  {
+    "key": "study-classic-glamour",
+    "route": "studies/classic-glamour/",
+    "file": "studies/classic-glamour/index.html",
+    "title": "Classic glamour by Yuki | The SCULP Edit"
+  }
+]

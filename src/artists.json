@@ -1,0 +1,429 @@
+[
+  {
+    "name": "Miranda",
+    "key": "miranda",
+    "role": "Signature Artist / Founder",
+    "focus": "Editorial bridal",
+    "note": "Fashion, celebrity beauty and destination weddings. Over ten years in the craft.",
+    "image": "miranda-portrait.webp",
+    "width": 1025,
+    "height": 1535,
+    "observation": {
+      "image": "assets/images/artists/miranda/miranda-03.webp",
+      "width": 1201,
+      "height": 1800,
+      "title": "Light, without losing shape.",
+      "labels": [
+        "The skin",
+        "The texture"
+      ],
+      "positions": [
+        "30% 34%",
+        "80% 20%"
+      ],
+      "notes": [
+        "Light catches the cheekbone above a peach flush. A soft peach lip and lightly defined lashes leave the face open.",
+        "Loose pieces curl away from a textured updo, balancing the clean neckline and the white detail at the shoulder."
+      ],
+      "layout": "texture",
+      "detailImages": [
+        "assets/images/details/miranda-1.webp",
+        "assets/images/details/miranda-2.webp"
+      ],
+      "detailDimensions": [
+        [
+          720,
+          240
+        ],
+        [
+          720,
+          240
+        ]
+      ],
+      "detailCenters": [
+        [
+          0.3,
+          0.43
+        ],
+        [
+          0.75,
+          0.43
+        ]
+      ]
+    }
+  },
+  {
+    "name": "Yuki",
+    "key": "yuki",
+    "role": "Director Artist",
+    "focus": "Classic refinement",
+    "note": "Bridal experience, technical precision and training in Hong Kong and South Korea.",
+    "image": "yuki-portrait.webp",
+    "width": 904,
+    "height": 1340,
+    "observation": {
+      "image": "assets/images/artists/yuki/yuki-11.webp",
+      "width": 1206,
+      "height": 1495,
+      "title": "A little more presence.",
+      "notes": [
+        "A crisp black wing and full lashes sit against a clearly defined red lip.",
+        "A sculpted side wave rolls into a low gathered shape, giving the look a controlled profile."
+      ],
+      "labels": [
+        "The contrast",
+        "The hair"
+      ],
+      "positions": [
+        "50% 33%",
+        "50% 38%"
+      ],
+      "study": "classic-glamour",
+      "layout": "profile",
+      "detailImages": [
+        "assets/images/details/yuki-1.webp",
+        "assets/images/details/yuki-2.webp"
+      ],
+      "detailDimensions": [
+        [
+          720,
+          576
+        ],
+        [
+          720,
+          576
+        ]
+      ],
+      "detailCenters": [
+        [
+          0.73,
+          0.37
+        ],
+        [
+          0.34,
+          0.25
+        ]
+      ]
+    }
+  },
+  {
+    "name": "Mira",
+    "key": "mira",
+    "role": "Director Artist",
+    "focus": "New Chinese Style",
+    "note": "Chinese elegance interpreted through a modern bridal eye.",
+    "image": "mira-portrait.webp",
+    "width": 844,
+    "height": 1264,
+    "observation": {
+      "image": "assets/images/artists/mira/mira-04.webp",
+      "width": 842,
+      "height": 1264,
+      "title": "Tradition, in a new register.",
+      "notes": [
+        "Peach around the eyes and a muted coral lip bring warmth beside the cool blue collar.",
+        "The hair is swept away from the face with a close, controlled crown."
+      ],
+      "labels": [
+        "The colour",
+        "The structure"
+      ],
+      "positions": [
+        "50% 33%",
+        "50% 18%"
+      ],
+      "study": "modern-chinese",
+      "layout": "colour",
+      "detailImages": [
+        "assets/images/details/mira-1.webp",
+        "assets/images/details/mira-2.webp"
+      ],
+      "detailDimensions": [
+        [
+          360,
+          480
+        ],
+        [
+          360,
+          480
+        ]
+      ],
+      "detailCenters": [
+        [
+          0.52,
+          0.4
+        ],
+        [
+          0.5,
+          0.2
+        ]
+      ]
+    }
+  },
+  {
+    "name": "Angelina",
+    "key": "angelina",
+    "role": "Senior Artist",
+    "focus": "Korean-inspired freshness",
+    "note": "Fresh, refined bridal, editorial and commercial beauty.",
+    "image": "angelina-portrait.webp",
+    "width": 814,
+    "height": 1086,
+    "observation": {
+      "image": "assets/images/artists/angelina/angelina-01.webp",
+      "width": 1080,
+      "height": 1440,
+      "title": "Fresh, with definition.",
+      "notes": [
+        "A fine outward line and fanned lashes give the eyes definition without a dense band of shadow.",
+        "Light catches the cheeks; a glossy rose lip adds colour without a hard edge."
+      ],
+      "labels": [
+        "The eye line",
+        "The finish"
+      ],
+      "positions": [
+        "50% 33%",
+        "50% 38%"
+      ],
+      "study": "fresh-bridal",
+      "layout": "colour",
+      "detailImages": [
+        "assets/images/details/angelina-1.webp",
+        "assets/images/details/angelina-2.webp"
+      ],
+      "detailDimensions": [
+        [
+          360,
+          480
+        ],
+        [
+          360,
+          480
+        ]
+      ],
+      "detailCenters": [
+        [
+          0.45,
+          0.35
+        ],
+        [
+          0.48,
+          0.5
+        ]
+      ]
+    }
+  },
+  {
+    "name": "Elaine",
+    "key": "elaine",
+    "role": "Senior Artist",
+    "focus": "Soft, modern beauty",
+    "note": "Bridal, portraits and special occasions with the person at the centre.",
+    "image": "elaine-portrait.webp",
+    "width": 1280,
+    "height": 1908,
+    "observation": {
+      "image": "assets/images/artists/elaine/elaine-03.webp",
+      "width": 1200,
+      "height": 1800,
+      "title": "Sleek shape. Soft finish.",
+      "notes": [
+        "A sleek side part flows into a low bun, with pearl-like accents above the ear and across the gathered hair.",
+        "Separated lashes and a fine outward eye line sit beside softly highlighted cheeks and a muted pink lip."
+      ],
+      "labels": [
+        "The silhouette",
+        "The finish"
+      ],
+      "positions": [
+        "65% 25%",
+        "45% 42%"
+      ],
+      "layout": "profile",
+      "detailImages": [
+        "assets/images/details/elaine-1.webp",
+        "assets/images/details/elaine-2.webp"
+      ],
+      "detailDimensions": [
+        [
+          720,
+          576
+        ],
+        [
+          720,
+          576
+        ]
+      ],
+      "detailCenters": [
+        [
+          0.65,
+          0.22
+        ],
+        [
+          0.45,
+          0.3
+        ]
+      ]
+    }
+  },
+  {
+    "name": "Emily",
+    "key": "emily",
+    "role": "Senior Artist",
+    "focus": "Fresh & polished",
+    "note": "A thoughtful, detail-oriented approach to personal beauty.",
+    "image": "emily-portrait.webp",
+    "width": 960,
+    "height": 1440,
+    "observation": {
+      "image": "assets/images/artists/emily/emily-02.webp",
+      "width": 1201,
+      "height": 1800,
+      "title": "A softer frame.",
+      "notes": [
+        "A rounded side-swept fringe crosses the forehead, while loose curled strands frame both sides of the jaw.",
+        "Rosy cheeks and a glossy pink lip pair with softly shaded eyes and a fine lifted outer line."
+      ],
+      "labels": [
+        "The frame",
+        "The colour"
+      ],
+      "positions": [
+        "50% 20%",
+        "50% 42%"
+      ],
+      "layout": "texture",
+      "detailImages": [
+        "assets/images/details/emily-1.webp",
+        "assets/images/details/emily-2.webp"
+      ],
+      "detailDimensions": [
+        [
+          720,
+          240
+        ],
+        [
+          720,
+          240
+        ]
+      ],
+      "detailCenters": [
+        [
+          0.43,
+          0.29
+        ],
+        [
+          0.46,
+          0.38
+        ]
+      ]
+    }
+  },
+  {
+    "name": "Michelle",
+    "key": "michelle",
+    "role": "Senior Artist",
+    "focus": "Refined & balanced",
+    "note": "A calm, attentive approach to the features and the occasion.",
+    "image": "michelle-portrait.webp",
+    "width": 1024,
+    "height": 1536,
+    "observation": {
+      "image": "assets/images/artists/michelle/michelle-01.webp",
+      "width": 1200,
+      "height": 1800,
+      "title": "Volume, with warmth.",
+      "notes": [
+        "A deep side part and lifted crown lead into loose, broad curls that fall over one shoulder.",
+        "Peach-pink eye shading and soft brows keep the eye area light, paired with a warm coral lip and a subtle cheek flush."
+      ],
+      "labels": [
+        "The volume",
+        "The warmth"
+      ],
+      "positions": [
+        "70% 25%",
+        "45% 40%"
+      ],
+      "layout": "profile",
+      "detailImages": [
+        "assets/images/details/michelle-1.webp",
+        "assets/images/details/michelle-2.webp"
+      ],
+      "detailDimensions": [
+        [
+          720,
+          576
+        ],
+        [
+          720,
+          576
+        ]
+      ],
+      "detailCenters": [
+        [
+          0.23,
+          0.37
+        ],
+        [
+          0.48,
+          0.42
+        ]
+      ]
+    }
+  },
+  {
+    "name": "Giselle",
+    "key": "giselle",
+    "role": "Senior Artist",
+    "focus": "Defined soft glam",
+    "note": "Modern Western and Thai-inspired beauty, sculpted features and radiant skin.",
+    "image": "giselle-portrait.webp",
+    "width": 1280,
+    "height": 1920,
+    "observation": {
+      "image": "assets/images/artists/giselle/giselle-08.webp",
+      "width": 960,
+      "height": 1440,
+      "title": "Soft glam. A freer silhouette.",
+      "labels": [
+        "The definition",
+        "The movement"
+      ],
+      "positions": [
+        "37% 26%",
+        "75% 34%"
+      ],
+      "notes": [
+        "Lifted outer lashes and a warm, softly outlined lip define the face beside a deep side part.",
+        "Long, loose waves spread beyond the shoulders. Their free outline softens the dark, sculptural dress and bouquet."
+      ],
+      "layout": "wide",
+      "detailImages": [
+        "assets/images/details/giselle-1.webp",
+        "assets/images/details/giselle-2.webp"
+      ],
+      "detailDimensions": [
+        [
+          720,
+          288
+        ],
+        [
+          720,
+          240
+        ]
+      ],
+      "detailCenters": [
+        [
+          0.36,
+          0.29
+        ],
+        [
+          0.72,
+          0.39
+        ]
+      ]
+    }
+  }
+]
