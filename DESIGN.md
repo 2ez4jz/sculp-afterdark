@@ -22,7 +22,7 @@ Chosen: the artist's edit. It turns the portfolio into a useful conversation rat
 
 Idea: Help you notice the beauty choices that feel like you, then bring them to the right conversation.
 Metaphor: A personal beauty editor's working selection.
-Signature: Three real looks, three image-specific readings, detail selection and closer inspection, with the chosen direction/detail carried into the studio brief across pages.
+Signature: A personal edit assembled from three real photographic fragments: eyes/colour, hair/silhouette and finish/balance.27 possible combinations carry their exact crops and original artist/photo sources into the native studio brief. Complete-look studies and every original gallery photograph remain independently selectable.
 Emotion: Clear-eyed confidence, personal attention and an unexpected fashion voice.
 Motion verb: Frame, focus, carry.
 Screenshot: A cobalt SCULP masthead and portrait, then a cobalt study spread where the visible detail selected becomes part of the enquiry.
@@ -37,7 +37,7 @@ Instrument Sans400-700 for active display/body/UI; Bodoni Moda400 only for SCULP
 |---|---|
 | Home opening | Oversized SCULP as image; offset portrait crosses the wordmark, leaving the face clear; plain service/location and two choices before imagery on phone |
 | Opening thought | Small left proposition with a large offset statement, a short explanation rather than repeated brand adjectives |
-| Beauty Edit | Cobalt field, tabbed image and detailed reading; choose a feature, inspect it, keep the direction for enquiry |
+| Beauty Edit | Cobalt field, paper three-fragment composition and three native radio groups; choose eyes, hair and finish, then carry the exact references into the enquiry. Complete-look studies unfold on request. |
 | Services | Four meaningful occasion rows with direct service links |
 | Artists | Actual portraits and differentiated specialties; no fabricated matching score |
 | Founder | Smaller portrait in a pale field with real fashion/destination experience |
@@ -47,7 +47,7 @@ Instrument Sans400-700 for active display/body/UI; Bodoni Moda400 only for SCULP
 | Portfolio | Compact introduction, three substantial visual studies, then one artist directory; no duplicated Portfolio/Artist portfolios headings |
 | Artist | Actual name/specialty/role, complete original gallery in original order, native full-image dialog, specific enquiry link |
 | Study | A question about the photograph, an observable visual idea/effect, detailed reading, what to discuss for yourself; not a fabricated client case |
-| Bridal | Wedding portrait and direct service entry; complete prices with each option carryable to enquiry; clear payment/availability notes |
+| Bridal | Wedding portrait and direct service entry; two native comparison tables preserve six plans and18 artist-tier prices, with descriptions and an enquiry link for every plan; clear payment/availability notes |
 | Book | Short two-column introduction, studio brief beside a two-part native form; phone shows fields before the extended brief |
 | 404 | The same paper/cobalt language, a usable way home, true404status |
 
@@ -80,3 +80,10 @@ All142 original gallery photographs are now active enquiry references, with the 
 171 used photographs have420/720px WebP display copies; original links/order remain. Nearby photographs are decoded during idle time after first-screen load. Scroll analytics cache height on load/resize/ResizeObserver rather than reading document height each frame. Real cold/warm frame samples are retained, including variance, rather than promised as field device behavior.
 
 The final artist edits follow the visible work: textured skin/hair, controlled profiles, colour balance and a wider hair silhouette. Numbered photographic locators select the corresponding close reading, which can be carried with the exact original photograph into the brief. Static detail crops replace oversized live crop surfaces. Civil Ceremony facts are transcribed from the original service card into readable HTML. Original photographs are never retouched.
+
+
+## Personal composition and comparison refinement
+
+The three-part edit makes the original photographic observations useful together, rather than only offering three finished looks. The combined object is expressly a conversation reference, never an AI-rendered prediction of someone’s final appearance. Each fragment keeps its original photograph, artist and observational caption. Three groups of three actual details produce27 choices without inventing new client imagery. Session-only reference storage is clearable; selecting one existing photo or complete direction explicitly replaces the combined edit.
+
+Native semantic pricing tables replace six long standalone cards. Rows compare the same artist tiers; columns preserve each plan’s exact title, starting price, duration,18 tier prices and complete description. The mobile tables fit375px without horizontal scrolling and keep each plan associated with its original enquiry action. Mobile spacing is shortened while full team portraits are retained.
