@@ -2,6 +2,14 @@
 
 按多伦多时间记录网站修改。每次改动后，在这里追加日期、改动内容和对应提交，方便回看。
 
+## 2026-10-20
+
+- 逐页对照原站线上版本与源码 `eb79edb`，同步 Afterdark 内容至 10 月 18 日原站状态：Mira 13 张作品、Michelle 10 张作品、全部服务与价格、团队、地址、联系方式及咨询文案。补入 23 张同源 WebP，保留 Afterdark 深色视觉、字体、动画及已修边的首页 Hero。
+- 将询价从旧 mailto 改为原站的直接提交流程：先保存 SCULPY 线索，再发送现有 FormSubmit 邮件通知；收件人为 sculpstudio.ca@gmail.com，抄送 museycyk@gmail.com。同步 24 小时回复承诺、成功页、发送中状态、防重复提交、失败保留数据、日期限制与 UTM 归因；原生表单回跳地址适配 Afterdark 自身路径。
+- 同步原站 canonical、分享元信息、robots.txt 与 sitemap.xml，canonical 继续指向主官网；未复制主站 CNAME。更新分析事件为确认提交成功后记录，移除旧 mailto 成功口径，并补齐历史返回导航事件。
+- 同步更新 Supabase sculp-enquiry 的精确来源白名单，加入 Afterdark 所在的 https://2ez4jz.github.io；保留原站、www、输入验证、限流和幂等写入。后端源码已提交至 sculp-database，Edge Function v3 已部署，线上 Afterdark OPTIONS 返回 204 且 CORS 来源匹配。
+- 验证：原站下载页面与选用源码完全一致；9 个页面的可见文字与导航相同，209 处图片引用均存在，无重复 ID 或断裂站内锚点；JavaScript 语法检查通过。表单集成测试覆盖成功、入库/邮件失败、重试复用 ID、重复提交防护、过去日期、归因、成功后统计及作品切换，外部写入全部模拟；浏览器检查桌面作品集与询价页。未发送真实测试邮件或新增测试客户，未作手机实机验收。
+
 ## 2026-10-03
 
 - 修复首页 Kind Words 好评卡片署名后的黑色横条：评价中的语义 footer 不再继承网站底部页脚背景，恢复为透明背景的普通署名小字。

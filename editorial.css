@@ -286,3 +286,8 @@ body{background:#141412!important}
   #sculp-site .view:not([hidden]){animation:none}
   .sculp-cursor{display:none}
 }
+
+/* Direct enquiry feedback on the dark booking page. */
+#sculp-site .view[data-page="book"] .book-main .note{color:#cdc4b9}
+#sculp-site .view[data-page="book"] #enquiry-error{color:#ffd6cd}
+#sculp-site .view[data-page="book"] button:disabled{cursor:wait;opacity:.7}

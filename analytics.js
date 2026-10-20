@@ -102,8 +102,9 @@
     form.addEventListener('focusin',function(){
       if(formStarted)return;formStarted=true;send('form_start',{form_name:'enquiry'});
     });
-    form.addEventListener('submit',function(){
-      if(form.checkValidity())send('form_submit',{form_name:'enquiry',delivery_method:'mailto'});
+    form.addEventListener('sculp:enquiry-sent',function(){
+      send('form_submit',{form_name:'enquiry',delivery_method:'direct'});
+      requestAnimationFrame(pageView);
     });
   }
 
@@ -121,6 +122,7 @@
   }
 
   window.addEventListener('hashchange',function(){requestAnimationFrame(pageView)});
+  window.addEventListener('popstate',function(){requestAnimationFrame(pageView)});
   window.addEventListener('pagehide',function(){finishRoute('pagehide')});
   pageView();
 })();
