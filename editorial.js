@@ -52,15 +52,6 @@ root.querySelectorAll('.artist-observation').forEach(function(module){
  module.querySelector('.observation-save').addEventListener('click',function(){var links=Array.from(root.querySelectorAll('.image-open')),index=links.findIndex(function(a){return a.href===new URL(module.dataset.referenceImage,siteBase).href;}),note=module.querySelector('.observation-focus[aria-pressed="true"]'),detail=note?note.dataset.referenceNote:'',same=portfolioReference&&portfolioReference.image===module.dataset.referenceImage&&savedDetail===detail;if(index<0)return;saved=null;savedDetail=same?'':detail;portfolioReference=same?null:{key:artistKey,image:module.dataset.referenceImage,index:index+1};updateDirection();});
  observationState(module);
 });
-// Decode the next screen of photographs after the first screen has loaded.
-// This prepares nearby real work for a first scroll without fetching the whole gallery.
-var prefetchAllowed=true;function stopPrefetch(){prefetchAllowed=false;}['pointerdown','keydown','scroll'].forEach(function(name){window.addEventListener(name,stopPrefetch,{once:true,passive:true});});
-function atIdle(fn){if(!prefetchAllowed)return;var run=function(deadline){if(!prefetchAllowed||deadline&&deadline.timeRemaining()<8)return;fn();};if('requestIdleCallback' in window)requestIdleCallback(run);else setTimeout(run,100);}
-function prepareNearbyPhotographs(){var edge=innerHeight*2.25;
-// Read geometry before changing loading hints; one decode at a time keeps the first paint free.
-var nearby=Array.from(root.querySelectorAll('img')).map(function(img){return{img:img,box:img.getBoundingClientRect()};}).filter(function(item){var box=item.box;return box.width&&box.height&&box.top<edge&&box.bottom>0;}).map(function(item){return item.img;});
-function next(){var img=nearby.shift();if(!img)return;img.decoding='async';if(!img.complete){img.fetchPriority='low';img.loading='eager';}var decoded=img.decode?img.decode().catch(function(){}):Promise.resolve();decoded.then(function(){atIdle(next);});}atIdle(next);}
-function prepareWhenIdle(){requestAnimationFrame(function(){requestAnimationFrame(function(){atIdle(prepareNearbyPhotographs);});});}
-if(document.readyState==='complete')prepareWhenIdle();else window.addEventListener('load',prepareWhenIdle,{once:true});
+// Photographs use native responsive loading and async decode; above-fold readings are prioritized in HTML.
 if(root.dataset.page==='enquiry-sent')root.querySelector('h1').focus({preventScroll:true});
 })();
