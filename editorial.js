@@ -54,7 +54,8 @@ root.querySelectorAll('.artist-observation').forEach(function(module){
 });
 // Decode the next screen of photographs after the first screen has loaded.
 // This prepares nearby real work for a first scroll without fetching the whole gallery.
-function atIdle(fn){if('requestIdleCallback' in window)requestIdleCallback(fn,{timeout:800});else setTimeout(fn,100);}
+var prefetchAllowed=true;function stopPrefetch(){prefetchAllowed=false;}['pointerdown','keydown','scroll'].forEach(function(name){window.addEventListener(name,stopPrefetch,{once:true,passive:true});});
+function atIdle(fn){if(!prefetchAllowed)return;var run=function(deadline){if(!prefetchAllowed||deadline&&deadline.timeRemaining()<8)return;fn();};if('requestIdleCallback' in window)requestIdleCallback(run);else setTimeout(run,100);}
 function prepareNearbyPhotographs(){var edge=innerHeight*2.25;
 // Read geometry before changing loading hints; one decode at a time keeps the first paint free.
 var nearby=Array.from(root.querySelectorAll('img')).map(function(img){return{img:img,box:img.getBoundingClientRect()};}).filter(function(item){var box=item.box;return box.width&&box.height&&box.top<edge&&box.bottom>0;}).map(function(item){return item.img;});
