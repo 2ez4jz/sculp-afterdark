@@ -117,7 +117,7 @@ main a:not(.button):not(:has(img)){transition:translate .3s var(--ease)}@media(h
 @media(min-width:701px){.hero-portrait{grid-column:1}.hero-message{grid-column:2}}
 
 /* A paper page is uncovered as one surface; photographs stay inside their real layout. */
-#sculp-site img{view-transition-name:none!important}
+.composition-strip img,.composition-brief-grid img{view-transition-name:none!important}
 ::view-transition-old(root){animation:none;opacity:1;z-index:1}
 ::view-transition-new(root){animation:edit-uncover .38s cubic-bezier(.22,.7,.22,1) both;z-index:2}
 ::view-transition-group(root){animation-duration:0s}
@@ -148,3 +148,11 @@ html:active-view-transition-type(returning)::view-transition-new(root){animation
 @keyframes edit-retrace{from{clip-path:inset(0 0 0 100%)}to{clip-path:inset(0)}}
 
 ::view-transition-group(mast){z-index:10}
+
+/* Carry the photographed reference first; uncover new typography after it settles. */
+.composition-paper,.selected-reference.is-composition{view-transition-name:reference-sheet}
+::view-transition-group(reference-sheet),::view-transition-group(study-fresh-bridal),::view-transition-group(study-modern-chinese),::view-transition-group(study-classic-glamour){animation-duration:.16s;z-index:5}
+::view-transition-old(reference-sheet){animation:snapshot-away .08s linear both}
+::view-transition-new(reference-sheet){animation:snapshot-in .08s linear both}
+::view-transition-new(root){animation-delay:.16s;animation-duration:.32s}
+@media(prefers-reduced-motion:reduce){::view-transition-new(root){animation-delay:0s!important}}
