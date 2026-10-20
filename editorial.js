@@ -1,58 +1,43 @@
-/* Progressive visual and accessibility layer. Business handlers live in index.html. */
-(function(){
- 'use strict';
- var root=document.getElementById('sculp-site');if(!root)return;
- var reduce=matchMedia('(prefers-reduced-motion: reduce)');
- var main=root.querySelector('main'),nav=root.querySelector('.nav'),toggle=root.querySelector('.mobile-toggle'),foot=root.querySelector('main+footer');
- var seen=new WeakSet(),observer;
- var meta={
-  home:['SCULP Studio | Bridal & Beauty Styling Toronto','Toronto beauty studio for bridal, event, commercial and photoshoot styling, plus private and group education. Available for travel.'],
-  bridal:['Bridal Makeup & Styling | SCULP Studio Toronto','Explore SCULP bridal trials, wedding-day styling, artist tiers and additional services. Toronto bridal beauty, available for travel.'],
-  occasions:['Occasion Styling & Education | SCULP Studio Toronto','Event, personal, commercial and photoshoot styling, plus private and group makeup education. Explore services and enquire with SCULP Studio.'],
-  portfolio:['Artist Portfolio | SCULP Studio Toronto','Explore real bridal, editorial and occasion work by the artists of SCULP Studio. Find the artist whose point of view feels right for you.'],
-  'artist-portfolios':['Individual Artist Portfolios | SCULP Studio Toronto','Explore each SCULP artist’s individual selection of bridal beauty, wedding-day and editorial styling. Toronto and available for travel.'],
-  team:['Meet the Artists | SCULP Studio Toronto','Meet Miranda and the SCULP Studio artist team. Explore their approach, specialties and individual work, then enquire for your date.'],
-  about:['About the Studio | SCULP Studio Toronto','Discover the SCULP approach to modern beauty and visit our Markham studio. Find our address, arrival information and enquiry details.'],
-  book:['Enquire About Your Date | SCULP Studio Toronto','Tell SCULP Studio about your service, date, location and artist preference. Submit an enquiry and receive a reply within 24 hours.'],
-  'enquiry-sent':['Enquiry Sent | SCULP Studio','Thank you for contacting SCULP Studio. Your enquiry has been submitted successfully. We’ll reply within 24 hours.']
- };
- function closeMenu(restore){nav.classList.remove('open');toggle.setAttribute('aria-expanded','false');main.inert=false;if(foot)foot.inert=false;if(restore)toggle.focus();}
- toggle.addEventListener('click',function(){
-  var open=nav.classList.contains('open');main.inert=open;if(foot)foot.inert=open;
-  if(open)nav.querySelector('a').focus();
- });
- document.addEventListener('keydown',function(e){
-  if(!nav.classList.contains('open'))return;
-  if(e.key==='Escape'){e.preventDefault();closeMenu(true);return;}
-  if(e.key==='Tab'){
-   var links=[toggle].concat(Array.from(nav.querySelectorAll('a'))),i=links.indexOf(document.activeElement);
-   if(e.shiftKey&&i<=0){e.preventDefault();links[links.length-1].focus();}
-   else if(!e.shiftKey&&i===links.length-1){e.preventDefault();toggle.focus();}
-  }
- });
- document.addEventListener('click',function(e){if(nav.classList.contains('open')&&!e.target.closest('.mast'))closeMenu(false);});
- matchMedia('(min-width:951px)').addEventListener('change',function(e){if(e.matches)closeMenu(false);});
- if('IntersectionObserver' in window){
-  observer=new IntersectionObserver(function(entries){entries.forEach(function(entry){
-   if(!entry.isIntersecting||entry.target.closest('[hidden]'))return;
-   if(!reduce.matches)entry.target.classList.add('is-revealed');
-   observer.unobserve(entry.target);
-  });},{threshold:.08});
- }
- root.querySelectorAll('.detail-toggle').forEach(function(button){
-  button.addEventListener('click',function(){
-   var open=this.getAttribute('aria-pressed')!=='true';this.setAttribute('aria-pressed',String(open));this.closest('.photo').classList.toggle('is-inspected',open);
-   this.innerHTML=open?'Back to the full look <span aria-hidden="true">−</span>':'Study the detail <span aria-hidden="true">+</span>';
-  });
- });
- function onRoute(){
-  closeMenu(false);
-  var page=root.querySelector('article.view:not([hidden])');if(!page)return;
-  var info=meta[page.dataset.page];if(info){document.title=info[0];document.querySelector('meta[name="description"]').content=info[1];}
-  page.querySelectorAll('.photo').forEach(function(el){if(!seen.has(el)){seen.add(el);if(observer)observer.observe(el);}});
-  var heading=page.querySelector('h1');if(heading)heading.setAttribute('tabindex','-1');
-  if(location.hash&&heading)heading.focus({preventScroll:true});
- }
- window.addEventListener('sculp:route-rendered',onRoute);onRoute();
- reduce.addEventListener('change',function(){root.querySelectorAll('.is-revealed').forEach(function(el){el.classList.remove('is-revealed');});});
+/* The SCULP Edit: native navigation, real-work studies and a two-part studio brief. */
+(function(){'use strict';
+var root=document.getElementById('sculp-site');if(!root)return;var siteBase=new URL(root.dataset.base||'./',location.href);var reduce=matchMedia('(prefers-reduced-motion: reduce)'),main=root.querySelector('main'),footer=root.querySelector('.site-footer'),nav=root.querySelector('.nav'),toggle=root.querySelector('.mobile-toggle'),mobileEnquire=root.querySelector('.mobile-enquire');
+function menu(open,restore){nav.classList.toggle('open',open);toggle.setAttribute('aria-expanded',String(open));toggle.querySelector('span').textContent=open?'−':'+';main.inert=open;footer.inert=open;mobileEnquire.inert=open;document.body.classList.toggle('menu-open',open);if(open)nav.querySelector('a').focus();else if(restore)toggle.focus();}
+toggle.addEventListener('click',function(){menu(this.getAttribute('aria-expanded')!=='true',false);});
+document.addEventListener('keydown',function(e){if(!nav.classList.contains('open'))return;if(e.key==='Escape'){e.preventDefault();menu(false,true);}if(e.key==='Tab'){var items=Array.from(nav.querySelectorAll('a')).concat([toggle]),i=items.indexOf(document.activeElement);e.preventDefault();items[(i+(e.shiftKey?-1:1)+items.length)%items.length].focus();}});
+matchMedia('(min-width:951px)').addEventListener('change',function(e){if(e.matches)menu(false,false);});
+var tabs=Array.from(root.querySelectorAll('[role="tab"]'));function chooseTab(i,focus){tabs.forEach(function(t,n){t.setAttribute('aria-selected',String(i===n));t.tabIndex=i===n?0:-1;var panel=document.getElementById(t.getAttribute('aria-controls'));panel.hidden=i!==n;panel.classList.toggle('is-entering',i===n&&!reduce.matches);});if(focus)tabs[i].focus();}
+tabs.forEach(function(t,i){t.addEventListener('click',function(){chooseTab(i,false);});t.addEventListener('keydown',function(e){var n;if(e.key==='ArrowRight')n=(i+1)%tabs.length;if(e.key==='ArrowLeft')n=(i-1+tabs.length)%tabs.length;if(e.key==='Home')n=0;if(e.key==='End')n=tabs.length-1;if(n!==undefined){e.preventDefault();chooseTab(n,true);}});});
+root.querySelectorAll('.study-zoom').forEach(function(b){b.addEventListener('click',function(){var open=this.getAttribute('aria-pressed')!=='true';this.setAttribute('aria-pressed',String(open));this.closest('figure').classList.toggle('is-close',open);this.innerHTML=open?'Full look <span aria-hidden="true">−</span>':'Closer look <span aria-hidden="true">+</span>';});});
+var studies=[];try{studies=JSON.parse(document.getElementById('studio-data').textContent);}catch(e){}var saved=null,savedDetail='';try{saved=sessionStorage.getItem('sculp_beauty_direction');savedDetail=sessionStorage.getItem('sculp_beauty_detail')||'';}catch(e){}
+var artistKey=(root.querySelector('[data-artist]')||{dataset:{}}).dataset.artist,artistRecords=[],portfolioReference=null;try{artistRecords=JSON.parse(document.getElementById('artist-data').textContent);var candidate=JSON.parse(sessionStorage.getItem('sculp_portfolio_reference')||'null');if(candidate&&artistRecords.some(function(a){return a.key===candidate.key;})&&new RegExp('^assets/images/artists/'+candidate.key+'/[a-z0-9-]+\\.webp$').test(candidate.image)&&Number.isInteger(candidate.index)&&candidate.index>0&&candidate.index<100)portfolioReference=candidate;}catch(e){}
+function currentReference(){var s=study();if(s)return Object.assign({},s,{originalImage:s.image,image:s.image.replace('assets/images/','assets/images/display/420/')});if(!portfolioReference)return null;var artist=artistRecords.find(function(a){return a.key===portfolioReference.key;});return artist?{label:'Portfolio photograph '+portfolioReference.index,artist:artist.name,image:portfolioReference.image.replace('assets/images/','assets/images/display/420/'),originalImage:portfolioReference.image,isPortfolio:true}:null;}
+var params=new URLSearchParams(location.search);try{var campaign=JSON.parse(sessionStorage.getItem('sculp_campaign')||'{}');['utm_source','utm_medium','utm_campaign','utm_content','utm_term'].forEach(function(k){if(params.get(k))campaign[k]=params.get(k).slice(0,120);});sessionStorage.setItem('sculp_campaign',JSON.stringify(campaign));}catch(e){}if(studies.some(function(s){return s.slug===params.get('look');})){if(saved!==params.get('look'))savedDetail='';saved=params.get('look');portfolioReference=null;}
+function study(){return studies.find(function(s){return s.slug===saved;});}
+function persist(){try{if(portfolioReference)sessionStorage.setItem('sculp_portfolio_reference',JSON.stringify(portfolioReference));else sessionStorage.removeItem('sculp_portfolio_reference');sessionStorage.setItem('sculp_beauty_detail',savedDetail);if(saved)sessionStorage.setItem('sculp_beauty_direction',saved);else sessionStorage.removeItem('sculp_beauty_direction');}catch(e){}}
+function updateDirection(){persist();var selected=currentReference();root.querySelectorAll('.study-save').forEach(function(b){var active=!!selected&&b.dataset.study===saved&&(!b.dataset.detailLabel||b.dataset.detailLabel===savedDetail);b.setAttribute('aria-pressed',String(active));b.firstElementChild.textContent=active?'Direction saved':(b.dataset.saveLabel||'Keep this direction');b.lastElementChild.textContent=active?'✓':'+';});var bar=root.querySelector('.saved-direction');bar.hidden=!selected||['book','enquiry-sent'].includes(root.dataset.page);if(selected)bar.querySelector('[data-saved-label]').textContent=selected.isPortfolio?selected.artist+' / Photo '+portfolioReference.index+' saved':selected.label+(savedDetail?' / '+savedDetail:'')+' / saved';var reference=root.querySelector('[data-selected-reference]');if(reference){reference.hidden=!selected;reference.replaceChildren();if(selected){var thumb=document.createElement('img');thumb.src=new URL(selected.image,siteBase).href;thumb.alt='';thumb.width=64;thumb.height=80;var copy=document.createElement('div'),label=document.createElement('p'),chosen=document.createElement('p'),remove=document.createElement('button');label.className='reference-label';label.textContent='Your direction / '+selected.artist;chosen.textContent=selected.label+(savedDetail?' / '+savedDetail:'');remove.type='button';remove.className='reference-remove';remove.textContent='Remove direction ×';remove.addEventListener('click',clearDirection);copy.append(label,chosen,remove);reference.append(thumb,copy);}}var brief=root.querySelector('[data-brief-look]');if(brief){brief.replaceChildren();brief.hidden=!selected;if(selected){var img=document.createElement('img');img.src=new URL(selected.image,siteBase).href;img.alt=selected.label+' by '+selected.artist;img.width=65;img.height=80;var text=document.createElement('div'),p=document.createElement('p');p.textContent=selected.label+(savedDetail?' / '+savedDetail:'')+' / '+selected.artist;var clear=document.createElement('button');clear.type='button';clear.textContent='Remove this direction';clear.addEventListener('click',clearDirection);text.append(p,clear);brief.append(img,text);}}}
+function clearDirection(){saved=null;savedDetail='';portfolioReference=null;updateDirection();applyReference();}
+root.querySelectorAll('.study-save').forEach(function(b){b.addEventListener('click',function(){var panel=this.closest('.study-panel'),note=panel&&panel.querySelector('.study-focus[aria-pressed="true"]'),detail=this.dataset.detailLabel||(note?note.dataset.detailLabel:'');portfolioReference=null;var same=saved===this.dataset.study&&savedDetail===detail;saved=same?null:this.dataset.study;savedDetail=same?'':detail;updateDirection();});});
+root.querySelector('.clear-direction').addEventListener('click',clearDirection);updateDirection();
+var form=root.querySelector('#sculp-form'),previousReference='';
+function applyReference(){if(!form)return;var lines=[],s=currentReference();if(s)lines.push('Beauty direction: '+s.label+(savedDetail?' / '+savedDetail:'')+' (styling by '+s.artist+').');if(s&&s.isPortfolio)lines.push('Reference photograph: https://2ez4jz.github.io/sculp-afterdark/'+(s.originalImage||s.image));var artist=params.get('artist_name');if(['Miranda','Yuki','Mira','Angelina','Elaine','Emily','Michelle','Giselle'].includes(artist))lines.push('Preferred artist: '+artist+' (subject to availability).');var pack=params.get('package');if(pack&&pack.length<80)lines.push('Bridal service to discuss: '+pack+'.');var field=form.elements.details,text=field.value;if(previousReference&&text.startsWith(previousReference))text=text.slice(previousReference.length).replace(/^\s+/,'');previousReference=lines.length?lines.join('\n')+'\n\n':'';field.value=previousReference+text;}
+if(form){['service','artist'].forEach(function(name){var value=params.get(name),field=form.elements[name];if(value&&Array.from(field.options).some(function(o){return o.value===value;}))field.value=value;});applyReference();
+var steps=Array.from(form.querySelectorAll('[data-step]')),step=1,progress=root.querySelector('.form-progress');progress.hidden=false;form.querySelector('.step-navigation').hidden=false;form.querySelector('.step-back').hidden=false;
+function setStep(n,focus){step=n;steps.forEach(function(s){s.hidden=Number(s.dataset.step)!==n;});progress.querySelectorAll('[data-progress]').forEach(function(p){p.classList.toggle('is-current',Number(p.dataset.progress)===n);});if(focus){var legend=steps[n-1].querySelector('legend');legend.tabIndex=-1;legend.focus({preventScroll:true});progress.scrollIntoView({behavior:reduce.matches?'auto':'smooth',block:'start'});}}
+function next(){var invalid=Array.from(steps[0].querySelectorAll('input,select')).find(function(f){return !f.checkValidity();});if(invalid){invalid.reportValidity();return;}setStep(2,true);}
+form.querySelector('.step-next').addEventListener('click',next);form.querySelector('.step-back').addEventListener('click',function(){setStep(1,true);});
+steps[0].addEventListener('keydown',function(e){if(e.key==='Enter'&&e.target.tagName==='INPUT'){e.preventDefault();next();}});
+form.addEventListener('invalid',function(e){var panel=e.target.closest('[data-step]');if(panel&&panel.hidden)setStep(Number(panel.dataset.step),false);},true);
+form.addEventListener('input',summary);form.addEventListener('change',summary);function summary(){['service','date','artist'].forEach(function(name){var field=form.elements[name],out=root.querySelector('[data-summary="'+name+'"]');out.textContent=field.value||({service:"Let's find the right fit",date:'Your preferred date',artist:'We can guide you'})[name];});}
+form.addEventListener('reset',function(){setTimeout(function(){setStep(1,false);summary();},0);});setStep(1,false);summary();}
+// Real photographs remain ordinary image links without JS. Enhance them with a native dialog.
+root.querySelectorAll('.study-focus').forEach(function(button){button.addEventListener('click',function(){var panel=this.closest('.study-panel'),active=this.getAttribute('aria-pressed')!=='true';panel.querySelectorAll('.study-focus').forEach(function(b){var on=active&&b===button;b.setAttribute('aria-pressed',String(on));b.querySelector('.note-mark').textContent=on?'✓':'+';});var figure=panel.querySelector('.study-image');figure.classList.toggle('is-close',active);figure.style.setProperty('--detail-y',['25%','43%','12%'][Number(this.dataset.detail)]);var zoom=panel.querySelector('.study-zoom');zoom.setAttribute('aria-pressed',String(active));zoom.innerHTML=active?'Full look <span aria-hidden="true">−</span>':'Closer look <span aria-hidden="true">+</span>';});});
+var photographs=Array.from(root.querySelectorAll('.image-open'));if(photographs.length){var dialog=document.createElement('dialog');dialog.className='photo-dialog';dialog.setAttribute('aria-label','Full photograph viewer');dialog.innerHTML='<div class="photo-dialog-bar"><span data-photo-count></span><button type="button" data-photo-close>Close ×</button></div><img alt=""><div class="photo-dialog-controls"><button type="button" data-photo-prev>← Previous</button><span data-photo-caption></span><button type="button" data-photo-next>Next →</button></div><button type="button" class="button fill photo-keep" aria-pressed="false"><span>Bring this photograph</span><span class="arrow" aria-hidden="true">↗</span></button>';root.append(dialog);var current=0,opener;function show(n){current=(n+photographs.length)%photographs.length;var a=photographs[current],img=a.querySelector('img');dialog.querySelector('img').src=a.href;dialog.querySelector('img').alt=img.alt;dialog.querySelector('[data-photo-count]').textContent=(current+1)+' / '+photographs.length;dialog.querySelector('[data-photo-caption]').textContent=img.alt;var keep=dialog.querySelector('.photo-keep'),chosen=portfolioReference&&portfolioReference.key===artistKey&&portfolioReference.index===current+1;keep.setAttribute('aria-pressed',String(!!chosen));keep.firstElementChild.textContent=chosen?'Photograph saved':'Bring this photograph';keep.lastElementChild.textContent=chosen?'✓':'↗';}
+dialog.querySelector('.photo-keep').addEventListener('click',function(){var a=photographs[current],image=a.href.slice(siteBase.href.length);if(!artistRecords.some(function(artist){return artist.key===artistKey;})||!image.startsWith('assets/images/artists/'+artistKey+'/'))return;var same=portfolioReference&&portfolioReference.key===artistKey&&portfolioReference.index===current+1;saved=null;savedDetail='';portfolioReference=same?null:{key:artistKey,image:image,index:current+1};updateDirection();show(current);});
+photographs.forEach(function(a,i){a.addEventListener('click',function(e){e.preventDefault();opener=a;show(i);dialog.showModal();document.body.classList.add('menu-open');});});dialog.querySelector('[data-photo-close]').addEventListener('click',function(){dialog.close();});dialog.querySelector('[data-photo-prev]').addEventListener('click',function(){show(current-1);});dialog.querySelector('[data-photo-next]').addEventListener('click',function(){show(current+1);});dialog.addEventListener('keydown',function(e){if(e.key==='ArrowLeft'){e.preventDefault();show(current-1);}if(e.key==='ArrowRight'){e.preventDefault();show(current+1);}});dialog.addEventListener('close',function(){document.body.classList.remove('menu-open');if(opener)opener.focus();});dialog.addEventListener('click',function(e){if(e.target===dialog)dialog.close();});}
+// Decode the next screen of photographs after the first screen has loaded.
+// This prepares nearby real work for a first scroll without fetching the whole gallery.
+function prepareNearbyPhotographs(){var edge=innerHeight*2.25;root.querySelectorAll('img').forEach(function(img){var box=img.getBoundingClientRect();if(box.width&&box.height&&box.top<edge&&box.bottom>0){img.loading='eager';img.decoding='async';if(img.decode)img.decode().catch(function(){});}});}
+function prepareWhenIdle(){if('requestIdleCallback' in window)requestIdleCallback(prepareNearbyPhotographs,{timeout:800});else setTimeout(prepareNearbyPhotographs,200);}
+if(document.readyState==='complete')prepareWhenIdle();else window.addEventListener('load',prepareWhenIdle,{once:true});
+if(root.dataset.page==='enquiry-sent')root.querySelector('h1').focus({preventScroll:true});
 })();

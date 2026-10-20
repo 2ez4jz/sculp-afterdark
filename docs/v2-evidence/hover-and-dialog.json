@@ -1,0 +1,119 @@
+{
+  "hoverTargets": [
+    {
+      "key": "home-primary",
+      "route": "",
+      "label": "Find your point of view↗",
+      "before": "[{\"translate\":\"none\",\"scale\":\"none\",\"rotate\":\"none\",\"background\":\"rgb(48, 68, 172)\",\"color\":\"rgb(255, 255, 255)\",\"border\":\"rgb(48, 68, 172)\"},{\"translate\":\"none\",\"scale\":\"none\",\"rotate\":\"none\",\"background\":\"rgba(0, 0, 0, 0)\",\"color\":\"rgb(255, 255, 255)\",\"border\":\"rgb(255, 255, 255)\"},{\"translate\":\"none\",\"scale\":\"none\",\"rotate\":\"none\",\"background\":\"rgba(0, 0, 0, 0)\",\"color\":\"rgb(255, 255, 255)\",\"border\":\"rgb(255, 255, 255)\"}]",
+      "after": "[{\"translate\":\"none\",\"scale\":\"none\",\"rotate\":\"none\",\"background\":\"rgb(48, 68, 172)\",\"color\":\"rgb(255, 255, 255)\",\"border\":\"rgb(32, 39, 32)\"},{\"translate\":\"none\",\"scale\":\"none\",\"rotate\":\"none\",\"background\":\"rgba(0, 0, 0, 0)\",\"color\":\"rgb(255, 255, 255)\",\"border\":\"rgb(255, 255, 255)\"},{\"translate\":\"3px -3px\",\"scale\":\"none\",\"rotate\":\"none\",\"background\":\"rgba(0, 0, 0, 0)\",\"color\":\"rgb(255, 255, 255)\",\"border\":\"rgb(255, 255, 255)\"}]",
+      "changed": true
+    },
+    {
+      "key": "home-secondary",
+      "route": "",
+      "label": "Plan your bridal look ↗",
+      "before": "[{\"translate\":\"none\",\"scale\":\"none\",\"rotate\":\"none\",\"background\":\"rgba(0, 0, 0, 0)\",\"color\":\"rgb(32, 39, 32)\",\"border\":\"rgb(32, 39, 32)\"},{\"translate\":\"none\",\"scale\":\"none\",\"rotate\":\"none\",\"background\":\"rgba(0, 0, 0, 0)\",\"color\":\"rgb(32, 39, 32)\",\"border\":\"rgb(32, 39, 32)\"}]",
+      "after": "[{\"translate\":\"3px\",\"scale\":\"none\",\"rotate\":\"none\",\"background\":\"rgba(0, 0, 0, 0)\",\"color\":\"rgb(32, 39, 32)\",\"border\":\"rgb(32, 39, 32)\"},{\"translate\":\"3px -3px\",\"scale\":\"none\",\"rotate\":\"none\",\"background\":\"rgba(0, 0, 0, 0)\",\"color\":\"rgb(32, 39, 32)\",\"border\":\"rgb(32, 39, 32)\"}]",
+      "changed": true
+    },
+    {
+      "key": "logo",
+      "route": "",
+      "label": "SCULP STUDIO",
+      "before": "[{\"translate\":\"none\",\"scale\":\"none\",\"rotate\":\"none\",\"background\":\"rgba(0, 0, 0, 0)\",\"color\":\"rgb(32, 39, 32)\",\"border\":\"rgb(32, 39, 32)\"},{\"translate\":\"none\",\"scale\":\"none\",\"rotate\":\"none\",\"background\":\"rgba(0, 0, 0, 0)\",\"color\":\"rgb(32, 39, 32)\",\"border\":\"rgb(32, 39, 32)\"}]",
+      "after": "[{\"translate\":\"none\",\"scale\":\"none\",\"rotate\":\"none\",\"background\":\"rgba(0, 0, 0, 0)\",\"color\":\"rgb(32, 39, 32)\",\"border\":\"rgb(32, 39, 32)\"},{\"translate\":\"3px\",\"scale\":\"none\",\"rotate\":\"none\",\"background\":\"rgba(0, 0, 0, 0)\",\"color\":\"rgb(32, 39, 32)\",\"border\":\"rgb(32, 39, 32)\"}]",
+      "changed": true
+    },
+    {
+      "key": "nav",
+      "route": "",
+      "label": "The work",
+      "before": "[{\"translate\":\"none\",\"scale\":\"none\",\"rotate\":\"none\",\"background\":\"rgba(0, 0, 0, 0)\",\"color\":\"rgb(32, 39, 32)\",\"border\":\"rgb(32, 39, 32)\"}]",
+      "after": "[{\"translate\":\"0px -2px\",\"scale\":\"none\",\"rotate\":\"none\",\"background\":\"rgba(0, 0, 0, 0)\",\"color\":\"rgb(32, 39, 32)\",\"border\":\"rgb(32, 39, 32)\"}]",
+      "changed": true
+    },
+    {
+      "key": "study-tab",
+      "route": "",
+      "label": "Fresh bridal↗",
+      "before": "[{\"translate\":\"none\",\"scale\":\"none\",\"rotate\":\"none\",\"background\":\"rgba(0, 0, 0, 0)\",\"color\":\"rgb(255, 255, 255)\",\"border\":\"rgb(255, 255, 255)\"},{\"translate\":\"none\",\"scale\":\"none\",\"rotate\":\"none\",\"background\":\"rgba(0, 0, 0, 0)\",\"color\":\"rgb(255, 255, 255)\",\"border\":\"rgb(255, 255, 255)\"}]",
+      "after": "[{\"translate\":\"none\",\"scale\":\"none\",\"rotate\":\"none\",\"background\":\"rgba(0, 0, 0, 0)\",\"color\":\"rgb(255, 255, 255)\",\"border\":\"rgb(255, 255, 255)\"},{\"translate\":\"3px -3px\",\"scale\":\"none\",\"rotate\":\"none\",\"background\":\"rgba(0, 0, 0, 0)\",\"color\":\"rgb(255, 255, 255)\",\"border\":\"rgb(255, 255, 255)\"}]",
+      "changed": true
+    },
+    {
+      "key": "study-detail",
+      "route": "",
+      "label": "The eye lineA fine outward line and fanned lashes give the eyes definition without a dense band of shadow.+",
+      "before": "[{\"translate\":\"none\",\"scale\":\"none\",\"rotate\":\"none\",\"background\":\"rgba(0, 0, 0, 0)\",\"color\":\"rgb(255, 255, 255)\",\"border\":\"rgb(255, 255, 255) rgb(255, 255, 255) rgb(130, 144, 210)\"},{\"translate\":\"none\",\"scale\":\"none\",\"rotate\":\"none\",\"background\":\"rgba(0, 0, 0, 0)\",\"color\":\"rgb(255, 255, 255)\",\"border\":\"rgb(255, 255, 255)\"},{\"translate\":\"none\",\"scale\":\"none\",\"rotate\":\"none\",\"background\":\"rgba(0, 0, 0, 0)\",\"color\":\"rgb(227, 231, 255)\",\"border\":\"rgb(227, 231, 255)\"},{\"translate\":\"none\",\"scale\":\"none\",\"rotate\":\"none\",\"background\":\"rgba(0, 0, 0, 0)\",\"color\":\"rgb(255, 255, 255)\",\"border\":\"rgb(255, 255, 255)\"}]",
+      "after": "[{\"translate\":\"none\",\"scale\":\"none\",\"rotate\":\"none\",\"background\":\"rgb(41, 60, 153)\",\"color\":\"rgb(255, 255, 255)\",\"border\":\"rgb(255, 255, 255) rgb(255, 255, 255) rgb(130, 144, 210)\"},{\"translate\":\"none\",\"scale\":\"none\",\"rotate\":\"none\",\"background\":\"rgba(0, 0, 0, 0)\",\"color\":\"rgb(255, 255, 255)\",\"border\":\"rgb(255, 255, 255)\"},{\"translate\":\"none\",\"scale\":\"none\",\"rotate\":\"none\",\"background\":\"rgba(0, 0, 0, 0)\",\"color\":\"rgb(227, 231, 255)\",\"border\":\"rgb(227, 231, 255)\"},{\"translate\":\"none\",\"scale\":\"none\",\"rotate\":\"90deg\",\"background\":\"rgba(0, 0, 0, 0)\",\"color\":\"rgb(255, 255, 255)\",\"border\":\"rgb(255, 255, 255)\"}]",
+      "changed": true
+    },
+    {
+      "key": "study-zoom",
+      "route": "",
+      "label": "Closer look +",
+      "before": "[{\"translate\":\"none\",\"scale\":\"none\",\"rotate\":\"none\",\"background\":\"rgba(0, 0, 0, 0)\",\"color\":\"rgb(255, 255, 255)\",\"border\":\"rgb(173, 182, 230)\"},{\"translate\":\"none\",\"scale\":\"none\",\"rotate\":\"none\",\"background\":\"rgba(0, 0, 0, 0)\",\"color\":\"rgb(255, 255, 255)\",\"border\":\"rgb(255, 255, 255)\"}]",
+      "after": "[{\"translate\":\"none\",\"scale\":\"none\",\"rotate\":\"none\",\"background\":\"rgb(255, 255, 255)\",\"color\":\"rgb(48, 68, 172)\",\"border\":\"rgb(173, 182, 230)\"},{\"translate\":\"none\",\"scale\":\"none\",\"rotate\":\"90deg\",\"background\":\"rgba(0, 0, 0, 0)\",\"color\":\"rgb(48, 68, 172)\",\"border\":\"rgb(48, 68, 172)\"}]",
+      "changed": true
+    },
+    {
+      "key": "artist-card",
+      "route": "",
+      "label": "Miranda↗Signature Artist / FounderEditorial bridal",
+      "before": "[{\"translate\":\"none\",\"scale\":\"none\",\"rotate\":\"none\",\"background\":\"rgba(0, 0, 0, 0)\",\"color\":\"rgb(32, 39, 32)\",\"border\":\"rgb(32, 39, 32)\"},{\"translate\":\"none\",\"scale\":\"none\",\"rotate\":\"none\",\"background\":\"rgba(0, 0, 0, 0)\",\"color\":\"rgb(32, 39, 32)\",\"border\":\"rgb(32, 39, 32)\"},{\"translate\":\"none\",\"scale\":\"none\",\"rotate\":\"none\",\"background\":\"rgba(0, 0, 0, 0)\",\"color\":\"rgb(32, 39, 32)\",\"border\":\"rgb(32, 39, 32)\"}]",
+      "after": "[{\"translate\":\"none\",\"scale\":\"none\",\"rotate\":\"none\",\"background\":\"rgba(0, 0, 0, 0)\",\"color\":\"rgb(32, 39, 32)\",\"border\":\"rgb(32, 39, 32)\"},{\"translate\":\"none\",\"scale\":\"1.03426\",\"rotate\":\"none\",\"background\":\"rgba(0, 0, 0, 0)\",\"color\":\"rgb(32, 39, 32)\",\"border\":\"rgb(32, 39, 32)\"},{\"translate\":\"3px -3px\",\"scale\":\"none\",\"rotate\":\"none\",\"background\":\"rgba(0, 0, 0, 0)\",\"color\":\"rgb(32, 39, 32)\",\"border\":\"rgb(32, 39, 32)\"}]",
+      "changed": true
+    },
+    {
+      "key": "footer-cta",
+      "route": "",
+      "label": "Your plans.Our next conversation. ↗",
+      "before": "[{\"translate\":\"none\",\"scale\":\"none\",\"rotate\":\"none\",\"background\":\"rgba(0, 0, 0, 0)\",\"color\":\"rgb(255, 255, 255)\",\"border\":\"rgb(255, 255, 255)\"},{\"translate\":\"none\",\"scale\":\"none\",\"rotate\":\"none\",\"background\":\"rgba(0, 0, 0, 0)\",\"color\":\"rgb(255, 255, 255)\",\"border\":\"rgb(255, 255, 255)\"},{\"translate\":\"none\",\"scale\":\"none\",\"rotate\":\"none\",\"background\":\"rgba(0, 0, 0, 0)\",\"color\":\"rgb(255, 255, 255)\",\"border\":\"rgb(255, 255, 255)\"}]",
+      "after": "[{\"translate\":\"none\",\"scale\":\"none\",\"rotate\":\"none\",\"background\":\"rgba(0, 0, 0, 0)\",\"color\":\"rgb(255, 255, 255)\",\"border\":\"rgb(255, 255, 255)\"},{\"translate\":\"none\",\"scale\":\"none\",\"rotate\":\"none\",\"background\":\"rgba(0, 0, 0, 0)\",\"color\":\"rgb(255, 255, 255)\",\"border\":\"rgb(255, 255, 255)\"},{\"translate\":\"3px -3px\",\"scale\":\"none\",\"rotate\":\"none\",\"background\":\"rgba(0, 0, 0, 0)\",\"color\":\"rgb(255, 255, 255)\",\"border\":\"rgb(255, 255, 255)\"}]",
+      "changed": true
+    },
+    {
+      "key": "bridal-jump",
+      "route": "bridal/",
+      "label": "Trials & wedding day",
+      "before": "[{\"translate\":\"none\",\"scale\":\"none\",\"rotate\":\"none\",\"background\":\"rgba(0, 0, 0, 0)\",\"color\":\"rgb(32, 39, 32)\",\"border\":\"rgb(32, 39, 32)\"}]",
+      "after": "[{\"translate\":\"3px\",\"scale\":\"none\",\"rotate\":\"none\",\"background\":\"rgba(0, 0, 0, 0)\",\"color\":\"rgb(32, 39, 32)\",\"border\":\"rgb(32, 39, 32)\"}]",
+      "changed": true
+    },
+    {
+      "key": "team-next",
+      "route": "team/",
+      "label": "Start an enquiry →",
+      "before": "[{\"translate\":\"none\",\"scale\":\"none\",\"rotate\":\"none\",\"background\":\"rgba(0, 0, 0, 0)\",\"color\":\"rgb(32, 39, 32)\",\"border\":\"rgb(32, 39, 32)\"}]",
+      "after": "[{\"translate\":\"3px\",\"scale\":\"none\",\"rotate\":\"none\",\"background\":\"rgba(0, 0, 0, 0)\",\"color\":\"rgb(32, 39, 32)\",\"border\":\"rgb(32, 39, 32)\"}]",
+      "changed": true
+    },
+    {
+      "key": "about-next",
+      "route": "about/",
+      "label": "Meet the team →",
+      "before": "[{\"translate\":\"none\",\"scale\":\"none\",\"rotate\":\"none\",\"background\":\"rgba(0, 0, 0, 0)\",\"color\":\"rgb(32, 39, 32)\",\"border\":\"rgb(32, 39, 32)\"}]",
+      "after": "[{\"translate\":\"3px\",\"scale\":\"none\",\"rotate\":\"none\",\"background\":\"rgba(0, 0, 0, 0)\",\"color\":\"rgb(32, 39, 32)\",\"border\":\"rgb(32, 39, 32)\"}]",
+      "changed": true
+    },
+    {
+      "key": "book-fallback",
+      "route": "book/",
+      "label": "sculpstudio.ca@gmail.com",
+      "before": "[{\"translate\":\"none\",\"scale\":\"none\",\"rotate\":\"none\",\"background\":\"rgba(0, 0, 0, 0)\",\"color\":\"rgb(32, 39, 32)\",\"border\":\"rgb(32, 39, 32)\"}]",
+      "after": "[{\"translate\":\"3px\",\"scale\":\"none\",\"rotate\":\"none\",\"background\":\"rgba(0, 0, 0, 0)\",\"color\":\"rgb(32, 39, 32)\",\"border\":\"rgb(32, 39, 32)\"}]",
+      "changed": true
+    },
+    {
+      "key": "artist-back",
+      "route": "artists/miranda/",
+      "label": "← All artists",
+      "before": "[{\"translate\":\"none\",\"scale\":\"none\",\"rotate\":\"none\",\"background\":\"rgba(0, 0, 0, 0)\",\"color\":\"rgb(32, 39, 32)\",\"border\":\"rgb(32, 39, 32)\"}]",
+      "after": "[{\"translate\":\"3px\",\"scale\":\"none\",\"rotate\":\"none\",\"background\":\"rgba(0, 0, 0, 0)\",\"color\":\"rgb(32, 39, 32)\",\"border\":\"rgb(32, 39, 32)\"}]",
+      "changed": true
+    }
+  ],
+  "openPhotoDialogAxe": [],
+  "errors": [],
+  "notes": "Actual rest/hover snapshots and computed movement; full original photograph selected and carried through native navigation. No POST."
+}

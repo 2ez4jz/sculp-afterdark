@@ -34,7 +34,7 @@
     return String(value||'').replace(/\s+/g,' ').trim().slice(0,max||80);
   }
   function route(){
-    return (window.location.hash||'#home').replace(/^#/,'').split(/[?&]/)[0]||'home';
+    return root.dataset.page||'home';
   }
   function send(name,params){
     var payload=Object.assign({site_variant:'afterdark',route:route()},params||{});
@@ -59,13 +59,20 @@
     send('page_view',{
       page_title:document.title,
       page_location:window.location.href.split('?')[0],
-      page_path:'/#'+next
+      page_path:window.location.pathname
     });
     if(clarityId&&window.clarity)window.clarity('set','sculp_page',next);
   }
 
+  // Layout height changes at load/resize or when form content changes, not at every scroll frame.
+  var depthHeight=1;
+  function updateDepthHeight(){depthHeight=Math.max(document.documentElement.scrollHeight-window.innerHeight,1);}
+  updateDepthHeight();
+  window.addEventListener('load',updateDepthHeight,{once:true});
+  window.addEventListener('resize',updateDepthHeight,{passive:true});
+  if('ResizeObserver' in window)new ResizeObserver(updateDepthHeight).observe(root);
   function scrollDepth(){
-    var height=Math.max(document.documentElement.scrollHeight-window.innerHeight,1);
+    var height=depthHeight;
     var percent=Math.round(Math.min(1,Math.max(0,window.scrollY/height))*100);
     [25,50,75,90].forEach(function(depth){
       if(percent>=depth&&!sentDepths[depth]){
@@ -104,7 +111,6 @@
     });
     form.addEventListener('sculp:enquiry-sent',function(){
       send('form_submit',{form_name:'enquiry',delivery_method:'direct'});
-      requestAnimationFrame(pageView);
     });
   }
 

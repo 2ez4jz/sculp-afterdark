@@ -1,77 +1,80 @@
-# SCULP / After Dark Design V1.0
+# SCULP / The SCULP Edit V2
 
-Date: 2026-10-20 (Toronto). Baseline: 91e561953f719cdc931af65aed74d8801e3c5bf7.
+Date: 2026-10-20, Toronto. New user authorization: visual direction, copy and customer flow may change substantially; dark styling is optional. V1 baseline 2c58790; production main remains91e5619. No production overwrite, backend/schema/auth/key changes or real test submissions.
 
-## Brief and constraints
+## Brief and industry reading
 
-A Toronto/Markham makeup and styling studio serving bridal, occasion, commercial and education clients. The site's job is to show real work, help people choose an artist/service, and receive an enquiry. Existing photography and business copy are authoritative. Preserve every existing route, price, portfolio, form/API integration, attribution and canonical. No database, key, auth or production changes. English content remains English. No invented credentials or placeholder projects.
+SCULP is a Toronto/Markham beauty studio, with eight artists spanning editorial bridal, New Chinese Style, Korean-inspired freshness, classic refinement and defined soft glam. Clients choose an aesthetic and a person before a service slot. The business facts and original work in the repository are authoritative; the new site makes those differences useful instead of presenting another luxury adjective.
 
-Keep buildless HTML/CSS/JavaScript: the existing router and forms already work; a framework migration would add risk without helping visitors. No new runtime package. Native CSS and View Transitions progressively enhance the existing browser experience. This follows the user's explicit preference for CSS or another mature solution without unnecessary dependencies, in place of the skill's default GSAP/Lenis engine.
+Read the official Fancy Face home/services and Bridal Beauty Toronto service/portfolio pages (20 October2026). These show that service access, actual work and a reassuring enquiry are category basics. SCULP's available differentiator is its artists' genuinely different visual traditions and its existing editorial work. This is an inference from that source review, not a measured conversion claim. Sources: https://www.fancyface.ca/ , https://www.fancyface.ca/services/ , https://bridalbeauty.ca/makeup-artist-toronto/ . No competitor copy or assets are reused.
 
-## Three concept territories
+## Three different concept territories
 
-| Territory | Idea / anchor | Signature / emotion / screenshot | Originality | Fit | Feasibility | Portability (lower better) |
-|---|---|---|---:|---:|---:|---:|
-| Profession's material | Light gives beauty its form. SCULP considers features, skin texture, proportion, dress, light and photography. | Portraits are revealed by a single horizontal cut; decisive type beside an unobscured face. Composed, intimate, assured. | 4 | 5 | 5 | 2 |
-| Name | SCULP as an artist's imprint: a typographic atelier stamp repeated at the opening and final signature. | A large wordmark acts as a sign-off to the artist directory. Editorial authority. | 3 | 4 | 5 | 3 |
-| Working process | A quiet consultation, moving from occasion to artist to the final enquiry. | Concierge selections become an appointment brief. Reassuring and personal. | 3 | 5 | 5 | 3 |
+| Territory | Anchor | Signature / shared frame | Originality / fit / feasibility / portability |
+|---|---|---|---|
+| Artist's working material | Real choices in eye line, colour, finish and hair silhouette across SCULP's actual work | A beauty edit: inspect a real look, pick the detail you respond to and carry it into an enquiry | 5 /5 /5 /2 |
+| Collective and culture | Eight artists with documented New Chinese, Korean-inspired, Western/Thai and editorial approaches | An atlas of individual artists with styles as entry points | 4 /5 /5 /3 |
+| Place | Private Markham studio, real lounge/vanity/consultation rooms | A virtual appointment moving from arrival to mirror to the final look | 4 /4 /3 /3 |
 
-Selected: light and form. It comes from SCULP's stated craft and photographs; the wordmark is a secondary sign-off. The concierge remains a functional decision tool, not a new visual gimmick.
+Chosen: the artist's edit. It turns the portfolio into a useful conversation rather than a passive image wall, with real visual analysis that can improve the enquiry brief. The collective supports it rather than becoming a second metaphor.
 
 ## Concept card
 
-Idea: Reveal the person through light, proportion and a precise editorial frame.
-Metaphor: A portrait sitting in a dark photographic studio.
-Signature: The craft portrait has a keyboard/touch-operated detail study that enlarges the real photograph to inspect makeup texture. Lateral image reveals and page handoffs echo removing a studio flag; native View Transitions when supported.
-Emotion: Assurance, intimacy, composure.
-Motion verb: Uncover.
-Screenshot: A naturally coloured bridal portrait held beside a large fashion-serif statement on charcoal.
+Idea: Help you notice the beauty choices that feel like you, then bring them to the right conversation.
+Metaphor: A personal beauty editor's working selection.
+Signature: Three real looks, three image-specific readings, detail selection and closer inspection, with the chosen direction/detail carried into the studio brief across pages.
+Emotion: Clear-eyed confidence, personal attention and an unexpected fashion voice.
+Motion verb: Frame, focus, carry.
+Screenshot: A cobalt SCULP masthead and portrait, then a cobalt study spread where the visible detail selected becomes part of the enquiry.
 
-## System
+## System and compositions
 
-| Role | Value / rule |
+Paper#f5f6f0, ink#202720, secondary#515c50, blue#3044ac, pale#e6e9dc, line#c5ccc0. This is a cool light identity with a deliberate saturated brand field, not the cream/terracotta editorial default. Natural photography supplies every other colour.
+
+Instrument Sans400-700 for active display/body/UI; Bodoni Moda400 only for SCULP masthead and a measured editorial contrast. Existing licensed self-hosted WOFF2, two preloads, no external font chain. Display tracking-.045em to-.072em; body16-19px/1.6; UI12-14px. Square frames, varied whitespace, original-ratio artist photographs.
+
+| Section / page | Composition and purpose |
 |---|---|
-| Ground | #141619, studio charcoal |
-| Surface | #1c1e21, secondary charcoal; #24272a for controls |
-| Ink | #f2eee8, soft white |
-| Muted | #c0bbb4; tested on the actual background |
-| Line | #45474a |
-| Accent | #d6bda4, sampled direction from warm skin and studio materials; used for actions and orientation |
-| Display | Bodoni Moda 400, Google Fonts/OFL, self-hosted Latin WOFF2, 14 KB |
-| Text/UI | Instrument Sans variable 400–600, Google Fonts/OFL, self-hosted Latin WOFF2, 29 KB |
-| Grid | Desktop 12-column logic expressed as asymmetrical 2-column groups; outer gutter 5vw capped 88px. Phone gutter 24px. Portraits keep natural colour. Artist work keeps its native proportions. |
-| Shape | Square edges and 1px rules; no shadows on service/pricing structures. |
-| Type | Display 42–128px, body 16–18px; body measure 43–52ch. UI 12–14px. |
-| Rhythm | 76px phone sections; desktop 80–146px. Short utility sections contrast with portrait-led compositions. |
-| Motion | One ease cubic-bezier(.2,.75,.25,1); hover 300–400ms, image uncover 700ms, page handoff 400ms. No loader, canvas, parallax, scroll replacement or idle animation. |
+| Home opening | Oversized SCULP as image; offset portrait crosses the wordmark, leaving the face clear; plain service/location and two choices before imagery on phone |
+| Opening thought | Small left proposition with a large offset statement, a short explanation rather than repeated brand adjectives |
+| Beauty Edit | Cobalt field, tabbed image and detailed reading; choose a feature, inspect it, keep the direction for enquiry |
+| Services | Four meaningful occasion rows with direct service links |
+| Artists | Actual portraits and differentiated specialties; no fabricated matching score |
+| Founder | Smaller portrait in a pale field with real fashion/destination experience |
+| Client voices | One lead pull quote and two supporting true source testimonials |
+| Visit | Wide real studio photograph, address, parking and an arrival link |
+| Finale / Footer | Large direct invitation, contact details and a cobalt SCULP sign-off |
+| Portfolio | Compact introduction, three substantial visual studies, then one artist directory; no duplicated Portfolio/Artist portfolios headings |
+| Artist | Actual name/specialty/role, complete original gallery in original order, native full-image dialog, specific enquiry link |
+| Study | A question about the photograph, an observable visual idea/effect, detailed reading, what to discuss for yourself; not a fabricated client case |
+| Bridal | Wedding portrait and direct service entry; complete prices with each option carryable to enquiry; clear payment/availability notes |
+| Book | Short two-column introduction, studio brief beside a two-part native form; phone shows fields before the extended brief |
+| 404 | The same paper/cobalt language, a usable way home, true404status |
 
-## Composition map
+No loader, WebGL, particle field, fake before/after, face retouching, AI-generated client imagery, follower cursor or scroll takeover. Stillness at rest is intentional: people should be able to study real makeup and hair without movement. The signature responds to deliberate selection rather than drifting for decoration. No accessory added solely to satisfy idle-motion detection.
 
-| Section/page | Composition |
-|---|---|
-| Home opening | Large two-line statement and a full-colour portrait; phone puts headline first, portrait second, full supporting copy and CTAs below. |
-| Philosophy | Offset statement / text pair on a second charcoal level. |
-| Services | Two editorial service entries with real inline image crops; no SaaS card backgrounds. |
-| Concierge | Existing four choices and live recommendation, visibly grouped controls. |
-| Craft | Large makeup detail opposite a compact explanation. |
-| Client voices | One leading pull quote, two quieter testimonials; all content visible. |
-| Artists | Founder portrait and introduction; directory retains equal visual weight for all eight artists. |
-| Pricing | Two compareable groups with transparent columns; stacked phone rows. All prices retained. |
-| Artist galleries | Three/two/one-column native-ratio image columns at desktop/tablet/phone. |
-| Enquiry | Strong but modest introduction, single reading path, clearly labelled high-contrast controls and errors. |
-| Finale | Existing enquiry CTA followed by real contact/navigation and a large SCULP signature. |
-| Missing page | Branded dark 404 with a clear path back. |
+## Content provenance
 
-## Deliberate restraint and genericness test
+Source biographies and full image arrays remain authoritative. The three study images are explicitly attributed in the old gallery: Angelina01, Mira04, Yuki11. Descriptions are observations of visible eye line, colour and hair, never claims about an unknown client's brief, outcome, product or event. No fictitious award/client/result. Curation notes and contact sheets are in QA evidence, not the customer interface. Full original artist portfolios, prices, business policies and real testimonials are retained.
 
-No cream-and-terracotta page fields, gradient glows, floating cursor, animated counters, blank galleries, idle wobble, decorative side labels or artificial loader. Colour comes from SCULP's actual photography. A still image must stand by itself. Idle stillness is intentional for a client evaluating an artist's work; primary controls retain purposeful feedback.
+## Architecture and intentional exceptions
 
-The existing copy contains dashes, numbered service groups and testimonials. They remain because the user explicitly required business content preservation. These are documented exceptions to the skill's stylistic copy defaults. Existing hash routes mean a static source scanner sees multiple hidden article headings; rendered-page checks verify one active H1 per route. Hash routes retain the original canonical rather than pretending to be separately indexed documents.
+A small Node-only build reads existing content fragments and generates19 real static HTML pages. No framework migration or runtime dependency. Existing hash URLs redirect to their equivalent real paths and service/section references; server output now contains one H1 and route-specific metadata instead of nine hidden views. Relative base paths support both GitHub subpaths and the private preview root. Generated files are committed so the existing Pages static publication needs no new build service.
 
-## Access and performance
+The primary home canonical stays sculpstudio.ca. New inner pages self-canonicalize to the existing Afterdark hosting path so their URLs are real on release; original business URL in JSON-LD stays sculpstudio.ca. Review the final canonical domain if this design later replaces the primary site, rather than launching both as competing primary sites.
 
-Skip link first; visible focus; route heading focus; mobile menu Escape, focus containment and restoration; forms retain native validation. Reduced motion disables reveals, smooth scrolling and page effects. Static content is never opacity-hidden before a reveal. Self-hosted fonts replace Google font chains, with two preloads only. Hidden eager bridal media becomes lazy. No service-role credential or runtime key is added.
+The existing lead/email contract is extracted, with only native success-page navigation and reduced-motion-aware error scroll changed. API endpoints, CC, validation, attribution, idempotent retry and confirmed-success conversion are retained. Analytics uses actual route/path and no longer creates a second page view on the form event. UI preference storage contains a look/detail only, not contact information. Backend CORS is not expanded for previews.
 
-## Review and release
+CSS transitions and native cross-document View Transitions fit this static site; the user's permission to use mature lightweight tools overrides the skill's default GSAP/Lenis dependencies. Native dialog handles photo focus/Escape; native fields retain required/date/email semantics. Reduced motion removes automatic animation and smooth scrolling, keeping deliberate detail inspection available.
 
-Use original /jury audit and shoot scripts plus explicit hash-route matrix at 1440, 768, 390 and 375px, axe-core, functional Playwright tests and Lighthouse. Scores are independent skill simulations and are not Awwwards official scores; lab measurements are labelled separately. Preview only; main remains at the baseline until an explicit release instruction. Rollback is a revert of the future merge, or a deployment of baseline 91e5619.
+## Quality and release
+
+Two complete browser-matrix passes at1440/768/390/375, original /jury shoot/audit plus form/gallery/selection/legacy-link/metadata checks, Lighthouse and fresh independent blind critics. Critics receive rendered evidence and measurements only, no code/intent/old scores. Fix their high-impact evidence, never negotiate a score upward. Keep every raw pass and measurement caveat.
+
+Use only the existing private preview Site. Keep production main untouched. Ship via a draft PR and report actual independent scores and remaining limits. Roll back a future merge through GitHub revert or restore91e5619, no database work.
+
+## Final implementation refinements
+
+All142 original gallery photographs are now active enquiry references, with the actual artist/index/full-image URL carried into the same native form. Artist openings show their actual portrait, specialty and a clear instruction for choosing a reference. The three editorial studies offer independently keepable detail plates; photograph observations remain distinct from documented client facts. Bridal additionally contextualizes the existing Toronto bride's actual feedback as moment/response/reflection, without assigning a photograph or inventing a client name.
+
+171 used photographs have420/720px WebP display copies; original links/order remain. Nearby photographs are decoded during idle time after first-screen load. Scroll analytics cache height on load/resize/ResizeObserver rather than reading document height each frame. Real cold/warm frame samples are retained, including variance, rather than promised as field device behavior.

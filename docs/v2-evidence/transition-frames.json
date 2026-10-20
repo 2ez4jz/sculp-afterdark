@@ -1,0 +1,93 @@
+{
+  "events": [
+    {
+      "event": "ready",
+      "t": 178.09999999962747
+    },
+    {
+      "event": "finished",
+      "t": 770.5
+    }
+  ],
+  "frameCount": 19,
+  "timestamps": [
+    {
+      "i": 0,
+      "ms": 0
+    },
+    {
+      "i": 1,
+      "ms": 111
+    },
+    {
+      "i": 2,
+      "ms": 164
+    },
+    {
+      "i": 3,
+      "ms": 403
+    },
+    {
+      "i": 4,
+      "ms": 427
+    },
+    {
+      "i": 5,
+      "ms": 444
+    },
+    {
+      "i": 6,
+      "ms": 488
+    },
+    {
+      "i": 7,
+      "ms": 519
+    },
+    {
+      "i": 8,
+      "ms": 557
+    },
+    {
+      "i": 9,
+      "ms": 591
+    },
+    {
+      "i": 10,
+      "ms": 627
+    },
+    {
+      "i": 11,
+      "ms": 673
+    },
+    {
+      "i": 12,
+      "ms": 701
+    },
+    {
+      "i": 13,
+      "ms": 730
+    },
+    {
+      "i": 14,
+      "ms": 767
+    },
+    {
+      "i": 15,
+      "ms": 800
+    },
+    {
+      "i": 16,
+      "ms": 830
+    },
+    {
+      "i": 17,
+      "ms": 877
+    },
+    {
+      "i": 18,
+      "ms": 893
+    }
+  ],
+  "navigation": "Native cross-document Portfolio → Fresh bridal; same real photograph interpolates between positions; root reveal; mast remains",
+  "reducedMotion": "See full route matrix and interactions; animation disabled by preference"
+}

@@ -1,0 +1,29 @@
+{
+  "checks": [
+    "Skip link first and focuses main",
+    "Menu focus loop, Escape and restoration",
+    "Accessible study tabs, detail choice, inspection and saved reference",
+    "Saved look and exact detail carry through native navigation",
+    "First-step required validation blocks progression",
+    "Past dates blocked; valid first step progresses",
+    "Back preserves fields; final required name/email enforced",
+    "Database failure preserves data/reference/attribution and sends no email",
+    "Email failure preserves data and stable retry id",
+    "Success navigates to real confirmation, prevents duplicate submit and records one conversion",
+    "Legacy artist link, full-photo dialog, arrows, Escape and focus return",
+    "Bridal package choice prefills exact service/reference",
+    "Removing a saved direction preserves the independent service preference",
+    "Legacy service-prefill URL preserved",
+    "Individual cropped study detail saves exact selection into top-of-form brief",
+    "Any original portfolio photograph carries exact artist/image link into the enquiry",
+    "Portfolio photograph can be removed without retaining a stale reference",
+    "Reduced motion retains working studies without running animations",
+    "Mobile navigation works without JavaScript",
+    "Both form groups are available without JavaScript",
+    "No application runtime exceptions"
+  ],
+  "errors": [],
+  "externalWrites": "All POST intercepted; zero emails/customer records created",
+  "requests": 5,
+  "conversionEvents": 1
+}
