@@ -4,6 +4,14 @@
 
 ## 2026-10-20
 
+### 保存参考在首次绘制前就绪
+
+- 新连续帧暴露渐进初始化时序问题：目的页可能先显示无参考的表单，再插入个人参考，产生位置跳变。将既有editorial/composition脚本按原顺序放入head，保持defer并使用原生blocking=render；询价脚本仅在Book页同样提前准备，统计继续正常defer。无自定义加载器，不等待额外图片，不改业务字段；无JavaScript仍保留HTML回退。
+- 为保存组合和单张细节增加首屏回归：四宽度直接进入已保存状态，已验证8种直接保存状态：参考DOM在65–97ms就绪，FCP128–184ms，CLS均0，手机实际选择240px资源，控制台无异常；之后重新录制共享照片转场。
+- 原图尺寸候选限定到明确的高优先级大图与Hero；普通图库继续420/720和完整原图链接。前一全目录原图候选使最大完整资源清单升到5.4MB，已收回这一过宽选择，避免为像素密度无差别增加传输。
+- 实现参考[WHATWG脚本加载规范](https://html.spec.whatwg.org/multipage/scripting.html#attr-script-blocking)与[MDN blocking说明](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/script#blocking)；只把少量必要界面初始化纳入首次绘制，之后重新实测LCP/TBT，不预先宣称性能改善。所有生产、后台、数据和访问权限边界保持。
+
+
 ### 照片清晰度、尺寸与照片独立转场
 
 - 第9轮独立模拟复评7.90，Design8.1 / Usability7.6 / Creativity8.0 / Content7.8；485张截图、CPU4x与1x所有样本、Lighthouse99/100/82均保留。继续修复明确的视觉问题，不将较差性能样本改写为达标。
