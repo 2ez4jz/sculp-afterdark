@@ -19,3 +19,5 @@ GitHub Pages currently serves the root static files. The home canonical remains 
 The independent account-private preview is separate from SCULP production. It uses the same static files, not a new backend. Its origin is not in the existing enquiry API CORS allowlist. Browser submission tests intercept all POST requests; no test emails or customer records are created. A real end-to-end submission must be checked from the approved production origin during release validation.
 
 Read `DESIGN.md` for the visual and interaction system and `docs/SCULP_EDIT_V2_QUALITY.md` for independent scores, actual browser measurements and release limitations. `WORK_LOG.md` records all changes. Do not merge or overwrite production without the owner's release authorization.
+
+Optional asset regeneration: `python scripts/prepare-detail-images.py` (Pillow required only for this task). The checked-in crops and their geometry are in `assets/images/details/` and `src/detail-images.json`; the regular Node build does not require Python.

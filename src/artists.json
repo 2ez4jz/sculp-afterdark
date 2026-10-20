@@ -24,6 +24,31 @@
       "notes": [
         "Light catches the cheekbone above a peach flush. A soft peach lip and lightly defined lashes leave the face open.",
         "Loose pieces curl away from a textured updo, balancing the clean neckline and the white detail at the shoulder."
+      ],
+      "layout": "texture",
+      "detailImages": [
+        "assets/images/details/miranda-1.webp",
+        "assets/images/details/miranda-2.webp"
+      ],
+      "detailDimensions": [
+        [
+          720,
+          240
+        ],
+        [
+          720,
+          240
+        ]
+      ],
+      "detailCenters": [
+        [
+          0.3,
+          0.43
+        ],
+        [
+          0.75,
+          0.43
+        ]
       ]
     }
   },
@@ -53,7 +78,32 @@
         "50% 33%",
         "50% 38%"
       ],
-      "study": "classic-glamour"
+      "study": "classic-glamour",
+      "layout": "profile",
+      "detailImages": [
+        "assets/images/details/yuki-1.webp",
+        "assets/images/details/yuki-2.webp"
+      ],
+      "detailDimensions": [
+        [
+          720,
+          576
+        ],
+        [
+          720,
+          576
+        ]
+      ],
+      "detailCenters": [
+        [
+          0.73,
+          0.37
+        ],
+        [
+          0.34,
+          0.25
+        ]
+      ]
     }
   },
   {
@@ -82,7 +132,32 @@
         "50% 33%",
         "50% 18%"
       ],
-      "study": "modern-chinese"
+      "study": "modern-chinese",
+      "layout": "colour",
+      "detailImages": [
+        "assets/images/details/mira-1.webp",
+        "assets/images/details/mira-2.webp"
+      ],
+      "detailDimensions": [
+        [
+          360,
+          480
+        ],
+        [
+          360,
+          480
+        ]
+      ],
+      "detailCenters": [
+        [
+          0.52,
+          0.4
+        ],
+        [
+          0.5,
+          0.2
+        ]
+      ]
     }
   },
   {
@@ -111,7 +186,32 @@
         "50% 33%",
         "50% 38%"
       ],
-      "study": "fresh-bridal"
+      "study": "fresh-bridal",
+      "layout": "colour",
+      "detailImages": [
+        "assets/images/details/angelina-1.webp",
+        "assets/images/details/angelina-2.webp"
+      ],
+      "detailDimensions": [
+        [
+          360,
+          480
+        ],
+        [
+          360,
+          480
+        ]
+      ],
+      "detailCenters": [
+        [
+          0.45,
+          0.35
+        ],
+        [
+          0.48,
+          0.5
+        ]
+      ]
     }
   },
   {
@@ -139,6 +239,31 @@
       "positions": [
         "65% 25%",
         "45% 42%"
+      ],
+      "layout": "profile",
+      "detailImages": [
+        "assets/images/details/elaine-1.webp",
+        "assets/images/details/elaine-2.webp"
+      ],
+      "detailDimensions": [
+        [
+          720,
+          576
+        ],
+        [
+          720,
+          576
+        ]
+      ],
+      "detailCenters": [
+        [
+          0.65,
+          0.22
+        ],
+        [
+          0.45,
+          0.3
+        ]
       ]
     }
   },
@@ -167,6 +292,31 @@
       "positions": [
         "50% 20%",
         "50% 42%"
+      ],
+      "layout": "texture",
+      "detailImages": [
+        "assets/images/details/emily-1.webp",
+        "assets/images/details/emily-2.webp"
+      ],
+      "detailDimensions": [
+        [
+          720,
+          240
+        ],
+        [
+          720,
+          240
+        ]
+      ],
+      "detailCenters": [
+        [
+          0.43,
+          0.29
+        ],
+        [
+          0.46,
+          0.38
+        ]
       ]
     }
   },
@@ -195,6 +345,31 @@
       "positions": [
         "70% 25%",
         "45% 40%"
+      ],
+      "layout": "profile",
+      "detailImages": [
+        "assets/images/details/michelle-1.webp",
+        "assets/images/details/michelle-2.webp"
+      ],
+      "detailDimensions": [
+        [
+          720,
+          576
+        ],
+        [
+          720,
+          576
+        ]
+      ],
+      "detailCenters": [
+        [
+          0.23,
+          0.37
+        ],
+        [
+          0.48,
+          0.42
+        ]
       ]
     }
   },
@@ -223,6 +398,31 @@
       "notes": [
         "Lifted outer lashes and a warm, softly outlined lip define the face beside a deep side part.",
         "Long, loose waves spread beyond the shoulders. Their free outline softens the dark, sculptural dress and bouquet."
+      ],
+      "layout": "wide",
+      "detailImages": [
+        "assets/images/details/giselle-1.webp",
+        "assets/images/details/giselle-2.webp"
+      ],
+      "detailDimensions": [
+        [
+          720,
+          288
+        ],
+        [
+          720,
+          240
+        ]
+      ],
+      "detailCenters": [
+        [
+          0.36,
+          0.29
+        ],
+        [
+          0.72,
+          0.39
+        ]
       ]
     }
   }
