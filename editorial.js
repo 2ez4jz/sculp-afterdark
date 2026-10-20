@@ -49,8 +49,12 @@ root.querySelectorAll('.artist-observation').forEach(function(module){
 });
 // Decode the next screen of photographs after the first screen has loaded.
 // This prepares nearby real work for a first scroll without fetching the whole gallery.
-function prepareNearbyPhotographs(){var edge=innerHeight*2.25;root.querySelectorAll('img').forEach(function(img){var box=img.getBoundingClientRect();if(box.width&&box.height&&box.top<edge&&box.bottom>0){img.loading='eager';img.decoding='async';if(img.decode)img.decode().catch(function(){});}});}
-function prepareWhenIdle(){if('requestIdleCallback' in window)requestIdleCallback(prepareNearbyPhotographs,{timeout:800});else setTimeout(prepareNearbyPhotographs,200);}
+function atIdle(fn){if('requestIdleCallback' in window)requestIdleCallback(fn,{timeout:800});else setTimeout(fn,100);}
+function prepareNearbyPhotographs(){var edge=innerHeight*2.25;
+// Read geometry before changing loading hints; one decode at a time keeps the first paint free.
+var nearby=Array.from(root.querySelectorAll('img')).map(function(img){return{img:img,box:img.getBoundingClientRect()};}).filter(function(item){var box=item.box;return box.width&&box.height&&box.top<edge&&box.bottom>0;}).map(function(item){return item.img;});
+function next(){var img=nearby.shift();if(!img)return;img.decoding='async';if(!img.complete){img.fetchPriority='low';img.loading='eager';}var decoded=img.decode?img.decode().catch(function(){}):Promise.resolve();decoded.then(function(){atIdle(next);});}atIdle(next);}
+function prepareWhenIdle(){requestAnimationFrame(function(){requestAnimationFrame(function(){atIdle(prepareNearbyPhotographs);});});}
 if(document.readyState==='complete')prepareWhenIdle();else window.addEventListener('load',prepareWhenIdle,{once:true});
 if(root.dataset.page==='enquiry-sent')root.querySelector('h1').focus({preventScroll:true});
 })();
