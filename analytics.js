@@ -80,10 +80,11 @@
       }
     });
   }
-  var scrollQueued=false;
+  // Four depth milestones do not need a callback on every animation frame.
+  var scrollTimer=0;
   window.addEventListener('scroll',function(){
-    if(scrollQueued)return;scrollQueued=true;
-    requestAnimationFrame(function(){scrollDepth();scrollQueued=false});
+    if(scrollTimer)return;
+    scrollTimer=setTimeout(function(){scrollTimer=0;scrollDepth();},150);
   },{passive:true});
 
   root.addEventListener('click',function(event){
@@ -129,6 +130,8 @@
 
   window.addEventListener('hashchange',function(){requestAnimationFrame(pageView)});
   window.addEventListener('popstate',function(){requestAnimationFrame(pageView)});
-  window.addEventListener('pagehide',function(){finishRoute('pagehide')});
+  window.addEventListener('pagehide',function(){
+    clearTimeout(scrollTimer);scrollTimer=0;scrollDepth();finishRoute('pagehide');
+  });
   pageView();
 })();

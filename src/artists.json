@@ -7,7 +7,25 @@
     "note": "Fashion, celebrity beauty and destination weddings. Over ten years in the craft.",
     "image": "miranda-portrait.webp",
     "width": 1025,
-    "height": 1535
+    "height": 1535,
+    "observation": {
+      "image": "assets/images/artists/miranda/miranda-03.webp",
+      "width": 1201,
+      "height": 1800,
+      "title": "Light, without losing shape.",
+      "labels": [
+        "The skin",
+        "The texture"
+      ],
+      "positions": [
+        "30% 34%",
+        "80% 20%"
+      ],
+      "notes": [
+        "Light catches the cheekbone above a peach flush. A soft peach lip and lightly defined lashes leave the face open.",
+        "Loose pieces curl away from a textured updo, balancing the clean neckline and the white detail at the shoulder."
+      ]
+    }
   },
   {
     "name": "Yuki",
@@ -17,7 +35,26 @@
     "note": "Bridal experience, technical precision and training in Hong Kong and South Korea.",
     "image": "yuki-portrait.webp",
     "width": 904,
-    "height": 1340
+    "height": 1340,
+    "observation": {
+      "image": "assets/images/artists/yuki/yuki-11.webp",
+      "width": 1206,
+      "height": 1495,
+      "title": "A little more presence.",
+      "notes": [
+        "A crisp black wing and full lashes sit against a clearly defined red lip.",
+        "A sculpted side wave rolls into a low gathered shape, giving the look a controlled profile."
+      ],
+      "labels": [
+        "The contrast",
+        "The hair"
+      ],
+      "positions": [
+        "50% 33%",
+        "50% 38%"
+      ],
+      "study": "classic-glamour"
+    }
   },
   {
     "name": "Mira",
@@ -27,7 +64,26 @@
     "note": "Chinese elegance interpreted through a modern bridal eye.",
     "image": "mira-portrait.webp",
     "width": 844,
-    "height": 1264
+    "height": 1264,
+    "observation": {
+      "image": "assets/images/artists/mira/mira-04.webp",
+      "width": 842,
+      "height": 1264,
+      "title": "Tradition, in a new register.",
+      "notes": [
+        "Peach around the eyes and a muted coral lip bring warmth beside the cool blue collar.",
+        "The hair is swept away from the face with a close, controlled crown."
+      ],
+      "labels": [
+        "The colour",
+        "The structure"
+      ],
+      "positions": [
+        "50% 33%",
+        "50% 18%"
+      ],
+      "study": "modern-chinese"
+    }
   },
   {
     "name": "Angelina",
@@ -37,7 +93,26 @@
     "note": "Fresh, refined bridal, editorial and commercial beauty.",
     "image": "angelina-portrait.webp",
     "width": 814,
-    "height": 1086
+    "height": 1086,
+    "observation": {
+      "image": "assets/images/artists/angelina/angelina-01.webp",
+      "width": 1080,
+      "height": 1440,
+      "title": "Fresh, with definition.",
+      "notes": [
+        "A fine outward line and fanned lashes give the eyes definition without a dense band of shadow.",
+        "Light catches the cheeks; a glossy rose lip adds colour without a hard edge."
+      ],
+      "labels": [
+        "The eye line",
+        "The finish"
+      ],
+      "positions": [
+        "50% 33%",
+        "50% 38%"
+      ],
+      "study": "fresh-bridal"
+    }
   },
   {
     "name": "Elaine",
@@ -56,6 +131,14 @@
       "notes": [
         "A sleek side part flows into a low bun, with pearl-like accents above the ear and across the gathered hair.",
         "Separated lashes and a fine outward eye line sit beside softly highlighted cheeks and a muted pink lip."
+      ],
+      "labels": [
+        "The silhouette",
+        "The finish"
+      ],
+      "positions": [
+        "65% 25%",
+        "45% 42%"
       ]
     }
   },
@@ -76,6 +159,14 @@
       "notes": [
         "A rounded side-swept fringe crosses the forehead, while loose curled strands frame both sides of the jaw.",
         "Rosy cheeks and a glossy pink lip pair with softly shaded eyes and a fine lifted outer line."
+      ],
+      "labels": [
+        "The frame",
+        "The colour"
+      ],
+      "positions": [
+        "50% 20%",
+        "50% 42%"
       ]
     }
   },
@@ -96,6 +187,14 @@
       "notes": [
         "A deep side part and lifted crown lead into loose, broad curls that fall over one shoulder.",
         "Peach-pink eye shading and soft brows keep the eye area light, paired with a warm coral lip and a subtle cheek flush."
+      ],
+      "labels": [
+        "The volume",
+        "The warmth"
+      ],
+      "positions": [
+        "70% 25%",
+        "45% 40%"
       ]
     }
   },
@@ -107,6 +206,24 @@
     "note": "Modern Western and Thai-inspired beauty, sculpted features and radiant skin.",
     "image": "giselle-portrait.webp",
     "width": 1280,
-    "height": 1920
+    "height": 1920,
+    "observation": {
+      "image": "assets/images/artists/giselle/giselle-08.webp",
+      "width": 960,
+      "height": 1440,
+      "title": "Soft glam. A freer silhouette.",
+      "labels": [
+        "The definition",
+        "The movement"
+      ],
+      "positions": [
+        "37% 26%",
+        "75% 34%"
+      ],
+      "notes": [
+        "Lifted outer lashes and a warm, softly outlined lip define the face beside a deep side part.",
+        "Long, loose waves spread beyond the shoulders. Their free outline softens the dark, sculptural dress and bouquet."
+      ]
+    }
   }
 ]
