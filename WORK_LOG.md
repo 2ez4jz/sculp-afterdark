@@ -1,5 +1,11 @@
 # SCULP Studio · 工作日志
 
+## 2026-10-21 — After Dark V2.0 首轮实际开发：Hero 与 Motion
+
+- 仅修改 After Dark 独立分支 `design/after-dark-v2-motion-refinement` 的 `src/views/home.html`、已发布格式的 `index.html` 及 `editorial.css`。正式主站 `sculpstudio` 未修改，After Dark `main` 也未修改。
+- Hero 恢复主站的新娘马蹄莲摄影作品、`Make moments that matter.` 标题、Bridal / Portfolio 主要入口；桌面使用约 42:58 文字图片构图，手机恢复单列排版与裁切焦点。增加轻量 Fade/Reveal，提供 reduced-motion 禁用规则。
+- 由于两个仓库同名 Hero 图片的 SHA 不同，本次先用正式 GitHub 仓库 raw 图片 URL 保证引用的是主站原资源；上线前应改为经过视觉及哈希核对的本地资产，避免外部依赖。当前未重新构建全部路由、未实测浏览器或性能，暂不发布测试站、不宣称评分达标。
+
 ## 2026-10-21 — After Dark V2.0 范围澄清与主站只读基线审计
 
 - 用户明确本轮只修改独立 After Dark 测试版本；sculpstudio 正式仓库及官网一律不修改。创建 `design/after-dark-v2-motion-refinement` 独立分支，未发布到 Pages。
