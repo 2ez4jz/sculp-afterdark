@@ -56,3 +56,23 @@ root.querySelectorAll('.artist-observation').forEach(function(module){
 // Photographs use native responsive loading and async decode; above-fold readings are prioritized in HTML.
 if(root.dataset.page==='enquiry-sent')root.querySelector('h1').focus({preventScroll:true});
 })();
+
+
+/* After Dark V2.0: optional, fail-safe shell behavior; no lead or analytics mutations. */
+(function(){'use strict';
+var mast=document.querySelector('.mast');
+if(mast){
+  var queued=false;
+  var sync=function(){mast.classList.toggle('is-scrolled',window.scrollY>24);queued=false;};
+  sync();
+  window.addEventListener('scroll',function(){if(!queued){queued=true;requestAnimationFrame(sync);}},{passive:true});
+}
+var edit=document.querySelector('.v2-optional-edit');
+if(edit){
+  var target=new URL(location.href).hash;
+  if(target==='#compose-edit'||target==='#the-edit')edit.open=true;
+  window.addEventListener('hashchange',function(){var hash=location.hash;if(hash==='#compose-edit'||hash==='#the-edit')edit.open=true;});
+  edit.addEventListener('toggle',function(){edit.querySelector('summary')?.setAttribute('aria-expanded',String(edit.open));});
+  edit.querySelector('summary')?.setAttribute('aria-expanded',String(edit.open));
+}
+})();

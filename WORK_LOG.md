@@ -1,5 +1,37 @@
 # SCULP Studio · 工作日志
 
+## 2026-10-21 — 用户授权发布 After Dark V2 测试站
+
+- 用户明确授权将当前 V2 重构上线至独立 After Dark GitHub Pages 测试站，不改正式 sculpstudio 官网和仓库。
+- GitHub Actions 已完成 JavaScript 语法、Node 22 静态构建及19路由与 Hero 静态断言。由于测试环境缺少真实浏览器和导出图片校验工具，不能把这些检查视为视觉/移动端/询盘性能全部验收。
+- 发布时保留真实照片的 GitHub 原资源引用（待同源资产校验本地化），并优先检查测试站实际 HTML 与 Pages 状态。失败可回滚独立测试仓库 main。
+
+## 2026-10-21 — V2 跨页面视觉系统 / CI 质量门槛
+
+- 在独立测试分支统一背景、主文字、辅助色、导航、按钮、真实摄影作品 hover 和移动端样式；保留原有 19 路由、艺术家作品、婚礼价格与询盘脚本，不改正式 sculpstudio 仓库。
+- 新增独立的页面外壳脚本：滚动时导航状态渐变、Beauty Edit 可选面板链接定位；尊重减少动态选项。未触碰 enquiry.js 或外部数据库。
+- 增加 .github/workflows/afterdark-v2-qa.yml：在 PR / 手动触发时检查 JS 语法、Node 构建 19 静态页、Hero 和首页结构。工作流是否成功需以 Actions 实际结果为准，不能代替多视口浏览器视觉测试。
+- 当前仓库仅独立分支修改；未合并 Pages main，未部署 V2，未执行设备侧性能或真实询盘投递测试，评分不应宣称 ≥8。
+
+## 2026-10-21 — Taste Skill + Impeccable: V2 首页收敛
+
+- 读取 Leonxlnx/taste-skill 的设计原则和 pbakaus/impeccable 的 craft-floor、distill、animate 指南，依照用户要求进行精修而非另造网站；并未把第三方工具的实际浏览器评分或 CLI 执行冒充完成。
+- 将原主站的主线顺序恢复为 Hero → Beauty philosophy → Services → Craft，再进入可选 Beauty Edit / 艺术家、创始人与询盘；真实 home-craft-makeup 和 miranda 图片仍按原用途使用。
+- 三步骤 Beauty Edit 不再默认占据首页主路径，原组合器、三个摄影研究、作品与询盘逻辑保留在原生 details 中。修改了源模板、当前根 HTML 与样式，但尚未运行全量 Node 构建/浏览器多屏截图，也未发布到测试站。正式主站保持未修改。
+- 后续仍需验证 details 内事件初始化、移动端布局及页面效果，并将 Hero 原资源核验后转为本地文件，才能标为质量验收通过。
+
+## 2026-10-21 — After Dark V2.0 首轮实际开发：Hero 与 Motion
+
+- 仅修改 After Dark 独立分支 `design/after-dark-v2-motion-refinement` 的 `src/views/home.html`、已发布格式的 `index.html` 及 `editorial.css`。正式主站 `sculpstudio` 未修改，After Dark `main` 也未修改。
+- Hero 恢复主站的新娘马蹄莲摄影作品、`Make moments that matter.` 标题、Bridal / Portfolio 主要入口；桌面使用约 42:58 文字图片构图，手机恢复单列排版与裁切焦点。增加轻量 Fade/Reveal，提供 reduced-motion 禁用规则。
+- 由于两个仓库同名 Hero 图片的 SHA 不同，本次先用正式 GitHub 仓库 raw 图片 URL 保证引用的是主站原资源；上线前应改为经过视觉及哈希核对的本地资产，避免外部依赖。当前未重新构建全部路由、未实测浏览器或性能，暂不发布测试站、不宣称评分达标。
+
+## 2026-10-21 — After Dark V2.0 范围澄清与主站只读基线审计
+
+- 用户明确本轮只修改独立 After Dark 测试版本；sculpstudio 正式仓库及官网一律不修改。创建 `design/after-dark-v2-motion-refinement` 独立分支，未发布到 Pages。
+- 确认正式主页 Hero 指向 `garden-bride-hero.webp`，After Dark 当前 Hero 错用 Yuki 图片；两仓库同名 garden-bride 资源的 Git blob SHA 不同，需核对图像内容后再替换，不能凭文件名认定一致。
+- 在 `docs/AFTER_DARK_V2_MOTION_REFINEMENT.md` 固化布局恢复、真实图片配对、轻量 Motion、移动端和功能 QA 的执行门槛。此提交仅为审计与计划：尚未修改页面、运行构建或浏览器测试，不声称 V2.0 已完成或评分达标。
+
 ## 2026-10-20 — 用户授权直接发布GitHub Pages测试站
 
 - 用户确认sculp-afterdark本来就是测试站，要求直接部署到GitHub，并由本人实机检查卡顿。按此授权合并当前V2分支到该测试仓库main，沿用现有Pages根目录发布，不改主要官网sculpstudio仓库。
