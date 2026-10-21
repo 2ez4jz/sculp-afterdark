@@ -1,5 +1,12 @@
 # SCULP Studio · 工作日志
 
+## 2026-10-21 — Taste Skill + Impeccable: V2 首页收敛
+
+- 读取 Leonxlnx/taste-skill 的设计原则和 pbakaus/impeccable 的 craft-floor、distill、animate 指南，依照用户要求进行精修而非另造网站；并未把第三方工具的实际浏览器评分或 CLI 执行冒充完成。
+- 将原主站的主线顺序恢复为 Hero → Beauty philosophy → Services → Craft，再进入可选 Beauty Edit / 艺术家、创始人与询盘；真实 home-craft-makeup 和 miranda 图片仍按原用途使用。
+- 三步骤 Beauty Edit 不再默认占据首页主路径，原组合器、三个摄影研究、作品与询盘逻辑保留在原生 details 中。修改了源模板、当前根 HTML 与样式，但尚未运行全量 Node 构建/浏览器多屏截图，也未发布到测试站。正式主站保持未修改。
+- 后续仍需验证 details 内事件初始化、移动端布局及页面效果，并将 Hero 原资源核验后转为本地文件，才能标为质量验收通过。
+
 ## 2026-10-21 — After Dark V2.0 首轮实际开发：Hero 与 Motion
 
 - 仅修改 After Dark 独立分支 `design/after-dark-v2-motion-refinement` 的 `src/views/home.html`、已发布格式的 `index.html` 及 `editorial.css`。正式主站 `sculpstudio` 未修改，After Dark `main` 也未修改。
