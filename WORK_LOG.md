@@ -1,5 +1,12 @@
 # SCULP Studio · 工作日志
 
+## 2026-10-21 — V2 跨页面视觉系统 / CI 质量门槛
+
+- 在独立测试分支统一背景、主文字、辅助色、导航、按钮、真实摄影作品 hover 和移动端样式；保留原有 19 路由、艺术家作品、婚礼价格与询盘脚本，不改正式 sculpstudio 仓库。
+- 新增独立的页面外壳脚本：滚动时导航状态渐变、Beauty Edit 可选面板链接定位；尊重减少动态选项。未触碰 enquiry.js 或外部数据库。
+- 增加 .github/workflows/afterdark-v2-qa.yml：在 PR / 手动触发时检查 JS 语法、Node 构建 19 静态页、Hero 和首页结构。工作流是否成功需以 Actions 实际结果为准，不能代替多视口浏览器视觉测试。
+- 当前仓库仅独立分支修改；未合并 Pages main，未部署 V2，未执行设备侧性能或真实询盘投递测试，评分不应宣称 ≥8。
+
 ## 2026-10-21 — Taste Skill + Impeccable: V2 首页收敛
 
 - 读取 Leonxlnx/taste-skill 的设计原则和 pbakaus/impeccable 的 craft-floor、distill、animate 指南，依照用户要求进行精修而非另造网站；并未把第三方工具的实际浏览器评分或 CLI 执行冒充完成。
