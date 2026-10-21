@@ -1,5 +1,11 @@
 # SCULP Studio · 工作日志
 
+## 2026-10-21 — After Dark V2.0 范围澄清与主站只读基线审计
+
+- 用户明确本轮只修改独立 After Dark 测试版本；sculpstudio 正式仓库及官网一律不修改。创建 `design/after-dark-v2-motion-refinement` 独立分支，未发布到 Pages。
+- 确认正式主页 Hero 指向 `garden-bride-hero.webp`，After Dark 当前 Hero 错用 Yuki 图片；两仓库同名 garden-bride 资源的 Git blob SHA 不同，需核对图像内容后再替换，不能凭文件名认定一致。
+- 在 `docs/AFTER_DARK_V2_MOTION_REFINEMENT.md` 固化布局恢复、真实图片配对、轻量 Motion、移动端和功能 QA 的执行门槛。此提交仅为审计与计划：尚未修改页面、运行构建或浏览器测试，不声称 V2.0 已完成或评分达标。
+
 ## 2026-10-20 — 用户授权直接发布GitHub Pages测试站
 
 - 用户确认sculp-afterdark本来就是测试站，要求直接部署到GitHub，并由本人实机检查卡顿。按此授权合并当前V2分支到该测试仓库main，沿用现有Pages根目录发布，不改主要官网sculpstudio仓库。
